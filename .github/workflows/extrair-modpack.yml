@@ -1,0 +1,142 @@
+name: Extrair ZIP do modpack
+
+on:
+  workflow_dispatch:
+    inputs:
+      arquivo_zip:
+        description: "Nome/caminho do ZIP na raiz do repositório (deixe vazio para detectar automaticamente)"
+        required: false
+        type: string
+  push:
+    paths:
+      - '*.zip'
+      - '.github/workflows/extrair-modpack.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validar e extrair ZIP com segurança
+        env:
+          ZIP_ESCOLHIDO: ${{ inputs.arquivo_zip }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          import pathlib
+          import stat
+          import zipfile
+
+          root = pathlib.Path.cwd().resolve()
+          requested = os.environ.get("ZIP_ESCOLHIDO", "").strip()
+
+          if requested:
+              archive = (root / requested).resolve()
+              if root not in archive.parents or not archive.is_file():
+                  raise SystemExit("ERRO: o caminho informado não aponta para um ZIP dentro da raiz do repositório.")
+              if archive.suffix.lower() != ".zip":
+                  raise SystemExit("ERRO: o arquivo informado não tem extensão .zip.")
+          else:
+              archives = sorted(p for p in root.glob("*.zip") if p.is_file())
+              if not archives:
+                  raise SystemExit("ERRO: nenhum arquivo .zip encontrado na raiz do repositório.")
+              if len(archives) > 1:
+                  preferred = [p for p in archives if p.name.startswith("Mikael-StoneBloc-")]
+                  if len(preferred) == 1:
+                      archives = preferred
+                  else:
+                      raise SystemExit("ERRO: há mais de um ZIP na raiz. Execute manualmente e informe o nome em arquivo_zip.")
+              archive = archives[0]
+
+          destination = root / "extraido"
+          destination.mkdir(exist_ok=True)
+          for child in destination.iterdir():
+              if child.is_dir():
+                  import shutil
+                  shutil.rmtree(child)
+              else:
+                  child.unlink()
+
+          MAX_FILES = 50000
+          MAX_TOTAL = 2 * 1024 * 1024 * 1024
+          MAX_SINGLE = 512 * 1024 * 1024
+
+          with zipfile.ZipFile(archive, "r") as zf:
+              infos = zf.infolist()
+              if len(infos) > MAX_FILES:
+                  raise SystemExit(f"ERRO: ZIP tem {len(infos)} entradas; limite: {MAX_FILES}.")
+              total = sum(i.file_size for i in infos)
+              if total > MAX_TOTAL:
+                  raise SystemExit(f"ERRO: tamanho descompactado excede 2 GiB ({total} bytes).")
+              bad = zf.testzip()
+              if bad:
+                  raise SystemExit(f"ERRO: CRC inválido no arquivo interno: {bad}")
+
+              extracted = 0
+              for info in infos:
+                  name = info.filename.replace("\\", "/")
+                  rel = pathlib.PurePosixPath(name)
+                  mode = info.external_attr >> 16
+                  if rel.is_absolute() or any(part in ("..", "") for part in rel.parts):
+                      raise SystemExit(f"ERRO: caminho inseguro dentro do ZIP: {name}")
+                  if stat.S_ISLNK(mode):
+                      raise SystemExit(f"ERRO: link simbólico não permitido dentro do ZIP: {name}")
+                  if info.file_size > MAX_SINGLE:
+                      raise SystemExit(f"ERRO: arquivo interno excede 512 MiB: {name}")
+
+                  target = (destination / pathlib.Path(*rel.parts)).resolve()
+                  if destination.resolve() not in target.parents and target != destination.resolve():
+                      raise SystemExit(f"ERRO: tentativa de sair da pasta de extração: {name}")
+                  if info.is_dir():
+                      target.mkdir(parents=True, exist_ok=True)
+                      continue
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  with zf.open(info, "r") as source, target.open("wb") as output:
+                      while True:
+                          chunk = source.read(1024 * 1024)
+                          if not chunk:
+                              break
+                          output.write(chunk)
+                  extracted += 1
+
+          files = sorted(p for p in destination.rglob("*") if p.is_file())
+          report = [
+              "# Relatório de extração",
+              "",
+              f"- ZIP de origem: `{archive.name}`",
+              f"- Arquivos extraídos: {extracted}",
+              f"- Arquivos encontrados na pasta extraida/: {len(files)}",
+              f"- Tamanho descompactado declarado: {total:,} bytes",
+              "- Integridade CRC: OK",
+              "- Extração: concluída",
+              "",
+              "## Primeiros arquivos extraídos",
+              "",
+          ]
+          report.extend(f"- `{p.relative_to(destination).as_posix()}`" for p in files[:300])
+          if len(files) > 300:
+              report.append(f"- ... e mais {len(files) - 300} arquivos.")
+          (destination / "RELATORIO-EXTRACAO.md").write_text("\n".join(report) + "\n", encoding="utf-8")
+          print("\n".join(report[:30]))
+          PY
+
+      - name: Disponibilizar ZIP extraído para baixar
+        uses: actions/upload-artifact@v4
+        with:
+          name: modpack-extraido
+          path: extraido/
+          if-no-files-found: error
+          compression-level: 1
+          retention-days: 14
