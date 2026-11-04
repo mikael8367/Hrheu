@@ -1,0 +1,19 @@
+{
+	title: "Projeto 053 • lapislazulipaxel",
+	x: -3.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza mekanismtools:lapislazulipaxel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000034",
+		type: "item",
+		items: [{
+			item: "mekanismtools:lapislazulipaxel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000034",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

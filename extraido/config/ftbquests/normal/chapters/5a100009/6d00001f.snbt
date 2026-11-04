@@ -1,0 +1,20 @@
+{
+	title: "Projeto 032 • redstringrelay",
+	x: -4.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:redstringrelay (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00001f",
+		type: "item",
+		items: [{
+			item: "botania:redstringrelay"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00001f",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 2
+	}]
+}

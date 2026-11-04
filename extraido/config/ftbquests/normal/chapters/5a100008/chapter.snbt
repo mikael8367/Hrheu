@@ -1,0 +1,7 @@
+{
+	title: "08 • Botânica e máquinas",
+	icon: "botania:lexicon",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

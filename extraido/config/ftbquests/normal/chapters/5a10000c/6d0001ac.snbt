@@ -1,0 +1,20 @@
+{
+	title: "Projeto 429 • item_material (1)",
+	x: -2.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_material (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001ac",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001ac",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

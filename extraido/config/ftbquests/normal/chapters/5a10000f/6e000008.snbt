@@ -1,0 +1,18 @@
+{
+	title: "Reprocessador de sementes",
+	x: 16.0d,
+	y: 0.0d,
+	description: "Use o Seed Reprocessor para recuperar materiais de sementes indesejadas.",
+	tasks: [{
+		uid: "7f000008",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:seed_reprocessor 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000008",
+		type: "item",
+		item: "minecraft:redstone"
+	}]
+}

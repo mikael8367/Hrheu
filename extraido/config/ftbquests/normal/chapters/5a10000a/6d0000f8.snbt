@@ -1,0 +1,20 @@
+{
+	title: "Projeto 249 • livingwood (5)",
+	x: -2.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza botania:livingwood (variante 5). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000f8",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000f8",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

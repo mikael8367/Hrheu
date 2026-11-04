@@ -1,0 +1,22 @@
+{
+	title: "Solar Generator",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Faça um Solar Generator como fonte complementar.",
+	dependencies: [
+		"05f4d37a"
+	],
+	tasks: [{
+		uid: "2618291f",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d832bc6b",
+		type: "xp",
+		xp: 10
+	}]
+}

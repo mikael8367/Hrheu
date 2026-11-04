@@ -1,0 +1,19 @@
+{
+	title: "Projeto 111 • bronzeleggings",
+	x: -5.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza mekanismtools:bronzeleggings (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00006e",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzeleggings"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00006e",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

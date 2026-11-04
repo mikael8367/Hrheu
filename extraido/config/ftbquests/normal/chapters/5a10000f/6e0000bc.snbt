@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Manasteel Essence",
+	x: 38.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000bc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:manasteel_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000bc",
+		type: "xp",
+		xp: 8
+	}]
+}

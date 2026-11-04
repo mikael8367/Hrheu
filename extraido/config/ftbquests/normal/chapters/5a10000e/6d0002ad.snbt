@@ -1,0 +1,18 @@
+{
+	title: "Oficina 050 • cosmetic (30)",
+	x: -5.0d,
+	y: 6.0d,
+	description: "Fabrique ou obtenha botania:cosmetic (variante 30). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d0002ad",
+		type: "item",
+		items: [{
+			item: "botania:cosmetic 1 30"
+		}]
+	}],
+	rewards: [{
+		uid: "7e0002ad",
+		type: "xp",
+		xp: 17
+	}]
+}

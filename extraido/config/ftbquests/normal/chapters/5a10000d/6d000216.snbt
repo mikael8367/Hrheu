@@ -1,0 +1,20 @@
+{
+	title: "Projeto 535 • glowpanel (8)",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza mekanism:glowpanel (variante 8). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000216",
+		type: "item",
+		items: [{
+			item: "mekanism:glowpanel 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000216",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

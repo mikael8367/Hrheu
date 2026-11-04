@@ -1,0 +1,20 @@
+{
+	title: "Projeto 231 • item.pe_ignition",
+	x: 0.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza projecte:item.pe_ignition (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000e6",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_ignition"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000e6",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

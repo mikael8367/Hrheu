@@ -1,0 +1,20 @@
+{
+	title: "Projeto 012 • forestdrum (1)",
+	x: -4.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:forestdrum (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00000b",
+		type: "item",
+		items: [{
+			item: "botania:forestdrum 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00000b",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

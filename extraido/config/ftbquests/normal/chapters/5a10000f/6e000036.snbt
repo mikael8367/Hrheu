@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Certus Quartz Seeds",
+	x: 4.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000036",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:certus_quartz_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000036",
+		type: "xp",
+		xp: 8
+	}]
+}

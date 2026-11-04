@@ -1,0 +1,19 @@
+{
+	title: "Projeto 143 • item.pe_body_stone",
+	x: 2.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza projecte:item.pe_body_stone (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00008e",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_body_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00008e",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

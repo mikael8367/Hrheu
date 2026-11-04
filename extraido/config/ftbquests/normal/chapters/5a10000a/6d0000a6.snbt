@@ -1,0 +1,20 @@
+{
+	title: "Projeto 167 • steelaxe",
+	x: -4.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza mekanismtools:steelaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000a6",
+		type: "item",
+		items: [{
+			item: "mekanismtools:steelaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000a6",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Projeto 578 • storage (2)",
+	x: 2.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza botania:storage (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000241",
+		type: "item",
+		items: [{
+			item: "botania:storage 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000241",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

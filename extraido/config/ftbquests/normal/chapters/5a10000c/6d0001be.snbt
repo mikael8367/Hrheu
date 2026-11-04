@@ -1,0 +1,20 @@
+{
+	title: "Projeto 447 • electrolyticcore",
+	x: -4.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza mekanism:electrolyticcore (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001be",
+		type: "item",
+		items: [{
+			item: "mekanism:electrolyticcore"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001be",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

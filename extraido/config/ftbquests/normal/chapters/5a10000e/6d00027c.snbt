@@ -1,0 +1,18 @@
+{
+	title: "Oficina 001 • reactorcomputerport",
+	x: -4.0d,
+	y: 1.0d,
+	description: "Fabrique ou obtenha bigreactors:reactorcomputerport (variante 0). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d00027c",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcomputerport"
+		}]
+	}],
+	rewards: [{
+		uid: "7e00027c",
+		type: "xp",
+		xp: 10
+	}]
+}

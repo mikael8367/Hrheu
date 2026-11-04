@@ -1,0 +1,20 @@
+{
+	title: "Projeto 140 • steelshovel",
+	x: -1.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza mekanismtools:steelshovel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00008b",
+		type: "item",
+		items: [{
+			item: "mekanismtools:steelshovel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00008b",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

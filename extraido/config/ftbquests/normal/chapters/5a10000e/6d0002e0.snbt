@@ -1,0 +1,18 @@
+{
+	title: "Oficina 101 • manaresource (9)",
+	x: -4.0d,
+	y: 11.0d,
+	description: "Fabrique ou obtenha botania:manaresource (variante 9). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d0002e0",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "7e0002e0",
+		type: "xp",
+		xp: 26
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 086 • item.pe_void_ring",
+	x: 0.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza projecte:item.pe_void_ring (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000055",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_void_ring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000055",
+		type: "item",
+		item: "minecraft:coal",
+		count: 2
+	}]
+}

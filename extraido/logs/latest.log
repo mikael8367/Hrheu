@@ -1,0 +1,1021 @@
+[22:13:52] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:13:52] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:13:52] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:13:53] [main/INFO]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[22:13:53] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_512-internal, running on Linux:aarch64:Android-12, installed at /data/user/0/com.craftstudio.cslauncher/runtimes/Internal
+[22:13:54] [main/INFO]: Searching /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/mods for mods
+[22:13:54] [main/INFO]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[22:13:55] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:13:55] [main/WARN]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:13:55] [main/WARN]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[22:13:55] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:13:55] [main/WARN]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:13:55] [main/WARN]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[22:13:55] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:13:55] [main/WARN]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:13:55] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in Mekanism-1.12.2-9.8.3.390.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:13:55] [main/WARN]: The coremod mekanism.coremod.MekanismCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:13:55] [main/WARN]: The coremod MekanismCoremod (mekanism.coremod.MekanismCoremod) is not signed!
+[22:13:55] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[22:13:55] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from VanillaFix-1.0.10-150.jar
+[22:13:55] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:13:55] [main/INFO]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[22:13:55] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[22:13:55] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[22:13:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/storage/emulated/0/CS%20LAUNCHER%20PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/mods/VanillaFix-1.0.10-150.jar Service=LaunchWrapper Env=CLIENT
+[22:13:56] [main/DEBUG]: Instantiating coremod class VanillaFixLoadingPlugin
+[22:13:56] [main/INFO]: Initializing VanillaFix
+[22:13:56] [main/INFO]: Initializing StacktraceDeobfuscator
+[22:13:56] [main/INFO]: Downloading MCP method mappings to: methods-stable_39.csv
+[22:13:56] [main/ERROR]: Failed to get MCP data!
+java.lang.RuntimeException: java.net.UnknownHostException: export.mcpbot.bspk.rs
+	at org.dimdev.vanillafix.crashes.StacktraceDeobfuscator.init(StacktraceDeobfuscator.java:52) ~[StacktraceDeobfuscator.class:?]
+	at org.dimdev.vanillafix.VanillaFixLoadingPlugin.initStacktraceDeobfuscator(VanillaFixLoadingPlugin.java:60) [VanillaFix-1.0.10-150.jar:?]
+	at org.dimdev.vanillafix.VanillaFixLoadingPlugin.<clinit>(VanillaFixLoadingPlugin.java:43) [VanillaFix-1.0.10-150.jar:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_512-internal]
+	at java.lang.Class.forName(Unknown Source) [?:1.8.0_512-internal]
+	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:527) [forge-1.12.2-14.23.5.2860.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_512-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.injectCorePlugin(MixinPlatformAgentFMLLegacy.java:244) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.initFMLCoreMod(MixinPlatformAgentFMLLegacy.java:171) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.accept(MixinPlatformAgentFMLLegacy.java:157) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinContainer.<init>(MixinContainer.java:74) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.createContainerFor(MixinPlatformManager.java:143) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.addContainer(MixinPlatformManager.java:135) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.init(MixinPlatformManager.java:104) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.MixinBootstrap.getPlatform(MixinBootstrap.java:107) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.MixinBootstrap.start(MixinBootstrap.java:154) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.MixinTweaker.<init>(MixinTweaker.java:46) [VanillaFix-1.0.10-150.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_512-internal]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [?:1.8.0_512-internal]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [?:1.8.0_512-internal]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [?:1.8.0_512-internal]
+	at java.lang.Class.newInstance(Unknown Source) [?:1.8.0_512-internal]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:98) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.net.UnknownHostException: export.mcpbot.bspk.rs
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_512-internal]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[?:1.8.0_512-internal]
+	at org.dimdev.vanillafix.crashes.StacktraceDeobfuscator.init(StacktraceDeobfuscator.java:31) ~[StacktraceDeobfuscator.class:?]
+	... 26 more
+[22:13:56] [main/INFO]: Done initializing StacktraceDeobfuscator
+[22:13:56] [main/INFO]: Initializing Bug Fix Mixins
+[22:13:56] [main/INFO]: Compatibility level set to JAVA_8
+[22:13:56] [main/INFO]: Initializing Crash Fix Mixins
+[22:13:56] [main/INFO]: Initializing Profiler Improvement Mixins
+[22:13:56] [main/INFO]: Initializing Texture Fix Mixins
+[22:13:56] [main/INFO]: Initializing Mod Support Mixins
+[22:13:56] [main/DEBUG]: The coremod org.dimdev.vanillafix.VanillaFixLoadingPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[22:13:56] [main/WARN]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
+[22:13:56] [main/DEBUG]: Enqueued coremod VanillaFixLoadingPlugin
+[22:13:57] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:13:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:13:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:13:57] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[22:13:57] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[22:13:57] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[22:13:57] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[22:13:57] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/mods/OptiFine_1.12.2_HD_U_G5.jar
+[22:13:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:13:57] [main/DEBUG]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[22:13:57] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[22:13:57] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[22:13:57] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[22:13:57] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[22:13:57] [main/DEBUG]: Injection complete
+[22:13:57] [main/DEBUG]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[22:13:57] [main/DEBUG]: Running coremod plugin FMLCorePlugin
+[22:14:09] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:14:09] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[22:14:09] [main/DEBUG]: Coremod plugin class FMLCorePlugin run successfully
+[22:14:09] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:14:09] [main/DEBUG]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[22:14:09] [main/DEBUG]: Injection complete
+[22:14:09] [main/DEBUG]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[22:14:09] [main/DEBUG]: Running coremod plugin FMLForgePlugin
+[22:14:09] [main/DEBUG]: Coremod plugin class FMLForgePlugin run successfully
+[22:14:09] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:14:09] [main/DEBUG]: Injecting coremod ForgelinPlugin \{net.shadowfacts.forgelin.preloader.ForgelinPlugin\} class transformers
+[22:14:09] [main/DEBUG]: Injection complete
+[22:14:09] [main/DEBUG]: Running coremod plugin for ForgelinPlugin \{net.shadowfacts.forgelin.preloader.ForgelinPlugin\}
+[22:14:09] [main/DEBUG]: Running coremod plugin ForgelinPlugin
+[22:14:09] [main/DEBUG]: Coremod plugin class ForgelinPlugin run successfully
+[22:14:09] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[22:14:09] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1a87b51
+[22:14:09] [main/DEBUG]: Injecting coremod VanillaFixLoadingPlugin \{org.dimdev.vanillafix.VanillaFixLoadingPlugin\} class transformers
+[22:14:09] [main/DEBUG]: Injection complete
+[22:14:09] [main/DEBUG]: Running coremod plugin for VanillaFixLoadingPlugin \{org.dimdev.vanillafix.VanillaFixLoadingPlugin\}
+[22:14:09] [main/DEBUG]: Running coremod plugin VanillaFixLoadingPlugin
+[22:14:09] [main/DEBUG]: Coremod plugin class VanillaFixLoadingPlugin run successfully
+[22:14:09] [main/INFO]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[22:14:09] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:14:09] [main/DEBUG]: Validating minecraft
+[22:14:13] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:14:13] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:14:13] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:14:13] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:14:13] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[22:14:13] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:14:13] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[22:14:13] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[22:14:15] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[22:14:15] [main/INFO]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
+[22:14:18] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[22:14:18] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[22:14:18] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[22:14:18] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[22:14:18] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:14:18] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[22:14:19] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[22:14:19] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[22:14:19] [main/INFO]: Patching GameSettings.datafix
+[22:14:19] [main/INFO]: A re-entrant transformer '$wrapper.mekanism.coremod.KeybindingMigrationHelper' was detected and will no longer process meta class data
+[22:14:21] [main/INFO]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[22:14:25] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[22:14:25] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[22:14:26] [Client thread/INFO]: Setting user: Mikael999
+[22:14:27] [Client thread/INFO]: Patching net.minecraft.block.Block... (aow)
+[22:14:27] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[22:14:27] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[22:14:30] [Client thread/INFO]: Patching math utils with "RIVENS_HALF" algorithm
+[22:14:36] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[22:14:37] [Client thread/INFO]: Patching net.minecraft.block.BlockHopper... (arl)
+[22:14:37] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[22:14:51] [Client thread/INFO]: Patching GameSettings.datafix
+[22:14:51] [BetterFps Update Checker/WARN]: Could not check for updates: widget.mcf.li
+[22:14:51] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[22:14:51] [Client thread/INFO]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[22:14:52] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[22:14:52] [Client thread/INFO]: LWJGL Version: 2.9.4
+[22:14:53] [Client thread/INFO]: [OptiFine] 
+[22:14:53] [Client thread/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_G5
+[22:14:53] [Client thread/INFO]: [OptiFine] Build: 20210124-142939
+[22:14:53] [Client thread/INFO]: [OptiFine] OS: Linux (aarch64) version Android-12
+[22:14:53] [Client thread/INFO]: [OptiFine] Java: 1.8.0_512-internal, Oracle Corporation
+[22:14:53] [Client thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+[22:14:53] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[22:14:53] [Client thread/INFO]: [OptiFine] OpenGL: PowerVR Rogue GE8320, version 2.1 gl4es wrapper 1.1.5, PojavLauncherTeam & ptitSeb
+[22:14:53] [Client thread/INFO]: [OptiFine] OpenGL Version: 2.1.0
+[22:14:53] [Client thread/INFO]: [OptiFine] OpenGL Occlussion culling: Not available (GL_ARB_occlusion_query)
+[22:14:53] [Client thread/INFO]: [OptiFine] Maximum texture size: 8192x8192
+[22:14:53] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[22:14:54] [Client thread/INFO]: [Shaders] OpenGL Version: 2.1 gl4es wrapper 1.1.5
+[22:14:54] [Client thread/INFO]: [Shaders] Vendor:  PojavLauncherTeam & ptitSeb
+[22:14:54] [Client thread/INFO]: [Shaders] Renderer: PowerVR Rogue GE8320
+[22:14:54] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  -  -  - 
+[22:14:54] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[22:14:54] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[22:14:54] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 16
+[22:14:54] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[22:14:54] [Client thread/INFO]: [Shaders] Save shaders configuration.
+[22:14:54] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[22:14:54] [VersionCheck/INFO]: [OptiFine] Version found: G5
+[22:14:54] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[22:14:54] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[22:14:54] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[22:14:54] [Client thread/INFO]: [OptiFine] VboRegions not supported, missing: OpenGL 1.3, ARB_copy_buffer
+[22:14:55] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_G5, enabling compatibility features
+[22:14:55] [Client thread/INFO]: MinecraftForge v14.23.5.2860 Initialized
+[22:14:55] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:14:55] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:14:56] [Client thread/INFO]: Replaced 1227 ore ingredients
+[22:14:58] [Client thread/INFO]: Searching /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/mods for mods
+[22:15:06] [Client thread/WARN]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[22:15:07] [Client thread/WARN]: Mod excompressum is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.0.32
+[22:15:10] [Client thread/WARN]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[22:15:11] [Client thread/ERROR]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_512-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[22:15:11] [Client thread/ERROR]: There was a problem reading the entry java/mezz/jei/config/Tags.class in the jar /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/mods/jei_1.12.2-4.22.0.1034.jar - probably a corrupt zip
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_512-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 17 more
+[22:15:11] [Client thread/WARN]: Zip file jei_1.12.2-4.22.0.1034.jar failed to read properly, it will be ignored
+net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
+
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_512-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
+	... 17 more
+[22:15:12] [Client thread/WARN]: Mod mekanismgenerators is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-9.8.3.390
+[22:15:12] [Client thread/WARN]: Mod mekanismtools is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-9.8.3.390
+[22:15:13] [Client thread/WARN]: Mod vanillafix is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.10-150
+[22:15:13] [Client thread/WARN]: Mod voidislandcontrol is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.5.3
+[22:15:13] [Client thread/INFO]: Forge Mod Loader has identified 69 mods to load
+[22:15:15] [Client thread/WARN]: Error loading class: team/chisel/client/TextureStitcher$MagicStitchingSprite (java.lang.ClassNotFoundException: The specified class 'team.chisel.client.TextureStitcher$MagicStitchingSprite' was not found)
+[22:15:15] [Client thread/WARN]: Error loading class: openblocks/client/renderer/tileentity/TileEntityTankRenderer (java.lang.ClassNotFoundException: The specified class 'openblocks.client.renderer.tileentity.TileEntityTankRenderer' was not found)
+[22:15:15] [Client thread/WARN]: Error loading class: slimeknights/tconstruct/library/client/GuiUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.GuiUtil' was not found)
+[22:15:15] [Client thread/WARN]: Error loading class: slimeknights/tconstruct/library/client/RenderUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.RenderUtil' was not found)
+[22:15:15] [Client thread/WARN]: Error loading class: morph/avaritia/client/render/item/HaloRenderItem (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.HaloRenderItem' was not found)
+[22:15:15] [Client thread/WARN]: Error loading class: morph/avaritia/client/render/item/WrappedItemRenderer (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.WrappedItemRenderer' was not found)
+[22:15:17] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, actuallyadditions, aiimprovements, appleskin, baubles, bookshelf, botania, brandonscore, buildersbag, bbprojecte, chameleon, chisel, clumps, codechickenlib, cofhcore, cofhworld, compactmachines3, ctm, draconicadditions, draconicevolution, equivalentintegrations, excompressum, exnihilocreatio, bigreactors, fastfurnace, fastbench, forgelin, ftbbackups, ftblib, ftbquests, ftbutilities, gamestages, waila, inventorytweaks, ironchest, itemfilters, jei, journeymap, jeresources, mekanism, mekanismgenerators, mekanismtools, mikesmodslib, mousetweaks, netherportalfix, placebo, projecte, projecteinfinite, projectex, projectexploit, projectintelligence, redstonearsenal, redstoneflux, stoneblockutilities, sct, storagedrawers, thermalcultivation, thermaldynamics, thermalexpansion, thermalfoundation, thermalinnovation, ts2k16, vanillafix, voidislandcontrol, worldprimer, zerocore] at CLIENT
+[22:15:17] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, actuallyadditions, aiimprovements, appleskin, baubles, bookshelf, botania, brandonscore, buildersbag, bbprojecte, chameleon, chisel, clumps, codechickenlib, cofhcore, cofhworld, compactmachines3, ctm, draconicadditions, draconicevolution, equivalentintegrations, excompressum, exnihilocreatio, bigreactors, fastfurnace, fastbench, forgelin, ftbbackups, ftblib, ftbquests, ftbutilities, gamestages, waila, inventorytweaks, ironchest, itemfilters, jei, journeymap, jeresources, mekanism, mekanismgenerators, mekanismtools, mikesmodslib, mousetweaks, netherportalfix, placebo, projecte, projecteinfinite, projectex, projectexploit, projectintelligence, redstonearsenal, redstoneflux, stoneblockutilities, sct, storagedrawers, thermalcultivation, thermaldynamics, thermalexpansion, thermalfoundation, thermalinnovation, ts2k16, vanillafix, voidislandcontrol, worldprimer, zerocore] at SERVER
+[22:15:20] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[22:15:20] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[22:15:20] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[22:15:20] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[22:15:27] [Client thread/ERROR]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
+[22:15:27] [Client thread/INFO]: Brandon's Core online! Waiting for Draconic Evolution to join the party....
+[22:15:27] [Client thread/INFO]: Draconic Evolution online!
+[22:15:27] [Client thread/INFO]: Hay! There you are! Now lets destroy some worlds!!
+[22:15:27] [Client thread/INFO]: Sounds like fun! Lets get to it!
+[22:15:31] [Client thread/ERROR]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
+[22:15:32] [Client thread/ERROR]: The mod thermalfoundation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalFoundation-1.12.2-2.6.7.1-universal.jar, however there is no signature matching that description
+[22:15:32] [Client thread/INFO]: Hello Minecraft!!!
+[22:15:32] [Client thread/INFO]: I see you, Draconic Evolution...  Ready for a boost?
+[22:15:32] [Client thread/INFO]: Upping the potential for my draconic arsonal?  You bet!!!
+[22:15:32] [Client thread/INFO]: Then let's do this!
+[22:15:32] [Client thread/INFO]: Hello Minecraft!!!
+[22:15:56] [Client thread/INFO]: Hello Minecraft!!!
+[22:15:56] [Client thread/ERROR]: The mod thermalexpansion is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalExpansion-1.12.2-5.5.7.1-universal.jar, however there is no signature matching that description
+[22:15:56] [Client thread/ERROR]: The mod redstonearsenal is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneArsenal-1.12.2-2.6.6.1-universal.jar, however there is no signature matching that description
+[22:15:57] [Client thread/ERROR]: The mod thermalcultivation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalCultivation-1.12.2-0.3.6.1-universal.jar, however there is no signature matching that description
+[22:15:57] [Client thread/ERROR]: The mod thermaldynamics is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalDynamics-1.12.2-2.5.6.1-universal.jar, however there is no signature matching that description
+[22:15:57] [Client thread/ERROR]: The mod thermalinnovation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalInnovation-1.12.2-0.3.6.1-universal.jar, however there is no signature matching that description
+[22:15:58] [Client thread/INFO]: Reloading ResourceManager: BetterFps, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Actually Additions, FMLFileResourcePack:AI Improvements, FMLFileResourcePack:AppleSkin, FMLFileResourcePack:Baubles, FMLFileResourcePack:Bookshelf, FMLFileResourcePack:Botania, FMLFileResourcePack:Brandon's Core, FMLFileResourcePack:Builder's Bag, FMLFileResourcePack:Builder's Bag - ProjectE Addon, FMLFileResourcePack:Chameleon, FMLFileResourcePack:Chisel, FMLFileResourcePack:Clumps, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:CoFH World, FMLFileResourcePack:Compact Machines 3, FMLFileResourcePack:CTM, FMLFileResourcePack:Draconic Additions, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:Equivalent Integrations, FMLFileResourcePack:Ex Compressum, FMLFileResourcePack:Ex Nihilo Creatio, FMLFileResourcePack:Extreme Reactors, FMLFileResourcePack:FastFurnace, FMLFileResourcePack:FastWorkbench, FMLFileResourcePack:Shadowfacts' Forgelin, FMLFileResourcePack:FTB Backups, FMLFileResourcePack:FTB Library, FMLFileResourcePack:FTB Quests, FMLFileResourcePack:FTB Utilities, FMLFileResourcePack:Game Stages, FMLFileResourcePack:Waila, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Item Filters, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Just Enough Resources, FMLFileResourcePack:Mekanism, FMLFileResourcePack:Mekanism: Generators, FMLFileResourcePack:Mekanism: Tools, FMLFileResourcePack:Mike's Mods Lib, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:NetherPortalFix, FMLFileResourcePack:Placebo, FMLFileResourcePack:ProjectE, FMLFileResourcePack:等价交换无限, FMLFileResourcePack:Project EX, FMLFileResourcePack:Project Exploit, FMLFileResourcePack:Project Intelligence, FMLFileResourcePack:Redstone Arsenal, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:StoneBlockUtilities, FMLFileResourcePack:Stone Crafting Table, FMLFileResourcePack:Storage Drawers, FMLFileResourcePack:Thermal Cultivation, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:Thermal Innovation, FMLFileResourcePack:Twerk-Sim 2K16, FMLFileResourcePack:VanillaFix, FMLFileResourcePack:Void Island Control, FMLFileResourcePack:World Primer, FMLFileResourcePack:Zero CORE
+[22:15:59] [Client thread/INFO]: Processing ObjectHolder annotations
+[22:16:01] [Client thread/WARN]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+[22:16:02] [Client thread/INFO]: Found 1522 ObjectHolder annotations
+[22:16:02] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[22:16:02] [Client thread/INFO]: Found 2 ItemStackHolder annotations
+[22:16:03] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[22:16:03] [Forge Version Check/INFO]: [cofhworld] Starting version check at https://raw.github.com/cofh/version/master/cofhworld_update.json
+[22:16:03] [Client thread/INFO]: Starting PreInitialization Phase...
+[22:16:04] [Client thread/INFO]: Grabbing Configurations...
+[22:16:04] [Client thread/INFO]: Initializing Tool Materials...
+[22:16:04] [Client thread/INFO]: Initializing Armor Materials...
+[22:16:04] [Client thread/INFO]: Initializing Update Checker...
+[22:16:04] [Actually Additions Update Checker/INFO]: Starting Update Check...
+[22:16:04] [Client thread/INFO]: PreInitializing ClientProxy...
+[22:16:04] [Client thread/INFO]: PreInitialization Finished.
+[22:16:04] [Forge Version Check/INFO]: [cofhworld] Found status: UP_TO_DATE Target: null
+[22:16:04] [Forge Version Check/INFO]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[22:16:05] [Actually Additions Update Checker/ERROR]: Update Check failed!
+java.io.FileNotFoundException: https://raw.githubusercontent.com/Ellpeck/ActuallyAdditions/main/update/updateVersions.properties
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_512-internal]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.net.URL.openStream(Unknown Source) ~[?:1.8.0_512-internal]
+	at de.ellpeck.actuallyadditions.mod.update.ThreadUpdateChecker.run(ThreadUpdateChecker.java:35) [ThreadUpdateChecker.class:?]
+[22:16:07] [Forge Version Check/INFO]: [mousetweaks] Found status: BETA Target: null
+[22:16:07] [Forge Version Check/INFO]: [redstonearsenal] Starting version check at https://raw.github.com/cofh/version/master/redstonearsenal_update.json
+[22:16:07] [Forge Version Check/INFO]: [redstonearsenal] Found status: UP_TO_DATE Target: null
+[22:16:07] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:16:08] [Forge Version Check/INFO]: [forge] Found status: OUTDATED Target: 14.23.5.2864
+[22:16:08] [Forge Version Check/INFO]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[22:16:09] [Forge Version Check/INFO]: [cofhcore] Found status: UP_TO_DATE Target: null
+[22:16:09] [Forge Version Check/INFO]: [thermalexpansion] Starting version check at https://raw.github.com/cofh/version/master/thermalexpansion_update.json
+[22:16:09] [Forge Version Check/INFO]: [thermalexpansion] Found status: UP_TO_DATE Target: null
+[22:16:09] [Forge Version Check/INFO]: [thermalinnovation] Starting version check at https://raw.github.com/cofh/version/master/thermalinnovation_update.json
+[22:16:10] [Forge Version Check/INFO]: [thermalinnovation] Found status: UP_TO_DATE Target: null
+[22:16:10] [Forge Version Check/INFO]: [worldprimer] Starting version check at https://raw.githubusercontent.com/maruohon/worldprimer/master/update.json
+[22:16:10] [Forge Version Check/INFO]: [worldprimer] Found status: AHEAD Target: null
+[22:16:10] [Forge Version Check/INFO]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.12.x/update.json
+[22:16:11] [Forge Version Check/INFO]: [projecte] Found status: UP_TO_DATE Target: null
+[22:16:11] [Forge Version Check/INFO]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
+[22:16:11] [Forge Version Check/INFO]: [thermalfoundation] Found status: UP_TO_DATE Target: null
+[22:16:11] [Forge Version Check/INFO]: [gamestages] Starting version check at https://updates.blamejared.com/get?n=gamestages&gv=1.12.2
+[22:16:12] [Forge Version Check/INFO]: [gamestages] Found status: BETA Target: null
+[22:16:12] [Forge Version Check/INFO]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[22:16:13] [Forge Version Check/INFO]: [codechickenlib] Found status: BETA Target: null
+[22:16:13] [Forge Version Check/INFO]: [thermaldynamics] Starting version check at https://raw.github.com/cofh/version/master/thermaldynamics_update.json
+[22:16:14] [Forge Version Check/INFO]: [thermaldynamics] Found status: UP_TO_DATE Target: null
+[22:16:14] [Forge Version Check/INFO]: [vanillafix] Starting version check at https://gist.githubusercontent.com/Runemoro/28e8cf4c24a5f17f508a5d34f66d229f/raw/vanillafix_update.json
+[22:16:14] [Forge Version Check/INFO]: [vanillafix] Found status: AHEAD Target: null
+[22:16:14] [Forge Version Check/INFO]: [thermalcultivation] Starting version check at https://raw.github.com/cofh/version/master/thermalcultivation_update.json
+[22:16:15] [Forge Version Check/INFO]: [thermalcultivation] Found status: UP_TO_DATE Target: null
+[22:16:17] [Client thread/INFO]: Found mod feature container for mod: draconicadditions
+[22:16:19] [Client thread/INFO]: Found mod feature container for mod: draconicevolution
+[22:16:19] [Client thread/INFO]: Found mod config container for mod: draconicadditions
+[22:16:19] [Client thread/INFO]: Found mod config container for mod: draconicevolution
+[22:16:19] [Client thread/INFO]: Found mod config container for mod: draconicadditions
+[22:16:19] [Client thread/INFO]: Found mod config container for mod: draconicadditions
+[22:16:19] [Client thread/INFO]: Found mod config container for mod: draconicadditions
+[22:16:19] [Client thread/INFO]: Found mod config container for mod: brandonscore
+[22:16:19] [Client thread/INFO]: Found mod config container for mod: draconicadditions
+[22:16:19] [Client thread/INFO]: Found mod config container for mod: draconicevolution
+[22:16:19] [Client thread/INFO]: Loading mod config for: draconicevolution
+[22:16:19] [Client thread/INFO]: Loading mod config for: brandonscore
+[22:16:19] [Client thread/INFO]: Loading mod config for: draconicadditions
+[22:16:19] [Client thread/WARN]: No features were detected for mod: brandonscore. This maybe an issue or maybe this mod just does not have any items or blocks.
+[22:16:22] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper], Method [getTextures]
+[22:16:22] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper Finished.
+[22:16:22] [Client thread/INFO]: Applying holder lookups
+[22:16:22] [Client thread/INFO]: Holder lookups applied
+[22:16:24] [Client thread/INFO]: Registering default Feature Templates...
+[22:16:24] [Client thread/INFO]: Registering default World Generators...
+[22:16:25] [Client thread/INFO]: Verifying or creating base world generation directory...
+[22:16:25] [Client thread/INFO]: Created standard generation json.
+[22:16:25] [Client thread/INFO]: Complete.
+[22:16:25] [Client thread/INFO]: Loading configuration
+[22:16:25] [Client thread/INFO]: Registering dimension type: 144
+[22:16:25] [Client thread/INFO]: Registering Compact Machines 3 dimension: 144
+[22:16:25] [Client thread/INFO]: Trying to tell Waila about us
+[22:16:28] [Client thread/INFO]: Registering features for mod: draconicevolution
+[22:16:28] [Client thread/INFO]: Registering feature renderers for mod: draconicevolution
+[22:16:30] [Client thread/INFO]: Finished PreInitialization
+[22:16:30] [Client thread/INFO]: OBJLoader: Domain draconicevolution has been added.
+[22:16:30] [Client thread/ERROR]: Did not find any mod docs in the selected docs folder.
+[22:16:30] [Client thread/INFO]: Downloading Project Intelligence Mod Manifest...
+[22:16:30] [Client thread/INFO]: Registering features for mod: draconicadditions
+[22:16:30] [Client thread/INFO]: Registering feature renderers for mod: draconicadditions
+[22:16:30] [Client thread/INFO]: OBJLoader: Domain draconicadditions has been added.
+[22:16:31] [Client thread/INFO]: OBJLoader: Domain equivalentintegrations has been added.
+[22:16:31] [Client thread/INFO]: OBJLoader: Domain exnihilocreatio has been added.
+[22:16:33] [Client thread/INFO]: Loaded support for thermalexpansion
+[22:16:33] [Client thread/INFO]: Loaded support for mekanism
+[22:16:33] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:34] [Client thread/WARN]: Replacing com.feed_the_beast.ftblib.lib.config.DefaultRankConfigHandler with com.feed_the_beast.ftbutilities.ranks.FTBUtilitiesPermissionHandler
+[22:16:35] [Client thread/WARN]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with com.feed_the_beast.ftbutilities.ranks.FTBUtilitiesPermissionHandler
+[22:16:35] [Client thread/INFO]: Reloading fakeplayers stage data from gameStagesFakePlayerData.json.
+[22:16:37] [Client thread/INFO]: Found @journeymap.client.api.ClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[22:16:37] [Client thread/INFO]: Loading configs..
+[22:16:37] [Client thread/INFO]: Updating ModMetaData...
+[22:16:37] [Client thread/INFO]: Providing API...
+[22:16:39] [Client thread/INFO]: Didn't detect MCMP, ignoring compatibility package
+[22:16:40] [Client thread/INFO]: 配置已加载: maxTier = 99
+[22:16:40] [Client thread/INFO]: 已收集 9 个要隐藏的原始物品
+[22:16:40] [Client thread/INFO]: [com.largeNumberHere.pe_adon.util.P:p:5]: Project E is chewing up all your ram. (Detected)
+[22:16:40] [Client thread/INFO]: [com.largeNumberHere.pe_adon.util.P:p:5]: Thermal Expansion is my new best friend. Thank you for chunking her in the folder with me (Detected)
+[22:16:40] [Client thread/INFO]: [com.largeNumberHere.pe_adon.util.P:p:5]: Thermal Foundation got stuck on the sole of my shoe! Well better make the most of it... (Detected)
+[22:16:40] [Client thread/INFO]: [com.largeNumberHere.pe_adon.util.P:p:5]: Thermal Dynamics can run but it can't hide! (Detected)
+[22:16:40] [Client thread/INFO]: [com.largeNumberHere.pe_adon.util.P:p:5]: Thermal Innovation got stuck on the sole of my shoe! Well better make the most of it... (Detected)
+[22:16:40] [Client thread/INFO]: [com.largeNumberHere.pe_adon.util.P:p:5]: Thermal cultivation can run but it can't hide! (Detected)
+[22:16:45] [Client thread/INFO]: Ex Compressum found, blocking potion effects on fake players without a connection
+[22:16:45] [Client thread/INFO]: Void Island Control found, backing up island data in player files
+[22:16:45] [Client thread/WARN]: Potentially Dangerous alternative prefix `sct:sct` for name `stone_crafting_table`, expected `sct`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:48] [Client thread/INFO]: Regenerating outdated config
+[22:16:48] [Client thread/INFO]: OBJLoader: Domain voidislandcontrol has been added.
+[22:16:49] [Client thread/INFO]: Loading blocks...
+[22:16:50] [Client thread/INFO]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[22:16:50] [Client thread/INFO]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[22:16:50] [Client thread/INFO]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[22:16:53] [Client thread/INFO]: 72 Feature's blocks loaded.
+[22:16:53] [Client thread/INFO]: Loading Tile Entities...
+[22:16:53] [Client thread/INFO]: Tile Entities loaded.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitytunnel`, expected `compactmachines3`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitymachine`, expected `compactmachines3`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentityfieldprojector`, expected `compactmachines3`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitycraftinghologram`, expected `compactmachines3`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentityredstonetunnel`, expected `compactmachines3`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_barrel`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_infesting_leaves`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_infested_leaves`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_crucible`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_crucible_wood`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_sieve`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_waterwheel`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_axle_stone`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_grinder`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:53] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `block_auto_sifter`, expected `exnihilocreatio`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:16:55] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[22:17:19] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `portal`, expected `mekanism`. This could be a intended override, but in most cases indicates a broken mod.
+[22:17:20] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `stoneworkbench`, expected `stoneblockutilities`. This could be a intended override, but in most cases indicates a broken mod.
+[22:17:20] [Client thread/INFO]: Initializing Blocks...
+[22:17:22] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[22:17:22] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `lit_furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[22:17:22] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[22:17:22] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[22:17:22] [Client thread/INFO]: Applying holder lookups
+[22:17:22] [Client thread/INFO]: Holder lookups applied
+[22:17:22] [Client thread/INFO]: Loading items...
+[22:17:22] [Client thread/INFO]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[22:17:22] [Client thread/INFO]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[22:17:22] [Client thread/INFO]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[22:17:23] [Client thread/INFO]: 72 Feature's items loaded.
+[22:17:25] [Client thread/INFO]: Initializing Items...
+[22:17:26] [Client thread/INFO]: Initializing OreDictionary Entries...
+[22:17:26] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[22:17:26] [Client thread/INFO]: Applying holder lookups
+[22:17:26] [Client thread/INFO]: Holder lookups applied
+[22:17:26] [Client thread/INFO]: Initializing Village Addons...
+[22:17:27] [Client thread/INFO]: Applying holder lookups
+[22:17:27] [Client thread/INFO]: Holder lookups applied
+[22:17:27] [Client thread/INFO]: OBJLoader: Domain botania has been added.
+[22:17:28] [Client thread/INFO]: OBJLoader: Domain mekanism has been added.
+[22:17:28] [Client thread/INFO]: Applying holder lookups
+[22:17:28] [Client thread/INFO]: Holder lookups applied
+[22:17:28] [Client thread/INFO]: Injecting itemstacks
+[22:17:28] [Client thread/INFO]: Itemstack injection complete
+[22:17:28] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[22:17:28] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[22:17:41] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:17:41] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[22:17:41] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:17:41] [Thread-6/INFO]: OpenAL initialized.
+[22:17:41] [Sound Library Loader/INFO]: Sound engine started
+[22:18:50] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[22:18:51] [Client thread/INFO]: [OptiFine] Multitexture: false
+[22:18:51] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[22:18:51] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[22:18:51] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[22:18:52] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[22:18:52] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[22:18:52] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[22:18:52] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[22:18:52] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[22:18:52] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[22:18:52] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[22:18:52] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[22:18:53] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[22:18:54] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[22:18:55] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[22:18:55] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[22:18:55] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[22:18:55] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[22:18:55] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[22:18:55] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[22:18:55] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22:18:56] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/pressurizedtubeverticalelite, 12 -> 16
+[22:18:58] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/thermodynamicconductorverticalelite, 12 -> 16
+[22:19:00] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/thermodynamicconductorverticaladvanced, 12 -> 16
+[22:19:01] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/universalcableverticalbasic, 12 -> 16
+[22:19:01] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/universalcableverticaladvanced, 12 -> 16
+[22:19:03] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/thermodynamicconductorverticaladvanced, 12 -> 16
+[22:19:09] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/pressurizedtubeverticalelite, 12 -> 16
+[22:19:09] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/thermodynamicconductorverticalultimate, 12 -> 16
+[22:19:10] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/universalcableverticalelite, 12 -> 16
+[22:19:10] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/pressurizedtubeverticaladvanced, 12 -> 16
+[22:19:11] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/thermodynamicconductorverticalelite, 12 -> 16
+[22:19:13] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/thermodynamicconductorverticalbasic, 12 -> 16
+[22:19:14] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/universalcableverticalultimate, 12 -> 16
+[22:19:15] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/pressurizedtubeverticalbasic, 12 -> 16
+[22:19:16] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/pressurizedtubeverticaladvanced, 12 -> 16
+[22:19:21] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/pressurizedtubeverticalultimate, 12 -> 16
+[22:19:21] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/thermodynamicconductorverticalultimate, 12 -> 16
+[22:19:21] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/universalcableverticalultimate, 12 -> 16
+[22:19:21] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/pressurizedtubeverticalultimate, 12 -> 16
+[22:19:21] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/universalcableverticalbasic, 12 -> 16
+[22:19:21] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/universalcableverticalelite, 12 -> 16
+[22:19:22] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/opaque/universalcableverticaladvanced, 12 -> 16
+[22:19:22] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/pressurizedtubeverticalbasic, 12 -> 16
+[22:19:23] [Client thread/INFO]: [OptiFine] Scaled non power of 2: mekanism:blocks/models/multipart/thermodynamicconductorverticalbasic, 12 -> 16
+[22:19:24] [Client thread/INFO]: [OptiFine] Custom loader sprites: 54
+[22:19:24] [Client thread/INFO]: [OptiFine] Sprite dependencies: 5
+[22:19:34] [Client thread/INFO]: Created: 4096x2048 textures-atlas
+[22:20:05] [Client thread/INFO]: [OptiFine] Animated sprites: 370
+[22:20:38] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[22:20:38] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[22:20:56] [Client thread/ERROR]: Parsing error loading recipe exnihilocreatio:artifical_hive
+com.google.gson.JsonSyntaxException: Unknown item 'exnihilocreatio:hive'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:214) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:523) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(Unknown Source) [?:1.8.0_512-internal]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_512-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_512-internal]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[22:20:59] [Client thread/INFO]: Loading recipes...
+[22:20:59] [Client thread/INFO]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[22:20:59] [Client thread/INFO]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[22:20:59] [Client thread/INFO]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[22:20:59] [Client thread/INFO]: 72 Feature's recipes loaded.
+[22:21:00] [Client thread/INFO]: Initializing Crafting Recipes...
+[22:21:01] [Client thread/INFO]: Loading Default Recipes...
+[22:21:03] [Client thread/INFO]: Applying holder lookups
+[22:21:03] [Client thread/INFO]: Holder lookups applied
+[22:21:04] [Client thread/INFO]: Starting Initialization Phase...
+[22:21:04] [Client thread/INFO]: Initializing GuiHandler...
+[22:21:04] [Client thread/INFO]: Registering World Generator...
+[22:21:04] [Client thread/INFO]: Registering TileEntities...
+[22:21:04] [Client thread/INFO]: Initializing Entities...
+[22:21:04] [Client thread/INFO]: Initializing ClientProxy...
+[22:21:04] [Client thread/INFO]: Initialization Finished.
+[22:21:04] [Client thread/INFO]: Created: 128x256 textures-atlas
+[22:21:07] [Client thread/INFO]: Recipe 'compactmachines3:energy_cell' is disabled via its json file
+[22:21:07] [Client thread/ERROR]: Could not deserialize recipe from file: "example.energycell.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "machine-tiny.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "redstonetunneltool.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "machine-large.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "machine-giant.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "tunneltool.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "machine-maximum.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "wallbreakable.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "machine-small.json"
+[22:21:07] [Client thread/INFO]: Recipe 'compactmachines3:zombieegg' is disabled via its json file
+[22:21:07] [Client thread/ERROR]: Could not deserialize recipe from file: "example.zombieegg.json"
+[22:21:07] [Client thread/INFO]: Loaded recipe "machine-normal.json"
+[22:21:07] [Client thread/INFO]: Loaded schema: example-tree [size=NORMAL, blocks=137]
+[22:21:07] [CC Supporters Downloader/INFO]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: java.lang.UnsupportedOperationException: JsonNull
+[22:21:07] [CC Supporters Downloader/INFO]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at com.google.gson.JsonElement.getAsString(JsonElement.java:191)
+[22:21:07] [CC Supporters Downloader/INFO]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.parse(ModDescriptionEnhancer.java:103)
+[22:21:07] [CC Supporters Downloader/INFO]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at codechicken.lib.internal.ModDescriptionEnhancer.lambda$init$0(ModDescriptionEnhancer.java:82)
+[22:21:07] [CC Supporters Downloader/INFO]: [codechicken.lib.internal.ModDescriptionEnhancer:lambda$init$0:85]: 	at java.lang.Thread.run(Unknown Source)
+[22:21:07] [Client thread/INFO]: Finished Initialization
+[22:21:08] [Client thread/WARN]: Crucible entry for Muda de carvalho with meta 0 already exists, skipping.
+[22:21:08] [Client thread/WARN]: Crucible entry for Muda de pinheiro with meta 1 already exists, skipping.
+[22:21:08] [Client thread/WARN]: Crucible entry for Muda de eucalipto with meta 2 already exists, skipping.
+[22:21:08] [Client thread/WARN]: Crucible entry for Muda de árvore da selva with meta 3 already exists, skipping.
+[22:21:08] [Client thread/WARN]: Crucible entry for Muda de acácia with meta 4 already exists, skipping.
+[22:21:08] [Client thread/WARN]: Crucible entry for Muda de carvalho escuro with meta 5 already exists, skipping.
+[22:21:10] [Client thread/WARN]: Backing up file: %1$s to %2$s
+[22:21:10] [Client thread/INFO]: InvTweaks: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/config/InvTweaksRules.txt faltando, criando um padrão.
+[22:21:10] [Client thread/INFO]: InvTweaks: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/config/InvTweaksTree.txt faltando, criando um padrão.
+[22:21:10] [Client thread/INFO]: Mod initialized
+[22:21:11] [Client thread/INFO]: JourneyMap log initialized.
+[22:21:11] [Client thread/INFO]: initialize ENTER
+[22:21:12] [Client thread/ERROR]: Couldn't locate icons for flat: /storage/emulated/0/CS%20LAUNCHER%20PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/mods/journeymap-1.12.2-5.5.8.jar/assets/journeymap/theme/flat
+[22:21:13] [Client thread/INFO]: core (FirstLoaded) Setting config file to version "5.5.8": journeymap.core.config
+[22:21:13] [Client thread/INFO]: core (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/config/5.5/journeymap.core.config
+[22:21:13] [Client thread/INFO]: fullmap (FirstLoaded) Setting config file to version "5.5.8": journeymap.fullmap.config
+[22:21:13] [Client thread/INFO]: fullmap (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/config/5.5/journeymap.fullmap.config
+[22:21:13] [Client thread/INFO]: minimap (Initialized) Setting config file to version "5.5.8": journeymap.minimap.config
+[22:21:13] [Client thread/INFO]: minimap (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/config/5.5/journeymap.minimap.config
+[22:21:13] [Client thread/INFO]: minimap2 (FirstLoaded) Setting config file to version "5.5.8": journeymap.minimap2.config
+[22:21:13] [Client thread/INFO]: minimap2 (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/config/5.5/journeymap.minimap2.config
+[22:21:13] [Client thread/INFO]: topo (FirstLoaded) Setting config file to version "5.5.8": journeymap.topo.config
+[22:21:13] [Client thread/INFO]: topo (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/config/5.5/journeymap.topo.config
+[22:21:14] [Client thread/INFO]: webmap (FirstLoaded) Setting config file to version "5.5.8": journeymap.webmap.config
+[22:21:14] [Client thread/INFO]: webmap (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/config/5.5/journeymap.webmap.config
+[22:21:14] [Client thread/INFO]: waypoint (FirstLoaded) Setting config file to version "5.5.8": journeymap.waypoint.config
+[22:21:14] [Client thread/INFO]: waypoint (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/config/5.5/journeymap.waypoint.config
+[22:21:14] [Client thread/INFO]: [ClientAPI] built with JourneyMap API 1.4
+[22:21:14] [Client thread/INFO]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[22:21:14] [Client thread/INFO]: Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[22:21:14] [Client thread/INFO]: initialize EXIT, elapsed count 0 avg �ms
+[22:21:14] [Client thread/INFO]: Version 9.8.3 initializing...
+[22:21:15] [Client thread/INFO]: Initialized HolidayManager.
+[22:21:15] [Client thread/INFO]: Loading complete.
+[22:21:15] [Client thread/INFO]: Mod loaded.
+[22:21:15] [Client thread/INFO]: Loaded MekanismGenerators module.
+[22:21:15] [Client thread/INFO]: Loaded 'Mekanism: Tools' module.
+[22:21:16] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] A call to initialize, entry point: FORGE.
+[22:21:16] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Reflecting GuiContainer...
+[22:21:16] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Detected obfuscation: FORGE.
+[22:21:16] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Success.
+[22:21:16] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Minecraft Forge is installed.
+[22:21:16] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] LiteLoader is not installed.
+[22:21:16] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Using Forge for the mod operation.
+[22:21:16] [Client thread/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Mouse Tweaks has been initialized.
+[22:21:18] [Client thread/INFO]: bigreactors added recipe of type EnrichmentChamber to the recipe list.
+[22:21:18] [Client thread/INFO]: bigreactors added recipe of type Crusher to the recipe list.
+[22:21:18] [Client thread/INFO]: bigreactors added recipe of type Crusher to the recipe list.
+[22:21:18] [Client thread/INFO]: bigreactors added recipe of type Crusher to the recipe list.
+[22:21:18] [Client thread/INFO]: bigreactors added recipe of type Crusher to the recipe list.
+[22:21:18] [Client thread/WARN]: Thermal Expansion received an invalid IMC from chisel! Key was addcompactorpressrecipe
+[22:21:18] [Client thread/WARN]: Thermal Expansion received an invalid IMC from chisel! Key was addcompactorpressrecipe
+[22:21:18] [Client thread/INFO]: Injecting itemstacks
+[22:21:18] [Client thread/INFO]: Itemstack injection complete
+[22:21:18] [Client thread/INFO]: Starting PostInitialization Phase...
+[22:21:18] [Client thread/INFO]: Initializing Crusher Recipes...
+[22:21:18] [Client thread/INFO]: Registered a total of 105 booklet chapters, where 294 out of 412 booklet pages contain information about items or fluids!
+[22:21:18] [Client thread/INFO]: PostInitializing ClientProxy...
+[22:21:18] [Actually Additions Special Fetcher/INFO]: Fetching Special People Stuff...
+[22:21:18] [Client thread/INFO]: PostInitialization Finished.
+[22:21:19] [Client thread/INFO]: The Lexica Botania has 25248 words.
+[22:21:19] [Actually Additions Special Fetcher/INFO]: Fetching Special People Stuff done!
+[22:21:21] [Client thread/INFO]: Registered null handler for capability: net.minecraftforge.energy.IEnergyStorage
+[22:21:21] [Client thread/INFO]: Registered null handler for capability: net.minecraftforge.fluids.capability.IFluidHandler
+[22:21:21] [Client thread/INFO]: Registered null handler for capability: net.minecraftforge.items.IItemHandler
+[22:21:21] [Client thread/INFO]: Registered extra tile data provider 'ThermalDynamicsGrid'
+[22:21:21] [Client thread/INFO]: Generating custom fusion recipe Documentation.
+[22:21:21] [Client thread/INFO]: Finished PostInitialization
+[22:21:21] [Client thread/INFO]: Power costs are not modified. Skipping recipe rebalance.
+[22:21:22] [Thread-10/ERROR]: Could not load remote skins for auto sieve: 
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://blay09.net/mods/control-panel/api/skins_v2.php
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_512-internal]
+	at java.security.AccessController.doPrivilegedWithCombiner(Unknown Source) ~[?:1.8.0_512-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_512-internal]
+	at java.net.URL.openStream(Unknown Source) ~[?:1.8.0_512-internal]
+	at net.blay09.mods.excompressum.registry.AutoSieveSkinRegistry.lambda$load$0(AutoSieveSkinRegistry.java:28) ~[AutoSieveSkinRegistry.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_512-internal]
+[22:21:24] [Client thread/ERROR]: Couldn't locate icons for Default: /storage/emulated/0/CS%20LAUNCHER%20PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/mods/journeymap-1.12.2-5.5.8.jar/assets/journeymap/icon/entity
+[22:21:24] [Client thread/INFO]: Added entity icons from journeymap:icon/entity. Success: false
+[22:21:24] [Client thread/ERROR]: Couldn't locate icons for flat: /storage/emulated/0/CS%20LAUNCHER%20PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/mods/journeymap-1.12.2-5.5.8.jar/assets/journeymap/theme/flat
+[22:21:24] [Client thread/INFO]: Preloaded theme textures: 0
+[22:21:24] [Client thread/INFO]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[22:21:24] [Client thread/INFO]: Finished loading Cardboard Box blacklist (loaded 0 entries)
+[22:21:24] [Client thread/INFO]: Hooking complete.
+[22:21:24] [Client thread/INFO]: EMC注册完成
+[22:21:24] [Client thread/INFO]: 已注册 401 个自定义配方
+[22:21:25] [Client thread/INFO]: Thermal Expansion: Actually Additions Plugin Enabled.
+[22:21:25] [Client thread/INFO]: Thermal Expansion: Chisel Plugin Enabled.
+[22:21:26] [JM-VersionCheck-1/INFO]: Newer version online: JourneyMap 6.0.10.jar for Minecraft 1.12.2 on http://minecraft.curseforge.com/projects/journeymap/files/9049805
+[22:21:26] [Client thread/INFO]: Starting JEI...
+[22:21:28] [Client thread/INFO]: Registering recipe categories...
+[22:21:38] [Client thread/INFO]: Registering recipe categories took 9.777 s
+[22:21:38] [Client thread/INFO]: Registering mod plugins...
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.white`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.orange`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.magenta`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.light_blue`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.yellow`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.lime`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.pink`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.gray`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.silver`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.cyan`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.purple`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.blue`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.brown`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.green`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.red`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `jei.shield.decoration.black`, expected `jei`. This could be a intended override, but in most cases indicates a broken mod.
+[22:21:43] [Client thread/INFO]: ModConfig Loaded: true
+[22:21:43] [Client thread/INFO]: JEI: Compost Recipe Pages Loaded:         2
+[22:21:43] [Client thread/INFO]: JEI: Fluid Item Transform Recipes Loaded:       23
+[22:21:43] [Client thread/INFO]: JEI: Fluid On Top Recipes Loaded:       2
+[22:21:43] [Client thread/INFO]: JEI: Fluid Transform Recipes Loaded:    1
+[22:21:43] [Client thread/INFO]: JEI: Hammer Recipes Loaded:             42
+[22:21:43] [Client thread/INFO]: JEI: Crook Recipes Loaded:              1
+[22:21:43] [Client thread/INFO]: JEI: Heat Sources Loaded:             12
+[22:21:43] [Client thread/INFO]: JEI: Sieve Recipes Loaded:              48
+[22:21:43] [Client thread/INFO]: JEI: Stone Crucible Recipes Loaded:       1
+[22:21:43] [Client thread/INFO]: JEI: Wood Crucible Recipes Loaded:        1
+[22:21:44] [Client thread/INFO]: Registered Hammer Catalyst: exnihilocreatio:hammer_wood
+[22:21:44] [Client thread/INFO]: Registered Hammer Catalyst: exnihilocreatio:hammer_stone
+[22:21:44] [Client thread/INFO]: Registered Hammer Catalyst: exnihilocreatio:hammer_iron
+[22:21:44] [Client thread/INFO]: Registered Hammer Catalyst: exnihilocreatio:hammer_diamond
+[22:21:44] [Client thread/INFO]: Registered Hammer Catalyst: exnihilocreatio:hammer_gold
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_wood
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_stone
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_andesite
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_granite
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_diorite
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_gold
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_iron
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_diamond
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_bone
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_clay_uncooked
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_clay
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_prismarine
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_netherrack
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_purpur
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: exnihilocreatio:crook_blaze
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: excompressum:compressed_crook
+[22:21:44] [Client thread/INFO]: Registered Crook Catalyst: stoneblockutilities:crook_stone
+[22:21:50] [Client thread/INFO]: Added recipe registry plugin: class team.chisel.common.integration.jei.ChiselRecipeRegistryPlugin
+[22:21:50] [Client thread/INFO]: Registering mod plugins took 11.78 s
+[22:21:50] [Client thread/INFO]: Building recipe registry...
+[22:21:56] [Client thread/INFO]: Building recipe registry took 5.698 s
+[22:21:56] [Client thread/INFO]: Building ingredient list...
+[22:21:56] [Client thread/INFO]: Building ingredient list took 626.5 ms
+[22:21:56] [Client thread/INFO]: Building ingredient filter...
+[22:22:15] [Client thread/INFO]: Building ingredient filter took 18.18 s
+[22:22:15] [Client thread/INFO]: Building bookmarks...
+[22:22:15] [Client thread/INFO]: Building bookmarks took 36.28 ms
+[22:22:15] [Client thread/INFO]: Building runtime...
+[22:22:15] [Client thread/INFO]: InvTweaks: successfully transformed setFocused/func_146195_b
+[22:22:15] [Client thread/INFO]: Building runtime took 761.6 ms
+[22:22:15] [Client thread/INFO]: Optimizing memory usage...
+[22:22:16] [Client thread/INFO]: Optimizing memory usage took 757.6 ms
+[22:22:16] [Client thread/INFO]: Starting JEI took 50.25 s
+[22:22:16] [Client thread/INFO]: CoFH Core: Load Complete.
+[22:22:16] [Client thread/INFO]: Accumulating world generation files from: "/storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/config/cofh/world"
+[22:22:16] [Client thread/INFO]: Found a total of 3 world generation files.
+[22:22:18] [Client thread/INFO]: Reading world generation info from: "cofh/world/01_thermalfoundation_ores.json":
+[22:22:18] [Client thread/INFO]: Reading world generation info from: "cofh/world/02_thermalfoundation_oil.json":
+[22:22:18] [Client thread/INFO]: Reading world generation info from: "cofh/world/03_thermalfoundation_clathrates.json":
+[22:22:18] [Client thread/INFO]: CoFH World: Load Complete.
+[22:22:18] [Client thread/INFO]: [Whitelist] Generating Default Whitelist.
+[22:22:18] [Client thread/INFO]: [Whitelist] Reading established Whitelist from file.
+[22:22:18] [Client thread/INFO]: Thermal Foundation: Load Complete.
+[22:22:18] [Client thread/INFO]: Starting Waila...
+[22:22:18] [Client thread/INFO]: Gathering annotated plugins...
+[22:22:19] [Client thread/INFO]: Gathering wrapped IMC plugins...
+[22:22:19] [Client thread/INFO]: Registering plugins...
+[22:22:19] [Client thread/INFO]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[22:22:19] [Client thread/INFO]: Registering plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[22:22:19] [Client thread/ERROR]: Failed to hook the Waila Config. Could not add in custom Storage Drawers related configs.
+[22:22:19] [Client thread/INFO]: Registering plugin at com.mike_caron.mikesmodslib.integrations.WailaCompatibility
+[22:22:19] [Client thread/INFO]: Loading Waila integration
+[22:22:19] [Client thread/INFO]: Registering plugin at exnihilocreatio.compatibility.CompatWaila
+[22:22:19] [Client thread/INFO]: Registering plugin at mcp.mobius.waila.addons.capability.PluginCapability
+[22:22:19] [Client thread/INFO]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[22:22:19] [Client thread/INFO]: Registering plugin at net.blay09.mods.excompressum.compat.waila.WailaProvider
+[22:22:19] [Client thread/INFO]: Registering plugin at org.dave.compactmachines3.compat.WailaProvider
+[22:22:19] [Client thread/INFO]: Enabled support for Waila/Hwyla
+[22:22:19] [Client thread/INFO]: Registering plugin at team.chisel.common.integration.waila.ChiselDataHandler
+[22:22:19] [Client thread/INFO]: Starting Waila took 542.2 ms
+[22:22:19] [Client thread/INFO]: Thermal Expansion: Load Complete.
+[22:22:19] [Client thread/INFO]: Redstone Arsenal: Load Complete.
+[22:22:19] [Client thread/INFO]: Thermal Cultivation: Load Complete.
+[22:22:19] [Client thread/INFO]: Thermal Dynamics: Load Complete.
+[22:22:19] [Client thread/INFO]: Thermal Innovation: Load Complete.
+[22:22:35] [Client thread/INFO]: Forge Mod Loader has successfully loaded 69 mods
+[22:22:40] [Client thread/WARN]: ERROR : Couldn't load Narrator library : /storage/emulated/0/CS LAUNCHER PLUS/.cache/JNA/temp/jna4140501568335539566.tmp: dlopen failed: library "/storage/emulated/0/CS LAUNCHER PLUS/.cache/JNA/temp/jna4140501568335539566.tmp" needed or dlopened by "/data/data/com.craftstudio.cslauncher/runtimes/Internal/lib/aarch64/server/libjvm.so" is not accessible for the namespace "clns-4"
+[22:22:40] [Client thread/INFO]: Patching net.minecraft.client.gui.GuiOptions... (ble)
+[22:22:41] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: java.lang.NullPointerException
+[22:22:42] [Client thread/INFO]: Checking Doc Versions
+[22:22:42] [Client thread/INFO]: Found Doc update for Draconic Evolution downloading updated documentation.
+[22:22:42] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[22:22:43] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[22:23:50] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[22:23:50] [Server thread/INFO]: Generating keypair
+[22:23:51] [Server thread/INFO]: Injecting existing registry data into this server instance
+[22:24:06] [Server thread/INFO]: Applying holder lookups
+[22:24:06] [Server thread/INFO]: Holder lookups applied
+[22:24:06] [Server thread/INFO]: Loading dimension 0 (Novo mundo) (net.minecraft.server.integrated.IntegratedServer@63237ddd)
+[22:24:10] [Server thread/INFO]: Loaded 555 advancements
+[22:24:29] [Server thread/INFO]: Loading dimension -1 (Novo mundo) (net.minecraft.server.integrated.IntegratedServer@63237ddd)
+[22:24:30] [Server thread/INFO]: Loading dimension 1 (Novo mundo) (net.minecraft.server.integrated.IntegratedServer@63237ddd)
+[22:24:30] [Server thread/INFO]: Loading dimension 144 (Novo mundo) (net.minecraft.server.integrated.IntegratedServer@63237ddd)
+[22:24:30] [Server thread/INFO]: Loaded data for compact machine world: 0 spawn points, next machine id is 0, players with beds: 0
+[22:24:30] [Server thread/INFO]: Starting server-side EMC mapping.
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'obisidan.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'glass.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'glass.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'iron.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'gold.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'copper.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'tin.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'silver.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'lead.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'nickel.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'aluminum.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'ardite.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'cobalt.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'platinum.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'obsidian.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'electrum.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'invar.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'signalum.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'lumium.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'enderium.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'mithril.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'bronze.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'aluminumbrass.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'manyullyn.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'alumite.molten'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'emerald.liquid'
+[22:24:31] [Server thread/WARN]: Can not get Fluid 'pryotheum'
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 1*minecraft:dirt:0 + -1*minecraft:bucket:0 + 2*thermalfoundation:material:864 + 1*minecraft:water_bucket:0 => 4*minecraft:clay_ball:0) cost 5 but output value is 16
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 9*minecraft:iron_nugget:0 => 1*minecraft:iron_ingot:0) cost 252 but output value is 256
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 9*thermalfoundation:material:17 => 1*minecraft:emerald:0) cost 16380 but output value is 16384
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 1*actuallyadditions:item_dust:6 => 1*minecraft:coal:0) cost 64 but output value is 128
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*minecraft:gold_nugget:0 => 1*minecraft:gold_ingot:0" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*OD: ingotIron => 1*minecraft:gold_ingot:0
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 1*NSSFAKE:/[1xitem.thermalfoundation.material@771, 1xitem.OtherDust@3] + 2*thermalfoundation:material:772 + 1*NSSFAKE:/[1xitem.thermalfoundation.material@768, 1xitem.actuallyadditions.item_dust@6] => 1*minecraft:gunpowder:0) cost 116 but output value is 192
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 1*NSSFAKE:/[1xitem.thermalfoundation.material@771, 1xitem.OtherDust@3] + 2*thermalfoundation:material:772 + 1*thermalfoundation:material:769 => 1*minecraft:gunpowder:0) cost 68 but output value is 192
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 1*NSSFAKE:/[1xtile.stone@3, 1xtile.chisel.diorite@0, 1xtile.chisel.diorite@1, 1xtile.chisel.diorite@2, 1xtile.chisel.diorite@3, 1xtile.chisel.diorite@4, 1xtile.chisel.diorite@5, 1xtile.chisel.diorite@6, 1xtile.chisel.diorite@7, 1xtile.chisel.diorite@8, 1xtile.chisel.diorite@9, 1xtile.chisel.diorite@10, 1xtile.chisel.diorite@11, 1xtile.chisel.diorite@12, 1xtile.chisel.diorite@13, 1xtile.chisel.diorite@14, 1xtile.chisel.diorite@15, 1xtile.chisel.diorite@0, 1xtile.chisel.diorite@1, 1xtile.chisel.diorite@2, 1xtile.chisel.diorite@3, 1xtile.chisel.diorite@4, 1xtile.chisel.diorite@5, 1xtile.chisel.diorite@6, 1xtile.chisel.diorite@7, 1xtile.chisel.diorite@8, 1xtile.chisel.diorite@9, 1xtile.chisel.diorite@10, 1xtile.chisel.diorite@11, 1xtile.chisel.diorite@12, 1xtile.chisel.diorite@13, 1xtile.chisel.diorite@14, 1xtile.chisel.diorite@15, 1xtile.chisel.diorite@0] + 1*NSSFAKE:/[1xtile.stonebrick@0, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@10, 1xtile.chisel.cobblestone@11, 1xtile.chisel.cobblestone@12, 1xtile.chisel.cobblestone@13, 1xtile.chisel.cobblestone@14, 1xtile.chisel.cobblestone@15, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9, 1xtile.chisel.cobblestone@0, 1xtile.chisel.cobblestone@1, 1xtile.chisel.cobblestone@2, 1xtile.chisel.cobblestone@3, 1xtile.chisel.cobblestone@4, 1xtile.chisel.cobblestone@5, 1xtile.chisel.cobblestone@6, 1xtile.chisel.cobblestone@7, 1xtile.chisel.cobblestone@8, 1xtile.chisel.cobblestone@9] => 2*minecraft:stone:5) cost 17 but output value is 16
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:229 => 1*thermalfoundation:material:165" ingredient cost: 378 value of result: 384 setValueFromConversion: 0 + 3*OD: ingotCopper + 1*OD: ingotSilver + 10*OD: dustRedstone => 4*thermalfoundation:material:165
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:230 => 1*thermalfoundation:material:166" ingredient cost: 702 value of result: 704 setValueFromConversion: 0 + 3*OD: ingotTin + 1*OD: ingotSilver + 4*OD: dustGlowstone => 4*thermalfoundation:material:166
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:231 => 1*thermalfoundation:material:167" ingredient cost: 2520 value of result: 2528 setValueFromConversion: 0 + 2*OD: ingotTin + 1*OD: ingotSilver + 1*OD: ingotPlatinum + 1*minecraft:coal:1 + 1*OD: dustRedstone + 1*minecraft:blaze_powder:0 + 1*OD: dustSulfur + 4*minecraft:ender_pearl:0 => 4*thermalfoundation:material:167
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 1*NSSFAKE:/[1xtile.thermalfoundation.storage@0, 1xtile.chisel.blockSteel@0, 1xtile.chisel.blockSteel@1, 1xtile.chisel.blockSteel@2, 1xtile.chisel.blockSteel@3, 1xtile.chisel.blockSteel@4, 1xtile.chisel.blockSteel@5, 1xtile.chisel.blockSteel@6, 1xtile.bigreactors:blocksteel@0, 1xtile.BasicBlock@5] => 9*thermalfoundation:material:160) cost 4536 but output value is 512
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 9*NSSFAKE:/[1xitem.thermalfoundation.material@224, 1xitem.Nugget@4] => 1*thermalfoundation:material:160) cost 504 but output value is 512
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:225 => 1*thermalfoundation:material:161" ingredient cost: 1278 value of result: 1280 setValueFromConversion: 0 + 1*OD: ingotSilver + 1*OD: ingotGold => 2*thermalfoundation:material:161
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:226 => 1*thermalfoundation:material:162" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 1*OD: ingotNickel + 2*OD: ingotIron => 3*thermalfoundation:material:162
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*NSSFAKE:/[1xitem.thermalfoundation.material@227, 1xitem.Nugget@2] => 1*thermalfoundation:material:163" ingredient cost: 153 value of result: 160 setValueFromConversion: 0 + 3*OD: ingotCopper + 1*OD: ingotTin => 4*thermalfoundation:material:163
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:196 => 1*thermalfoundation:material:132" ingredient cost: 126 value of result: 128 setValueFromConversion: 0 + 1*OD: ingotIron => 2*thermalfoundation:material:132
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:197 => 1*thermalfoundation:material:133" ingredient cost: 1017 value of result: 1024 setValueFromConversion: 0 + 4*OD: ingotIron => 1*thermalfoundation:material:133
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:198 => 1*thermalfoundation:material:134" ingredient cost: 4095 value of result: 4096 setValueFromConversion: 0 + 16*OD: ingotIron => 1*thermalfoundation:material:134
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 9*thermalfoundation:material:199 => 1*thermalfoundation:material:135) cost 4095 but output value is 4096
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*NSSFAKE:/[1xitem.thermalfoundation.material@192, 1xitem.Nugget@5] => 1*thermalfoundation:material:128" ingredient cost: 126 value of result: 128 setValueFromConversion: 0 + 1*OD: ingotIron => 2*thermalfoundation:material:128
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*NSSFAKE:/[1xitem.thermalfoundation.material@193, 1xitem.Nugget@6] => 1*thermalfoundation:material:129" ingredient cost: 252 value of result: 256 setValueFromConversion: 0 + 1*OD: ingotIron => 1*thermalfoundation:material:129
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:194 => 1*thermalfoundation:material:130" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*OD: ingotIron => 1*thermalfoundation:material:130
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*thermalfoundation:material:195 => 1*thermalfoundation:material:131" ingredient cost: 504 value of result: 512 setValueFromConversion: 0 + 2*OD: ingotIron => 1*thermalfoundation:material:131
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 9*thermalfoundation:material:200 => 1*thermalfoundation:material:136) cost 4095 but output value is 4096
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 9*thermalfoundation:material:16 => 1*minecraft:diamond:0) cost 8190 but output value is 8192
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*minecraft:glass:0 => 16*minecraft:glass_pane:0) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*NSSFAKE:/[1xitem.thermalfoundation.material@227, 1xitem.Nugget@2] => 1*mekanism:ingot:2" ingredient cost: 153 value of result: 160 setValueFromConversion: 0 + 3*OD: ingotCopper + 1*OD: ingotTin => 4*mekanism:ingot:2
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 9*mekanism:nugget:1 => 1*mekanism:ingot:1) cost 504 but output value is 512
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*NSSFAKE:/[1xitem.thermalfoundation.material@193, 1xitem.Nugget@6] => 1*mekanism:ingot:6" ingredient cost: 252 value of result: 256 setValueFromConversion: 0 + 1*OD: ingotIron => 1*mekanism:ingot:6
+[22:24:52] [Server thread/WARN]: EMC Exploit: "0 + 9*NSSFAKE:/[1xitem.thermalfoundation.material@192, 1xitem.Nugget@5] => 1*mekanism:ingot:5" ingredient cost: 126 value of result: 128 setValueFromConversion: 0 + 1*OD: ingotIron => 2*mekanism:ingot:5
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 3*sct:stone_crafting_plate:0 => 2*sct:stone_stick:0) cost 6 but output value is 4
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 3*thermalfoundation:material:229 + 1*thermaldynamics:duct_0:2 + 1*minecraft:redstone:0 => 1*thermaldynamics:duct_0:3) cost 776 but output value is 778
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 3*minecraft:snow:0 => 6*minecraft:snow_layer:0) cost 3 but output value is 2
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 3*minecraft:cobblestone:0 => 6*minecraft:stone_slab:3) cost 3 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 3*minecraft:stone:0 => 6*minecraft:stone_slab:0) cost 3 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 3*NSSFAKE:/[1xtile.stonebricksmooth@0, 1xtile.stonebricksmooth@1, 1xtile.stonebricksmooth@2, 1xtile.stonebricksmooth@3] => 6*minecraft:stone_slab:5) cost 3 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@10, 1xtile.chisel.glassdyedpurple@0, 1xtile.chisel.glassdyedpurple@1, 1xtile.chisel.glassdyedpurple@2, 1xtile.chisel.glassdyedpurple@3, 1xtile.chisel.glassdyedpurple@4, 1xtile.chisel.glassdyedpurple@5] => 16*minecraft:stained_glass_pane:10) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@11, 1xtile.chisel.glassdyedblue@0, 1xtile.chisel.glassdyedblue@1, 1xtile.chisel.glassdyedblue@2, 1xtile.chisel.glassdyedblue@3, 1xtile.chisel.glassdyedblue@4, 1xtile.chisel.glassdyedblue@5] => 16*minecraft:stained_glass_pane:11) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@8, 1xtile.chisel.glassdyedlightgray@0, 1xtile.chisel.glassdyedlightgray@1, 1xtile.chisel.glassdyedlightgray@2, 1xtile.chisel.glassdyedlightgray@3, 1xtile.chisel.glassdyedlightgray@4, 1xtile.chisel.glassdyedlightgray@5] => 16*minecraft:stained_glass_pane:8) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@9, 1xtile.chisel.glassdyedcyan@0, 1xtile.chisel.glassdyedcyan@1, 1xtile.chisel.glassdyedcyan@2, 1xtile.chisel.glassdyedcyan@3, 1xtile.chisel.glassdyedcyan@4, 1xtile.chisel.glassdyedcyan@5] => 16*minecraft:stained_glass_pane:9) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@14, 1xtile.chisel.glassdyedred@0, 1xtile.chisel.glassdyedred@1, 1xtile.chisel.glassdyedred@2, 1xtile.chisel.glassdyedred@3, 1xtile.chisel.glassdyedred@4, 1xtile.chisel.glassdyedred@5] => 16*minecraft:stained_glass_pane:14) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@15, 1xtile.chisel.glassdyedblack@0, 1xtile.chisel.glassdyedblack@1, 1xtile.chisel.glassdyedblack@2, 1xtile.chisel.glassdyedblack@3, 1xtile.chisel.glassdyedblack@4, 1xtile.chisel.glassdyedblack@5] => 16*minecraft:stained_glass_pane:15) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@12, 1xtile.chisel.glassdyedbrown@0, 1xtile.chisel.glassdyedbrown@1, 1xtile.chisel.glassdyedbrown@2, 1xtile.chisel.glassdyedbrown@3, 1xtile.chisel.glassdyedbrown@4, 1xtile.chisel.glassdyedbrown@5] => 16*minecraft:stained_glass_pane:12) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@13, 1xtile.chisel.glassdyedgreen@0, 1xtile.chisel.glassdyedgreen@1, 1xtile.chisel.glassdyedgreen@2, 1xtile.chisel.glassdyedgreen@3, 1xtile.chisel.glassdyedgreen@4, 1xtile.chisel.glassdyedgreen@5] => 16*minecraft:stained_glass_pane:13) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@2, 1xtile.chisel.glassdyedmagenta@0, 1xtile.chisel.glassdyedmagenta@1, 1xtile.chisel.glassdyedmagenta@2, 1xtile.chisel.glassdyedmagenta@3, 1xtile.chisel.glassdyedmagenta@4, 1xtile.chisel.glassdyedmagenta@5] => 16*minecraft:stained_glass_pane:2) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@3, 1xtile.chisel.glassdyedlightblue@0, 1xtile.chisel.glassdyedlightblue@1, 1xtile.chisel.glassdyedlightblue@2, 1xtile.chisel.glassdyedlightblue@3, 1xtile.chisel.glassdyedlightblue@4, 1xtile.chisel.glassdyedlightblue@5] => 16*minecraft:stained_glass_pane:3) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@0, 1xtile.chisel.glassdyedwhite@0, 1xtile.chisel.glassdyedwhite@1, 1xtile.chisel.glassdyedwhite@2, 1xtile.chisel.glassdyedwhite@3, 1xtile.chisel.glassdyedwhite@4, 1xtile.chisel.glassdyedwhite@5] => 16*minecraft:stained_glass_pane:0) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@1, 1xtile.chisel.glassdyedorange@0, 1xtile.chisel.glassdyedorange@1, 1xtile.chisel.glassdyedorange@2, 1xtile.chisel.glassdyedorange@3, 1xtile.chisel.glassdyedorange@4, 1xtile.chisel.glassdyedorange@5] => 16*minecraft:stained_glass_pane:1) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@6, 1xtile.chisel.glassdyedpink@0, 1xtile.chisel.glassdyedpink@1, 1xtile.chisel.glassdyedpink@2, 1xtile.chisel.glassdyedpink@3, 1xtile.chisel.glassdyedpink@4, 1xtile.chisel.glassdyedpink@5] => 16*minecraft:stained_glass_pane:6) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@7, 1xtile.chisel.glassdyedgray@0, 1xtile.chisel.glassdyedgray@1, 1xtile.chisel.glassdyedgray@2, 1xtile.chisel.glassdyedgray@3, 1xtile.chisel.glassdyedgray@4, 1xtile.chisel.glassdyedgray@5] => 16*minecraft:stained_glass_pane:7) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@4, 1xtile.chisel.glassdyedyellow@0, 1xtile.chisel.glassdyedyellow@1, 1xtile.chisel.glassdyedyellow@2, 1xtile.chisel.glassdyedyellow@3, 1xtile.chisel.glassdyedyellow@4, 1xtile.chisel.glassdyedyellow@5] => 16*minecraft:stained_glass_pane:4) cost 6 but output value is 1
+[22:24:52] [Server thread/WARN]: EMC Exploit: ingredients (0 + 6*NSSFAKE:/[1xtile.stainedGlass@5, 1xtile.chisel.glassdyedlime@0, 1xtile.chisel.glassdyedlime@1, 1xtile.chisel.glassdyedlime@2, 1xtile.chisel.glassdyedlime@3, 1xtile.chisel.glassdyedlime@4, 1xtile.chisel.glassdyedlime@5] => 16*minecraft:stained_glass_pane:5) cost 6 but output value is 1
+[22:24:55] [Server thread/INFO]: Registered 2596 EMC values. (took 25074 ms)
+[22:24:56] [Server thread/INFO]: Created EMC Manager
+[22:24:57] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "5.5.8": journeymap.server.global.config
+[22:24:57] [Server thread/INFO]: global (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/server/5.5/journeymap.server.global.config
+[22:24:57] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "5.5.8": journeymap.server.default.config
+[22:24:57] [Server thread/INFO]: default (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/server/5.5/journeymap.server.default.config
+[22:24:57] [Server thread/INFO]: dim0 (Initialized) Setting config file to version "5.5.8": journeymap.server.dim0.config
+[22:24:57] [Server thread/INFO]: dim0 (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/server/5.5/journeymap.server.dim0.config
+[22:24:57] [Server thread/INFO]: dim-1 (Initialized) Setting config file to version "5.5.8": journeymap.server.dim-1.config
+[22:24:57] [Server thread/INFO]: dim-1 (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/server/5.5/journeymap.server.dim-1.config
+[22:24:58] [Server thread/INFO]: dim1 (Initialized) Setting config file to version "5.5.8": journeymap.server.dim1.config
+[22:24:58] [Server thread/INFO]: dim1 (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/server/5.5/journeymap.server.dim1.config
+[22:24:58] [Server thread/INFO]: dim144 (Initialized) Setting config file to version "5.5.8": journeymap.server.dim144.config
+[22:24:58] [Server thread/INFO]: dim144 (Valid) Creating config file: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/journeymap/server/5.5/journeymap.server.dim144.config
+[22:24:58] [Server thread/INFO]: Registering Void Island Control commands.
+[22:24:58] [Server thread/INFO]: Finished registering Void Island Control commands.
+[22:24:58] [Server thread/INFO]: No WorldData found, creating...
+[22:24:58] [Server thread/INFO]: Backups folder - /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/backups
+[22:24:59] [Server thread/INFO]: Loading quests from /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/config/ftbquests/normal
+[22:25:00] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:00] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:01] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:01] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:01] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:02] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:02] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:02] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:03] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:05] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:06] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:07] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:08] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:09] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:10] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:11] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:13] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:14] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:28] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:35] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:43] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:51] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:25:59] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:26:06] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:26:26] [Server thread/WARN]: Failed to read quest ID index.nbt
+[22:26:32] [Server thread/INFO]: Loaded 25 chapters, 1335 quests, 1335 tasks and 1337 rewards. In total, 3830 objects
+[22:26:32] [Server thread/INFO]: File version changed 5 -> 9
+[22:26:44] [Server thread/INFO]: Loaded 555 advancements
+[22:26:44] [Server thread/INFO]: Reloaded server in 113ms
+[22:26:44] [Server thread/INFO]: Overridden 118 commands
+[22:26:56] [Client thread/INFO]: Unloaded WorldData!
+[22:26:59] [Server thread/INFO]: Unloading dimension -1
+[22:27:00] [Server thread/INFO]: Unloading dimension 1
+[22:27:00] [Server thread/INFO]: Unloading dimension 144
+[22:27:02] [Server thread/INFO]: Changing view distance to 2, from 10
+[22:27:02] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[22:27:02] [Netty Server IO #1/INFO]: Client protocol version 2
+[22:27:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 17556ms behind, skipping 351 tick(s)
+[22:27:02] [Netty Server IO #1/INFO]: Client attempting to join with 69 mods : ts2k16@1.2.10,netherportalfix@5.3.17,draconicadditions@1.14.1,projectintelligence@1.0.9,itemfilters@1.0.4.2,jei@4.22.0.1034,voidislandcontrol@1.5.3,projecteinfinite@1.0.1,cofhcore@4.6.6,draconicevolution@2.3.27,thermalcultivation@0.3.6,projecte@1.12.2-PE1.4.1,mekanism@1.12.2-9.8.3.390,thermalinnovation@0.3.6,thermalfoundation@2.6.7,mcp@9.42,clumps@3.1.2,ctm@MC1.12.2-1.0.2.31,journeymap@1.12.2-5.5.8,placebo@1.3.1,buildersbag@1.12.2,compactmachines3@3.0.18,chameleon@1.12-4.1.3,bookshelf@2.3.590,mikesmodslib@1.0.2,projectex@1.2.0.40,forgelin@1.8.4,sct@1.0.3,inventorytweaks@1.63+release.109.220f184,excompressum@3.0.32,cofhworld@1.4.0,equivalentintegrations@0.4.6,stoneblockutilities@2.2.0,waila@1.8.26,ftblib@5.4.7.2,mekanismgenerators@1.12.2-9.8.3.390,redstonearsenal@2.6.6,jeresources@0.9.2.60,exnihilocreatio@1.12.2-0.4.7.2,forge@14.23.5.2860,brandonscore@2.4.19,ftbutilities@5.4.1.131,ironchest@1.12.2-7.0.67.844,zerocore@1.12.2-0.1.2.9,minecraft@1.12.2,worldprimer@0.6.0-dev.20200122.211517,mousetweaks@2.10,ftbquests@1202.9.0.15,thermaldynamics@2.5.6,baubles@1.5.2,redstoneflux@2.1.1,botania@r1.10-364,actuallyadditions@1.12.2-r152,projectexploit@Project exploit,vanillafix@1.0.10-150,gamestages@2.0.123,ftbbackups@1.1.0.1,fastbench@1.7.4,storagedrawers@5.5.3,FML@8.0.99.99,bbprojecte@1.12.2,thermalexpansion@5.5.7,fastfurnace@1.3.1,mekanismtools@1.12.2-9.8.3.390,appleskin@1.0.14,aiimprovements@0.0.1.3,chisel@MC1.12.2-1.0.2.45,bigreactors@1.12.2-0.4.5.68,codechickenlib@3.2.3.358
+[22:27:02] [Netty Server IO #1/INFO]: Skipping config sync, No mods have registered a syncable config.
+[22:27:02] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[22:27:02] [Server thread/INFO]: [Server thread] Server side modded connection established
+[22:27:02] [Server thread/INFO]: Could not find legacy data for bd83d445-4989-4be5-849f-63845b7ba5e1.
+[22:27:02] [Server thread/INFO]: Mikael999[local:E:df227087] logged in with entity id 74 at (-77.5, 255.0, 499.5)
+[22:27:02] [Server thread/INFO]: Mikael999 entrou na partida
+[22:27:11] [Server thread/INFO]: Player EntityPlayerMP['Mikael999'/74, l='Novo mundo', x=-77.50, y=255.00, z=499.50] connected. Sending ping
+[22:27:12] [Server thread/INFO]: Syncing 0 stages for Mikael999.
+[22:27:12] [Server thread/INFO]: Loading dimension 144 (Novo mundo) (net.minecraft.server.integrated.IntegratedServer@63237ddd)
+[22:27:13] [Server thread/INFO]: Loaded data for compact machine world: 0 spawn points, next machine id is 0, players with beds: 0
+[22:27:13] [Server thread/INFO]: Successfully loaded WorldData!
+[22:27:13] [Server thread/INFO]: Sending Player Data to player Mikael999 with UUID bd83d445-4989-4be5-849f-63845b7ba5e1.
+[22:27:14] [Netty Local Client IO #0/INFO]: Received server authentication msg. Remote sync will be activated
+[22:27:14] [Client thread/INFO]: [CHAT] The Update Check for Actually Additions failed! Check Logs for more Info!
+[22:27:14] [Client thread/INFO]: [CHAT] InvTweaks: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/config/InvTweaksRules.txt faltando, criando um padrão.
+[22:27:14] [Client thread/INFO]: [CHAT] InvTweaks: /storage/emulated/0/CS LAUNCHER PLUS/instances/Mikael-StoneBloc-5131f766-4fcc-43ec-849d-f57e0e023e6e/config/InvTweaksTree.txt faltando, criando um padrão.
+[22:27:15] [ProjectE Update Checker Notifier/INFO]: Mod is updated.
+[22:27:15] [Netty Local Client IO #0/INFO]: Received Cardboard Box blacklist entries from server (21 explicit blocks, 2 mod wildcards)
+[22:27:15] [Server thread/INFO]: Saving and pausing game...
+[22:27:16] [Server thread/INFO]: Saved 0 stages for Mikael999.
+[22:27:16] [Server thread/INFO]: Saving chunks for level 'Novo mundo'/overworld
+[22:27:37] [Server thread/INFO]: Saving chunks for level 'Novo mundo'/CompactMachines
+[22:27:39] [Server thread/INFO]: Unloading dimension 144
+[22:27:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 37578ms behind, skipping 751 tick(s)
+[22:27:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13956ms behind, skipping 279 tick(s)
+[22:27:55] [Server thread/INFO]: Mikael999 lost connection: Desconectado
+[22:27:55] [Server thread/INFO]: Mikael999 saiu da partida
+[22:27:55] [Server thread/INFO]: Saved 0 stages for Mikael999.
+[22:27:55] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:27:56] [Server thread/INFO]: Stopping server
+[22:27:56] [Server thread/INFO]: Saving players
+[22:27:56] [Server thread/INFO]: Saving worlds
+[22:27:56] [Server thread/INFO]: Saving chunks for level 'Novo mundo'/overworld
+[22:27:57] [Server thread/INFO]: Unloading dimension 0

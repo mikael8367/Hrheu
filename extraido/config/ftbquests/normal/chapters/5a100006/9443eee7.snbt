@@ -1,0 +1,22 @@
+{
+	title: "Energy Collector MK1",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Faça um coletor para gerar EMC com luz.",
+	dependencies: [
+		"ed539cdd"
+	],
+	tasks: [{
+		uid: "ff2b9ace",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8677b89f",
+		type: "xp",
+		xp: 10
+	}]
+}

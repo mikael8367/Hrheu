@@ -1,0 +1,20 @@
+{
+	title: "Projeto 467 • miniisland (1)",
+	x: -4.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza botania:miniisland (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001d2",
+		type: "item",
+		items: [{
+			item: "botania:miniisland 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001d2",
+		type: "item",
+		item: "minecraft:coal",
+		count: 7
+	}]
+}

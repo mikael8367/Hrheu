@@ -1,0 +1,18 @@
+{
+	title: "Oficina 061 • craftpattern (8)",
+	x: -4.0d,
+	y: 7.0d,
+	description: "Fabrique ou obtenha botania:craftpattern (variante 8). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d0002b8",
+		type: "item",
+		items: [{
+			item: "botania:craftpattern 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "7e0002b8",
+		type: "xp",
+		xp: 28
+	}]
+}

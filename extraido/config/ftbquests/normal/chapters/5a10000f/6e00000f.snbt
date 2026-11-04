@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Adamantine Essence",
+	x: -35.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00000f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:adamantine_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000000f",
+		type: "xp",
+		xp: 8
+	}]
+}

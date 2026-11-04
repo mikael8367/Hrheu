@@ -1,0 +1,22 @@
+{
+	title: "Matéria infinita I",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Experimente o primeiro nível de matéria do ProjectE Infinite.",
+	dependencies: [
+		"7de81bd5"
+	],
+	tasks: [{
+		uid: "bf29786e",
+		type: "item",
+		items: [{
+			item: "projecteinfinite:infinite_matter_t1 1 0"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "13fd6ac2",
+		type: "xp",
+		xp: 10
+	}]
+}

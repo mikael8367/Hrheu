@@ -1,0 +1,24 @@
+{
+	title: "Projeto 586 • livingwood1slab",
+	x: 0.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza botania:livingwood1slab (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000249",
+		type: "item",
+		items: [{
+			item: "botania:livingwood1slab"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000249",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

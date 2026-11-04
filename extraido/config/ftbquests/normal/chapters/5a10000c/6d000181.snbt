@@ -1,0 +1,20 @@
+{
+	title: "Projeto 386 • item.pe_divining_rod_1",
+	x: -5.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza projecte:item.pe_divining_rod_1 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000181",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_divining_rod_1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000181",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 4
+	}]
+}

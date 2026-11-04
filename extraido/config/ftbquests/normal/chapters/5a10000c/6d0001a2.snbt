@@ -1,0 +1,19 @@
+{
+	title: "Projeto 419 • wooden_crucible (5)",
+	x: -2.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza excompressum:wooden_crucible (variante 5). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001a2",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001a2",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

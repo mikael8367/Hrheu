@@ -1,0 +1,20 @@
+{
+	title: "Primeiros fragmentos",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Quebre stone com a mão vazia e junte 32 pedrinhas. Quatro pedrinhas viram um cobblestone; bancada e crook precisam de quatro cobblestones cada.",
+	tasks: [{
+		uid: "d693737a",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_pebble"
+		}],
+		count: 32L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8e485a8",
+		type: "xp",
+		xp: 10
+	}]
+}

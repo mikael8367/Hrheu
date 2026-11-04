@@ -1,0 +1,18 @@
+{
+	title: "Oficina 027 • cosmetic (7)",
+	x: 2.0d,
+	y: 3.0d,
+	description: "Fabrique ou obtenha botania:cosmetic (variante 7). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d000296",
+		type: "item",
+		items: [{
+			item: "botania:cosmetic 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "7e000296",
+		type: "xp",
+		xp: 15
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Projeto 524 • material (1025)",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza thermalfoundation:material (variante 1025). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00020b",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1025"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00020b",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

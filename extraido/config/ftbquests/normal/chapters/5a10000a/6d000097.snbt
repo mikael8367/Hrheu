@@ -1,0 +1,24 @@
+{
+	title: "Projeto 152 • item.pe_life_stone",
+	x: 1.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza projecte:item.pe_life_stone (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000097",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_life_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000097",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

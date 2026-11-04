@@ -1,0 +1,24 @@
+{
+	title: "Projeto 607 • phantomink",
+	x: 1.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:phantomink (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00025e",
+		type: "item",
+		items: [{
+			item: "botania:phantomink"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00025e",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

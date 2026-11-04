@@ -1,0 +1,20 @@
+{
+	title: "Projeto 542 • glowstonepaxel",
+	x: -4.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza mekanismtools:glowstonepaxel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00021d",
+		type: "item",
+		items: [{
+			item: "mekanismtools:glowstonepaxel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00021d",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

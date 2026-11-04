@@ -1,0 +1,20 @@
+{
+	title: "Induction Smelter",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Funde materiais em conjunto.",
+	tasks: [{
+		uid: "6a200003",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200003",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 4
+	}]
+}

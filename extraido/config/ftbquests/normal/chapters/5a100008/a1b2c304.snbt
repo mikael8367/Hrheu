@@ -1,0 +1,19 @@
+{
+	title: "Redstone Furnace",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Construa uma Redstone Furnace para processar itens com energia.",
+	tasks: [{
+		uid: "a1b2c304",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b386957c",
+		type: "xp",
+		xp: 10
+	}]
+}

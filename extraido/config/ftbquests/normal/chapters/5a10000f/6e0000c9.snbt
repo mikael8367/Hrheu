@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Moonstone Seeds",
+	x: -49.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000c9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:moonstone_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000c9",
+		type: "xp",
+		xp: 8
+	}]
+}

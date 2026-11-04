@@ -1,0 +1,20 @@
+{
+	title: "Projeto 592 • plasticfence (9)",
+	x: -4.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 9). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00024f",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00024f",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 5
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 184 • petal (11)",
+	x: 3.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:petal (variante 11). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000b7",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000b7",
+		type: "item",
+		item: "minecraft:coal",
+		count: 3
+	}]
+}

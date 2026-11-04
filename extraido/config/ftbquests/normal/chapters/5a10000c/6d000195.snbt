@@ -1,0 +1,19 @@
+{
+	title: "Projeto 406 • quartztypesunny (1)",
+	x: -5.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:quartztypesunny (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000195",
+		type: "item",
+		items: [{
+			item: "botania:quartztypesunny 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000195",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

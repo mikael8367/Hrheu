@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Chimerite Essence",
+	x: 7.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000039",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chimerite_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000039",
+		type: "xp",
+		xp: 8
+	}]
+}

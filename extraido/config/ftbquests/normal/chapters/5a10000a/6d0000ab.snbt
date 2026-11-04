@@ -1,0 +1,20 @@
+{
+	title: "Projeto 172 • balloon (2)",
+	x: 1.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza mekanism:balloon (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000ab",
+		type: "item",
+		items: [{
+			item: "mekanism:balloon 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000ab",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

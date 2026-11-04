@@ -1,0 +1,19 @@
+{
+	title: "Projeto 087 • block_auto_sifter",
+	x: 1.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza exnihilocreatio:block_auto_sifter (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000056",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_auto_sifter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000056",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Essência inicial",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Reúna essência Inferium para iniciar as melhorias de cultivo.",
+	tasks: [{
+		uid: "7f000001",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting_inferium_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000001",
+		type: "item",
+		item: {
+			id: "minecraft:bone_meal",
+			Count: 1b,
+			Damage: 0s
+		}
+	}]
+}

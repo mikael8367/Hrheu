@@ -1,0 +1,19 @@
+{
+	title: "Projeto 539 • livingwood0slab",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:livingwood0slab (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00021a",
+		type: "item",
+		items: [{
+			item: "botania:livingwood0slab"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00021a",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

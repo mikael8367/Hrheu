@@ -1,0 +1,20 @@
+{
+	title: "Projeto 238 • lapislazuliaxe",
+	x: -3.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza mekanismtools:lapislazuliaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000ed",
+		type: "item",
+		items: [{
+			item: "mekanismtools:lapislazuliaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000ed",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 3
+	}]
+}

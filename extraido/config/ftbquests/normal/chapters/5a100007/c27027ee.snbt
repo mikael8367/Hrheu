@@ -1,0 +1,22 @@
+{
+	title: "Energy Condenser MK2",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Atualize o condensador para acelerar a produção.",
+	dependencies: [
+		"02a33cbe"
+	],
+	tasks: [{
+		uid: "c2e78a63",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0447196",
+		type: "xp",
+		xp: 10
+	}]
+}

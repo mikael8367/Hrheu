@@ -1,0 +1,20 @@
+{
+	title: "Projeto 595 • bronzepickaxe",
+	x: -1.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanismtools:bronzepickaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000252",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzepickaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000252",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

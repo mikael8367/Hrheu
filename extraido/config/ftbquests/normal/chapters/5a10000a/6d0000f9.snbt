@@ -1,0 +1,20 @@
+{
+	title: "Projeto 250 • wooden_crucible",
+	x: -1.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza excompressum:wooden_crucible (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000f9",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000f9",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 4
+	}]
+}

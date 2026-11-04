@@ -1,0 +1,20 @@
+{
+	title: "Projeto 201 • crook_bone",
+	x: 0.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza exnihilocreatio:crook_bone (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000c8",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_bone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000c8",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 4
+	}]
+}

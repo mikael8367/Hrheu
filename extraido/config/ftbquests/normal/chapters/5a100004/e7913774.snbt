@@ -1,0 +1,22 @@
+{
+	title: "Bio-Generator",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Produza energia com um Bio-Generator.",
+	dependencies: [
+		"ca06ea13"
+	],
+	tasks: [{
+		uid: "41abe97e",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f5a5610c",
+		type: "xp",
+		xp: 10
+	}]
+}

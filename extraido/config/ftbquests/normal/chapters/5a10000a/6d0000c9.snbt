@@ -1,0 +1,20 @@
+{
+	title: "Projeto 202 • heavy_sieve (4)",
+	x: 1.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza excompressum:heavy_sieve (variante 4). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000c9",
+		type: "item",
+		items: [{
+			item: "excompressum:heavy_sieve 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000c9",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 3
+	}]
+}

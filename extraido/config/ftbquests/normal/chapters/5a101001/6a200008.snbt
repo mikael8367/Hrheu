@@ -1,0 +1,20 @@
+{
+	title: "Fluid Transposer",
+	x: -1.0d,
+	y: 1.0d,
+	description: "Transfere fluidos para itens.",
+	tasks: [{
+		uid: "6a200008",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200008",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

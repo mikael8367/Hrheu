@@ -1,0 +1,24 @@
+{
+	title: "Projeto 557 • bronzeaxe",
+	x: 1.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza mekanismtools:bronzeaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00022c",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzeaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00022c",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

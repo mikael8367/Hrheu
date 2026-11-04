@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Redstone Alloy Seeds",
+	x: -15.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000eb",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_alloy_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000eb",
+		type: "xp",
+		xp: 8
+	}]
+}

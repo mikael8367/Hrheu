@@ -1,0 +1,20 @@
+{
+	title: "Projeto 130 • laputashard (7)",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:laputashard (variante 7). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000081",
+		type: "item",
+		items: [{
+			item: "botania:laputashard 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000081",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

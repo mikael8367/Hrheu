@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Lapis Lazuli Essence",
+	x: 24.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000ae",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lapis_lazuli_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000ae",
+		type: "xp",
+		xp: 8
+	}]
+}

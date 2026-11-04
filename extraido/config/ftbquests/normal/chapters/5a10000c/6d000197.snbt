@@ -1,0 +1,20 @@
+{
+	title: "Projeto 408 • holycloak",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:holycloak (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000197",
+		type: "item",
+		items: [{
+			item: "botania:holycloak"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000197",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

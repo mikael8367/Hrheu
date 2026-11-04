@@ -1,0 +1,20 @@
+{
+	title: "Biomestonea0Stairs",
+	x: -2.0d,
+	y: 4.0d,
+	description: "Fabrique ou obtenha este item de Botania.",
+	tasks: [{
+		uid: "6a200037",
+		type: "item",
+		items: [{
+			item: "botania:biomestonea0stairs"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200037",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 2
+	}]
+}

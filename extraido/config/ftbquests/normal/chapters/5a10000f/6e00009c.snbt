@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Ice Seeds",
+	x: 6.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00009c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ice_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000009c",
+		type: "xp",
+		xp: 8
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Draconium Seeds",
+	x: 49.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000063",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:draconium_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000063",
+		type: "xp",
+		xp: 8
+	}]
+}

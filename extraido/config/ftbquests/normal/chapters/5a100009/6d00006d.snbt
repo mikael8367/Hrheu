@@ -1,0 +1,20 @@
+{
+	title: "Projeto 110 • mushroom (1)",
+	x: 4.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:mushroom (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00006d",
+		type: "item",
+		items: [{
+			item: "botania:mushroom 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00006d",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

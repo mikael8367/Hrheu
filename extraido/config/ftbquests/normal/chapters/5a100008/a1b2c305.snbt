@@ -1,0 +1,19 @@
+{
+	title: "Pulverizer",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Construa um Pulverizer para triturar e processar materiais.",
+	tasks: [{
+		uid: "a1b2c305",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b386957d",
+		type: "xp",
+		xp: 10
+	}]
+}

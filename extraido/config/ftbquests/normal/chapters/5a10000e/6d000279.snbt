@@ -1,0 +1,19 @@
+{
+	title: "Projeto 634 • item_mesh (2)",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_mesh (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000279",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000279",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

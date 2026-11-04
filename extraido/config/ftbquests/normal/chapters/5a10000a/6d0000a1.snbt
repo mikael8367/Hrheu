@@ -1,0 +1,20 @@
+{
+	title: "Projeto 162 • bait (9)",
+	x: 1.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza excompressum:bait (variante 9). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000a1",
+		type: "item",
+		items: [{
+			item: "excompressum:bait 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000a1",
+		type: "item",
+		item: "minecraft:coal",
+		count: 3
+	}]
+}

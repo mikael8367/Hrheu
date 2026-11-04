@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Superium Essence",
+	x: 35.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00011d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:superium_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000011d",
+		type: "xp",
+		xp: 8
+	}]
+}

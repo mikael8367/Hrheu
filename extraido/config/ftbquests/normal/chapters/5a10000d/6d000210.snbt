@@ -1,0 +1,20 @@
+{
+	title: "Projeto 529 • livingrock0slab",
+	x: 3.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:livingrock0slab (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000210",
+		type: "item",
+		items: [{
+			item: "botania:livingrock0slab"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000210",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

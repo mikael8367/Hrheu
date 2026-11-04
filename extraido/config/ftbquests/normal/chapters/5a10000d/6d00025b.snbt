@@ -1,0 +1,20 @@
+{
+	title: "Projeto 604 • storage (3)",
+	x: -2.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:storage (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00025b",
+		type: "item",
+		items: [{
+			item: "botania:storage 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00025b",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

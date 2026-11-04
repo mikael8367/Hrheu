@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Saltpeter Seeds",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000f7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:saltpeter_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000f7",
+		type: "xp",
+		xp: 8
+	}]
+}

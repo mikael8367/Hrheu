@@ -1,0 +1,19 @@
+{
+	title: "Projeto 451 • plasticfence (7)",
+	x: 0.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 7). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001c2",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001c2",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

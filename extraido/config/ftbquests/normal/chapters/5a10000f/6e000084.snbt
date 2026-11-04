@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Fiery Ingot Seeds",
+	x: -18.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000084",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:fiery_ingot_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000084",
+		type: "xp",
+		xp: 8
+	}]
+}

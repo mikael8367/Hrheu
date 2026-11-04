@@ -1,0 +1,19 @@
+{
+	title: "Projeto 025 • diamondpaxel",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza mekanismtools:diamondpaxel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000018",
+		type: "item",
+		items: [{
+			item: "mekanismtools:diamondpaxel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000018",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

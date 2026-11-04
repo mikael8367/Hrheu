@@ -1,0 +1,20 @@
+{
+	title: "Projeto 521 • livingrock (3)",
+	x: -5.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:livingrock (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000208",
+		type: "item",
+		items: [{
+			item: "botania:livingrock 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000208",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

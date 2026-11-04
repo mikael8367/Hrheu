@@ -1,0 +1,24 @@
+{
+	title: "Projeto 336 • spreader (1)",
+	x: 0.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza botania:spreader (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00014f",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00014f",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

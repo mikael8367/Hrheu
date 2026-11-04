@@ -1,0 +1,20 @@
+{
+	title: "Projeto 410 • item_mesh (1)",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_mesh (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000199",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000199",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
+	}]
+}

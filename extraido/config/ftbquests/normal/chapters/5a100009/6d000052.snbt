@@ -1,0 +1,19 @@
+{
+	title: "Projeto 083 • item.pe_zero_ring",
+	x: -3.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza projecte:item.pe_zero_ring (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000052",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_zero_ring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000052",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 375 • osmiumpickaxe",
+	x: -1.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza mekanismtools:osmiumpickaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000176",
+		type: "item",
+		items: [{
+			item: "mekanismtools:osmiumpickaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000176",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

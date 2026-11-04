@@ -1,0 +1,20 @@
+{
+	title: "Projeto 515 • item.pe_catalitic_lens",
+	x: -1.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza projecte:item.pe_catalitic_lens (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000202",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_catalitic_lens"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000202",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
+	}]
+}

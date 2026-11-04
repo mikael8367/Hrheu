@@ -1,0 +1,24 @@
+{
+	title: "Projeto 101 • heavy_sieve (5)",
+	x: -5.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza excompressum:heavy_sieve (variante 5). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000064",
+		type: "item",
+		items: [{
+			item: "excompressum:heavy_sieve 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000064",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

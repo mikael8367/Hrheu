@@ -1,0 +1,22 @@
+{
+	title: "Bancada de pedra",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Com 16 pedrinhas faça 4 cobblestones; use os quatro na bancada de pedra. Separe mais 16 pedrinhas para fabricar o crook.",
+	dependencies: [
+		"aad0d3d0"
+	],
+	tasks: [{
+		uid: "77fe99a3",
+		type: "item",
+		items: [{
+			item: "stoneblockutilities:stoneworkbench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e78631f5",
+		type: "xp",
+		xp: 10
+	}]
+}

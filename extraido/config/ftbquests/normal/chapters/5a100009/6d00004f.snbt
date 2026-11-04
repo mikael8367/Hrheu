@@ -1,0 +1,19 @@
+{
+	title: "Projeto 080 • miniisland (3)",
+	x: 4.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza botania:miniisland (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00004f",
+		type: "item",
+		items: [{
+			item: "botania:miniisland 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00004f",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

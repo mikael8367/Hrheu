@@ -1,0 +1,20 @@
+{
+	title: "Projeto 245 • item.pe_gem_density",
+	x: 4.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza projecte:item.pe_gem_density (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000f4",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_density"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000f4",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 4
+	}]
+}

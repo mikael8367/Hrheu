@@ -1,0 +1,20 @@
+{
+	title: "Projeto 478 • redstringfertilizer",
+	x: -3.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:redstringfertilizer (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001dd",
+		type: "item",
+		items: [{
+			item: "botania:redstringfertilizer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001dd",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
+	}]
+}

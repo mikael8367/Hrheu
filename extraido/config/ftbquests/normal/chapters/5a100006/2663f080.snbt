@@ -1,0 +1,22 @@
+{
+	title: "Anti-Matter Relay MK1",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Faça um relay para enviar EMC ao condensador.",
+	dependencies: [
+		"e4719236"
+	],
+	tasks: [{
+		uid: "630fd205",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3457a6f8",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 481 • laputashard (15)",
+	x: 0.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:laputashard (variante 15). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001e0",
+		type: "item",
+		items: [{
+			item: "botania:laputashard 1 15"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001e0",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Osmium",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Obtenha osmium para avançar nas máquinas Mekanism.",
+	dependencies: [
+		"eda745a8"
+	],
+	tasks: [{
+		uid: "f6fea9c4",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 1"
+		}],
+		count: 2L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a17afa6",
+		type: "xp",
+		xp: 10
+	}]
+}

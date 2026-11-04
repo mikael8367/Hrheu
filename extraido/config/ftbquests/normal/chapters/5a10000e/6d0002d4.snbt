@@ -1,0 +1,18 @@
+{
+	title: "Oficina 089 • lens (18)",
+	x: 4.0d,
+	y: 9.0d,
+	description: "Fabrique ou obtenha botania:lens (variante 18). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d0002d4",
+		type: "item",
+		items: [{
+			item: "botania:lens 1 18"
+		}]
+	}],
+	rewards: [{
+		uid: "7e0002d4",
+		type: "xp",
+		xp: 14
+	}]
+}

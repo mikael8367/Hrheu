@@ -1,0 +1,20 @@
+{
+	title: "Projeto 126 • networkreader",
+	x: -5.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza mekanism:networkreader (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00007d",
+		type: "item",
+		items: [{
+			item: "mekanism:networkreader"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00007d",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

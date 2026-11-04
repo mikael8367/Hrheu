@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Tier3 Inferium Seeds",
+	x: 48.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00012a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tier3_inferium_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000012a",
+		type: "xp",
+		xp: 8
+	}]
+}

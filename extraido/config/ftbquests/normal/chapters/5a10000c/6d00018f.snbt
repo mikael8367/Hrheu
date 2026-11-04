@@ -1,0 +1,19 @@
+{
+	title: "Projeto 400 • mushroom (2)",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:mushroom (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00018f",
+		type: "item",
+		items: [{
+			item: "botania:mushroom 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00018f",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

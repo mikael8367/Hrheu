@@ -1,0 +1,24 @@
+{
+	title: "Projeto 412 • crook_netherrack",
+	x: 1.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza exnihilocreatio:crook_netherrack (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00019b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_netherrack"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00019b",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

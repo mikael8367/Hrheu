@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Brass Essence",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000031",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:brass_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000031",
+		type: "xp",
+		xp: 8
+	}]
+}

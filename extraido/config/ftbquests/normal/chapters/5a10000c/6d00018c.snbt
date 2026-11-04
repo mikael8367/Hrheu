@@ -1,0 +1,20 @@
+{
+	title: "Projeto 397 • hammer_gold",
+	x: -4.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza exnihilocreatio:hammer_gold (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00018c",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_gold"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00018c",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
+	}]
+}

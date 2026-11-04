@@ -1,0 +1,24 @@
+{
+	title: "Projeto 381 • item.pe_black_hole",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza projecte:item.pe_black_hole (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00017c",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_black_hole"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00017c",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

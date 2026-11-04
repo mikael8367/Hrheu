@@ -1,0 +1,20 @@
+{
+	title: "Projeto 490 • bait (2)",
+	x: -1.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza excompressum:bait (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001e9",
+		type: "item",
+		items: [{
+			item: "excompressum:bait 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001e9",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 5
+	}]
+}

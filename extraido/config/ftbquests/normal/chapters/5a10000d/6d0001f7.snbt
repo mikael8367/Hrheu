@@ -1,0 +1,19 @@
+{
+	title: "Projeto 504 • petal (4)",
+	x: -2.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:petal (variante 4). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001f7",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001f7",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

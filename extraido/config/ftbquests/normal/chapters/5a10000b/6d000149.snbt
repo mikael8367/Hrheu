@@ -1,0 +1,20 @@
+{
+	title: "Projeto 330 • glowstoneleggings",
+	x: 4.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza mekanismtools:glowstoneleggings (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000149",
+		type: "item",
+		items: [{
+			item: "mekanismtools:glowstoneleggings"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000149",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

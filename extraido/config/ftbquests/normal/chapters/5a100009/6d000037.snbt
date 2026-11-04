@@ -1,0 +1,20 @@
+{
+	title: "Projeto 056 • lavapendant",
+	x: 0.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:lavapendant (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000037",
+		type: "item",
+		items: [{
+			item: "botania:lavapendant"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000037",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

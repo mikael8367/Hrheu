@@ -1,0 +1,20 @@
+{
+	title: "Projeto 319 • shinyflower (3)",
+	x: 3.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:shinyflower (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00013e",
+		type: "item",
+		items: [{
+			item: "botania:shinyflower 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00013e",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

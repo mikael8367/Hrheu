@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Ghast Essence",
+	x: -11.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00008b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ghast_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000008b",
+		type: "xp",
+		xp: 8
+	}]
+}

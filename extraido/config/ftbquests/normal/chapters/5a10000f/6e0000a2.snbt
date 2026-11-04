@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Iridium Ore Essence",
+	x: 12.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000a2",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:iridium_ore_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000a2",
+		type: "xp",
+		xp: 8
+	}]
+}

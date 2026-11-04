@@ -1,0 +1,20 @@
+{
+	title: "Projeto 431 • gasmask",
+	x: 0.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza mekanism:gasmask (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001ae",
+		type: "item",
+		items: [{
+			item: "mekanism:gasmask"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001ae",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 4
+	}]
+}

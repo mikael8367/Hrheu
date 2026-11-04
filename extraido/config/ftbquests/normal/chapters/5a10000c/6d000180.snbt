@@ -1,0 +1,20 @@
+{
+	title: "Projeto 385 • item.pe_destruction_catalyst",
+	x: 4.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza projecte:item.pe_destruction_catalyst (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000180",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_destruction_catalyst"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000180",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
+	}]
+}

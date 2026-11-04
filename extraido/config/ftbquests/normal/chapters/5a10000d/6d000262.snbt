@@ -1,0 +1,20 @@
+{
+	title: "Projeto 611 • starsword",
+	x: -5.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza botania:starsword (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000262",
+		type: "item",
+		items: [{
+			item: "botania:starsword"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000262",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

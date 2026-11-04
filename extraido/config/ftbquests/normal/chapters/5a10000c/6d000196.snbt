@@ -1,0 +1,20 @@
+{
+	title: "Projeto 407 • blockblutonium",
+	x: -4.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza bigreactors:blockblutonium (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000196",
+		type: "item",
+		items: [{
+			item: "bigreactors:blockblutonium"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000196",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 195 • material (103)",
+	x: 4.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza thermalfoundation:material (variante 103). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000c2",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 103"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000c2",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

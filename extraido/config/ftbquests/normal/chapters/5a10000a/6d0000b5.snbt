@@ -1,0 +1,19 @@
+{
+	title: "Projeto 182 • robit",
+	x: 1.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza mekanism:robit (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000b5",
+		type: "item",
+		items: [{
+			item: "mekanism:robit"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000b5",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

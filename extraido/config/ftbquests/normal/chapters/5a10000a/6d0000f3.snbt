@@ -1,0 +1,20 @@
+{
+	title: "Projeto 244 • balloon (6)",
+	x: 3.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza mekanism:balloon (variante 6). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000f3",
+		type: "item",
+		items: [{
+			item: "mekanism:balloon 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000f3",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

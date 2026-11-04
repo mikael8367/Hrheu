@@ -1,0 +1,22 @@
+{
+	title: "Produção em lote",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Fabrique Advanced Control Circuits para a fábrica avançada.",
+	dependencies: [
+		"2a14a141"
+	],
+	tasks: [{
+		uid: "cb15d23e",
+		type: "item",
+		items: [{
+			item: "mekanism:advancedcontrolcircuit 1 0"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ca73193",
+		type: "xp",
+		xp: 10
+	}]
+}

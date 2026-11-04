@@ -1,0 +1,20 @@
+{
+	title: "Projeto 565 • crook_blaze",
+	x: -1.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza exnihilocreatio:crook_blaze (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000234",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_blaze"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000234",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

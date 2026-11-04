@@ -1,0 +1,20 @@
+{
+	title: "Projeto 023 • relay_mk3",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza projecte:relay_mk3 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000016",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000016",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

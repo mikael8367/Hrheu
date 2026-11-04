@@ -1,0 +1,20 @@
+{
+	title: "Projeto 154 • tornadorod",
+	x: 3.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:tornadorod (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000099",
+		type: "item",
+		items: [{
+			item: "botania:tornadorod"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000099",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

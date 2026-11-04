@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Signalum Essence",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000fc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:signalum_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000fc",
+		type: "xp",
+		xp: 8
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Projeto 003 • itemfinder",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:itemfinder (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000002",
+		type: "item",
+		items: [{
+			item: "botania:itemfinder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000002",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 632 • pavement (1)",
+	x: 1.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:pavement (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000277",
+		type: "item",
+		items: [{
+			item: "botania:pavement 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000277",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 6
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 100 • bronzeboots",
+	x: 4.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanismtools:bronzeboots (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000063",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzeboots"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000063",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 2
+	}]
+}

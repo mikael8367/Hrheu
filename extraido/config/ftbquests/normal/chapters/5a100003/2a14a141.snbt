@@ -1,0 +1,22 @@
+{
+	title: "Atomic Alloy",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Crie Atomic Alloy para fabricar equipamentos avançados.",
+	dependencies: [
+		"1823f9de"
+	],
+	tasks: [{
+		uid: "5051d511",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3820f739",
+		type: "xp",
+		xp: 10
+	}]
+}

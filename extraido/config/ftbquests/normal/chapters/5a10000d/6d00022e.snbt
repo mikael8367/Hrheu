@@ -1,0 +1,20 @@
+{
+	title: "Projeto 559 • woodpaxel",
+	x: 3.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza mekanismtools:woodpaxel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00022e",
+		type: "item",
+		items: [{
+			item: "mekanismtools:woodpaxel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00022e",
+		type: "item",
+		item: "minecraft:coal",
+		count: 7
+	}]
+}

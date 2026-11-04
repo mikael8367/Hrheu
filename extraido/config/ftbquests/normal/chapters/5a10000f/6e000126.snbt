@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Thaumium Seeds",
+	x: 44.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000126",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:thaumium_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000126",
+		type: "xp",
+		xp: 8
+	}]
+}

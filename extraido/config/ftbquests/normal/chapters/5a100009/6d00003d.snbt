@@ -1,0 +1,19 @@
+{
+	title: "Projeto 062 • quartzstairssunny",
+	x: -4.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:quartzstairssunny (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00003d",
+		type: "item",
+		items: [{
+			item: "botania:quartzstairssunny"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00003d",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

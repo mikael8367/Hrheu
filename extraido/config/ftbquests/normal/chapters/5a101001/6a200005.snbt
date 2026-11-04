@@ -1,0 +1,20 @@
+{
+	title: "Compactor",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Compacta materiais e recursos.",
+	tasks: [{
+		uid: "6a200005",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200005",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

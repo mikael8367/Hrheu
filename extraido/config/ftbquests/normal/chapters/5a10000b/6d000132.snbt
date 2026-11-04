@@ -1,0 +1,20 @@
+{
+	title: "Projeto 307 • item.pe_dm_pick",
+	x: 1.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza projecte:item.pe_dm_pick (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000132",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_pick"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000132",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

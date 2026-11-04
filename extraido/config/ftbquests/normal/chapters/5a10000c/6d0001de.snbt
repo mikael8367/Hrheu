@@ -1,0 +1,20 @@
+{
+	title: "Projeto 479 • flighttiara (2)",
+	x: -2.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:flighttiara (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001de",
+		type: "item",
+		items: [{
+			item: "botania:flighttiara 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001de",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 5
+	}]
+}

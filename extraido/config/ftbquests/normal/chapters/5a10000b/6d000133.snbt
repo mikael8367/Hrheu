@@ -1,0 +1,20 @@
+{
+	title: "Projeto 308 • stonepaxel",
+	x: 2.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza mekanismtools:stonepaxel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000133",
+		type: "item",
+		items: [{
+			item: "mekanismtools:stonepaxel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000133",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 4
+	}]
+}

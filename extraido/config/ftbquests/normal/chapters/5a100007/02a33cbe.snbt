@@ -1,0 +1,22 @@
+{
+	title: "Atomic Disassembler",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Crie um Atomic Disassembler para mineração avançada.",
+	dependencies: [
+		"ef335b41"
+	],
+	tasks: [{
+		uid: "210ac9bc",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicdisassembler"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "10976ac6",
+		type: "xp",
+		xp: 10
+	}]
+}

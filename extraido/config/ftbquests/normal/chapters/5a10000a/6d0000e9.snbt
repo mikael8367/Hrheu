@@ -1,0 +1,19 @@
+{
+	title: "Projeto 234 • flighttiara",
+	x: 3.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:flighttiara (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000e9",
+		type: "item",
+		items: [{
+			item: "botania:flighttiara"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000e9",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

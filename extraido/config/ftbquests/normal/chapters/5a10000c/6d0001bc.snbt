@@ -1,0 +1,19 @@
+{
+	title: "Projeto 445 • obsidianhelmet",
+	x: 4.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza mekanismtools:obsidianhelmet (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001bc",
+		type: "item",
+		items: [{
+			item: "mekanismtools:obsidianhelmet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001bc",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

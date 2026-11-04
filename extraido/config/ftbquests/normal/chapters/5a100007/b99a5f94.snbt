@@ -1,0 +1,22 @@
+{
+	title: "Matéria vermelha",
+	x: 0.0d,
+	y: 6.0d,
+	description: "Obtenha Red Matter para concluir a progressão avançada.",
+	dependencies: [
+		"c869cfb0"
+	],
+	tasks: [{
+		uid: "2eb30785",
+		type: "item",
+		items: [{
+			item: "projecte:red_matter 1 0"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "abae09ec",
+		type: "xp",
+		xp: 10
+	}]
+}

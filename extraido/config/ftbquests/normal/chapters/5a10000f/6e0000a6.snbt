@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Ironwood Essence",
+	x: 16.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000a6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ironwood_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000a6",
+		type: "xp",
+		xp: 8
+	}]
+}

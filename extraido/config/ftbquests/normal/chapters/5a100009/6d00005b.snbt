@@ -1,0 +1,20 @@
+{
+	title: "Projeto 092 • tinyplanet",
+	x: -4.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza botania:tinyplanet (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00005b",
+		type: "item",
+		items: [{
+			item: "botania:tinyplanet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00005b",
+		type: "item",
+		item: "minecraft:coal",
+		count: 2
+	}]
+}

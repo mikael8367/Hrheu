@@ -1,0 +1,19 @@
+{
+	title: "Projeto 290 • efficiency_catalyst",
+	x: 4.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza equivalentintegrations:efficiency_catalyst (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000121",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:efficiency_catalyst"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000121",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

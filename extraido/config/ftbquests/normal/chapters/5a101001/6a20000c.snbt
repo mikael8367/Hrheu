@@ -1,0 +1,24 @@
+{
+	title: "Alchemical Imbuer",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Mistura essência e materiais.",
+	tasks: [{
+		uid: "6a20000c",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b20000c",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 6
+	}]
+}

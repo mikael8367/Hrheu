@@ -1,0 +1,24 @@
+{
+	title: "Projeto 633 • mufflingupgrade",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza mekanism:mufflingupgrade (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000278",
+		type: "item",
+		items: [{
+			item: "mekanism:mufflingupgrade"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000278",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 6
+	}]
+}

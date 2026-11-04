@@ -1,0 +1,24 @@
+{
+	title: "Projeto 171 • item_material (7)",
+	x: 0.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_material (variante 7). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000aa",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000aa",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 3
+	}]
+}

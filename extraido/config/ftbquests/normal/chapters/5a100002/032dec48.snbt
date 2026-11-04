@@ -1,0 +1,22 @@
+{
+	title: "Crusher",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Faça um Crusher para processar recursos com energia.",
+	dependencies: [
+		"bf25f511"
+	],
+	tasks: [{
+		uid: "c92b06a5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_grinder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1119ba30",
+		type: "xp",
+		xp: 10
+	}]
+}

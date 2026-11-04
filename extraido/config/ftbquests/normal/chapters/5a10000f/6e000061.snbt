@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Dirt Seeds",
+	x: 47.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000061",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dirt_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000061",
+		type: "xp",
+		xp: 8
+	}]
+}

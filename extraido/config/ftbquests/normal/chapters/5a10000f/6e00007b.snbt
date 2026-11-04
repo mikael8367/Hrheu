@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Enderium Seeds",
+	x: -27.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00007b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:enderium_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000007b",
+		type: "xp",
+		xp: 8
+	}]
+}

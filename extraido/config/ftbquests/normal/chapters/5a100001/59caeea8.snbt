@@ -1,0 +1,23 @@
+{
+	title: "Barbante para a mesh",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Você recebeu um silkworm ao fazer o crook. Use-o numa folha de árvore para infestá-la; colha as folhas infestadas com crook até juntar 9 barbantes para a mesh da peneira.",
+	dependencies: [
+		"6a2000c9"
+	],
+	tasks: [{
+		uid: "d7391459",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 9L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4bfeb8d0",
+		type: "xp",
+		xp: 10
+	}]
+}

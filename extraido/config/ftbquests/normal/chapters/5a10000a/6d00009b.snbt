@@ -1,0 +1,19 @@
+{
+	title: "Projeto 156 • miningring",
+	x: -5.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:miningring (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00009b",
+		type: "item",
+		items: [{
+			item: "botania:miningring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00009b",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

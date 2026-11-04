@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Grains Of Infinity Seeds",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000094",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:grains_of_infinity_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000094",
+		type: "xp",
+		xp: 8
+	}]
+}

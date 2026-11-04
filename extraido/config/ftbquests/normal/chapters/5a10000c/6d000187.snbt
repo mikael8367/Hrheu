@@ -1,0 +1,19 @@
+{
+	title: "Projeto 392 • tinyplanetblock",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:tinyplanetblock (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000187",
+		type: "item",
+		items: [{
+			item: "botania:tinyplanetblock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000187",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

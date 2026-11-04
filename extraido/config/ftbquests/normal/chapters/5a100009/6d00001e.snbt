@@ -1,0 +1,20 @@
+{
+	title: "Projeto 031 • alchemical_algorithms",
+	x: -5.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza equivalentintegrations:alchemical_algorithms (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00001e",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:alchemical_algorithms"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00001e",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

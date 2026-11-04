@@ -1,0 +1,22 @@
+{
+	title: "Magnum Star Omega",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Melhore o armazenamento com uma Magnum Star Omega.",
+	dependencies: [
+		"c27027ee"
+	],
+	tasks: [{
+		uid: "3650c543",
+		type: "item",
+		items: [{
+			item: "projectex:magnum_star_omega"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cbe82f83",
+		type: "xp",
+		xp: 10
+	}]
+}

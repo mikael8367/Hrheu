@@ -1,0 +1,20 @@
+{
+	title: "Projeto 015 • anchorupgrade",
+	x: -1.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza mekanism:anchorupgrade (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00000e",
+		type: "item",
+		items: [{
+			item: "mekanism:anchorupgrade"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00000e",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

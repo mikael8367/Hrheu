@@ -1,0 +1,20 @@
+{
+	title: "Projeto 230 • vial (1)",
+	x: -1.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:vial (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000e5",
+		type: "item",
+		items: [{
+			item: "botania:vial 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000e5",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

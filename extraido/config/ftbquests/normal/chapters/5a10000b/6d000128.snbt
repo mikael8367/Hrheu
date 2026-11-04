@@ -1,0 +1,24 @@
+{
+	title: "Projeto 297 • bat_zapper",
+	x: 1.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza excompressum:bat_zapper (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000128",
+		type: "item",
+		items: [{
+			item: "excompressum:bat_zapper"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000128",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

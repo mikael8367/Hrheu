@@ -1,0 +1,20 @@
+{
+	title: "Sawmill",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Aproveita melhor a madeira.",
+	tasks: [{
+		uid: "6a200002",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200002",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

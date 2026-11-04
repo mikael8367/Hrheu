@@ -1,0 +1,19 @@
+{
+	title: "Projeto 139 • livingwood",
+	x: -2.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:livingwood (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00008a",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00008a",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

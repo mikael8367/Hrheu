@@ -1,0 +1,20 @@
+{
+	title: "Bifrostpermpane",
+	x: -2.0d,
+	y: 1.0d,
+	description: "Fabrique ou obtenha este item de Botania.",
+	tasks: [{
+		uid: "6a200025",
+		type: "item",
+		items: [{
+			item: "botania:bifrostpermpane"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200025",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

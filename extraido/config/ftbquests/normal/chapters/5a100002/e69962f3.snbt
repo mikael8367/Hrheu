@@ -1,0 +1,22 @@
+{
+	title: "Atomic Reconstructor",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Construa o Atomic Reconstructor para converter materiais.",
+	dependencies: [
+		"032dec48"
+	],
+	tasks: [{
+		uid: "5a43eabc",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f4ad348b",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Oficina 091 • lens (20)",
+	x: -4.0d,
+	y: 10.0d,
+	description: "Fabrique ou obtenha botania:lens (variante 20). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d0002d6",
+		type: "item",
+		items: [{
+			item: "botania:lens 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "7e0002d6",
+		type: "xp",
+		xp: 16
+	}]
+}

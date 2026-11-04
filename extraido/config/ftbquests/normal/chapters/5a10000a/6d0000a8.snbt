@@ -1,0 +1,20 @@
+{
+	title: "Projeto 169 • speedupgrade",
+	x: -2.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza mekanism:speedupgrade (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000a8",
+		type: "item",
+		items: [{
+			item: "mekanism:speedupgrade"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000a8",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

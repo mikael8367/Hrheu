@@ -1,0 +1,24 @@
+{
+	title: "Projeto 405 • lightrelay",
+	x: 4.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:lightrelay (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000194",
+		type: "item",
+		items: [{
+			item: "botania:lightrelay"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000194",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

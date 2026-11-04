@@ -1,0 +1,20 @@
+{
+	title: "Projeto 584 • block_axle_stone",
+	x: -2.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza exnihilocreatio:block_axle_stone (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000247",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_axle_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000247",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

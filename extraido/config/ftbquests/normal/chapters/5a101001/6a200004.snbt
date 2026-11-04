@@ -1,0 +1,24 @@
+{
+	title: "Phytogenic Insolator",
+	x: 1.0d,
+	y: 0.0d,
+	description: "Cultiva plantas com energia.",
+	tasks: [{
+		uid: "6a200004",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200004",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

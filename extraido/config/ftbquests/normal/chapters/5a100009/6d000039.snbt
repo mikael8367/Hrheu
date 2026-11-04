@@ -1,0 +1,19 @@
+{
+	title: "Projeto 058 • pump",
+	x: 2.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:pump (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000039",
+		type: "item",
+		items: [{
+			item: "botania:pump"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000039",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

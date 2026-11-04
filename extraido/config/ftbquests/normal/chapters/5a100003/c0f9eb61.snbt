@@ -1,0 +1,22 @@
+{
+	title: "Circuito básico",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Produza circuitos básicos para as primeiras máquinas Mekanism.",
+	dependencies: [
+		"13cb5474"
+	],
+	tasks: [{
+		uid: "5a1a7ed3",
+		type: "item",
+		items: [{
+			item: "mekanism:basiccontrolcircuit 1 0"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d2cdbd19",
+		type: "xp",
+		xp: 10
+	}]
+}

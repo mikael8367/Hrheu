@@ -1,0 +1,19 @@
+{
+	title: "Projeto 108 • plasticfence (4)",
+	x: 2.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 4). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00006b",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00006b",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

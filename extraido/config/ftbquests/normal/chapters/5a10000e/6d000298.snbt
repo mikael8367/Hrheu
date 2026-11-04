@@ -1,0 +1,18 @@
+{
+	title: "Oficina 029 • cosmetic (9)",
+	x: 4.0d,
+	y: 3.0d,
+	description: "Fabrique ou obtenha botania:cosmetic (variante 9). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d000298",
+		type: "item",
+		items: [{
+			item: "botania:cosmetic 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "7e000298",
+		type: "xp",
+		xp: 17
+	}]
+}

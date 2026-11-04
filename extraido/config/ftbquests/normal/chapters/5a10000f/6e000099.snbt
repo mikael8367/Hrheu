@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Hop Graphite Essence",
+	x: 3.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000099",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:hop_graphite_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000099",
+		type: "xp",
+		xp: 8
+	}]
+}

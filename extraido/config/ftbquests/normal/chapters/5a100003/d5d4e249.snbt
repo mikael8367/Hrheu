@@ -1,0 +1,22 @@
+{
+	title: "Factory",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Construa uma Factory do Mekanism para processar vários itens em sequência.",
+	dependencies: [
+		"2a14a141"
+	],
+	tasks: [{
+		uid: "ebc645b3",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7e0b431",
+		type: "xp",
+		xp: 10
+	}]
+}

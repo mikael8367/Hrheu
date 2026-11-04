@@ -1,0 +1,20 @@
+{
+	title: "Projeto 630 • item.pe_dm_shears",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza projecte:item.pe_dm_shears (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000275",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_shears"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000275",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

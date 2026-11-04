@@ -1,0 +1,19 @@
+{
+	title: "Magma Crucible",
+	x: -3.0d,
+	y: 1.0d,
+	description: "Derrete materiais em fluidos.",
+	tasks: [{
+		uid: "6a200006",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200006",
+		type: "item",
+		item: "minecraft:gold_ingot"
+	}]
+}

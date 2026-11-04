@@ -1,0 +1,20 @@
+{
+	title: "Projeto 164 • steelhelmet",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza mekanismtools:steelhelmet (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000a3",
+		type: "item",
+		items: [{
+			item: "mekanismtools:steelhelmet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000a3",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 329 • manasteelpick",
+	x: 3.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza botania:manasteelpick (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000148",
+		type: "item",
+		items: [{
+			item: "botania:manasteelpick"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000148",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

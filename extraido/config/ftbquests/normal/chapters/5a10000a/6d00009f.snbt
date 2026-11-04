@@ -1,0 +1,19 @@
+{
+	title: "Projeto 160 • mushroom (3)",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:mushroom (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00009f",
+		type: "item",
+		items: [{
+			item: "botania:mushroom 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00009f",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

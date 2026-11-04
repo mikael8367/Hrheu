@@ -1,0 +1,20 @@
+{
+	title: "Projeto 109 • item.pe_dm_armor_2",
+	x: 3.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza projecte:item.pe_dm_armor_2 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00006c",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00006c",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

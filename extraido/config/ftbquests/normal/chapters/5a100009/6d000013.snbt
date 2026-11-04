@@ -1,0 +1,20 @@
+{
+	title: "Projeto 020 • item.pe_soul_stone",
+	x: 4.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza projecte:item.pe_soul_stone (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000013",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_soul_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000013",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 2
+	}]
+}

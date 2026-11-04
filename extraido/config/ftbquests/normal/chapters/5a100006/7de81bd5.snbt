@@ -1,0 +1,22 @@
+{
+	title: "ProjectEX: Magnum Star Ein",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Crie uma estrela para guardar EMC.",
+	dependencies: [
+		"2663f080"
+	],
+	tasks: [{
+		uid: "0d3d153b",
+		type: "item",
+		items: [{
+			item: "projectex:magnum_star_ein"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fdc4dad",
+		type: "xp",
+		xp: 10
+	}]
+}

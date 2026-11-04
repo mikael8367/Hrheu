@@ -1,0 +1,22 @@
+{
+	title: "Bio Reactor",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Construa um Bio Reactor para experimentar geração por biomassa.",
+	dependencies: [
+		"21908d9e"
+	],
+	tasks: [{
+		uid: "6212e159",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_bio_reactor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad11a369",
+		type: "xp",
+		xp: 10
+	}]
+}

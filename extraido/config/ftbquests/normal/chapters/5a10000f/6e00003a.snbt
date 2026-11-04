@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Chimerite Seeds",
+	x: 8.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00003a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chimerite_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000003a",
+		type: "xp",
+		xp: 8
+	}]
+}

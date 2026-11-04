@@ -1,0 +1,22 @@
+{
+	title: "Gerador de carvão",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Crie um gerador simples para começar a produzir energia.",
+	dependencies: [
+		"c7269c56"
+	],
+	tasks: [{
+		uid: "6f4ac17b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_coal_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "33a4dbe6",
+		type: "xp",
+		xp: 10
+	}]
+}

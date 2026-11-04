@@ -1,0 +1,24 @@
+{
+	title: "Projeto 192 • laputashard",
+	x: 1.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:laputashard (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000bf",
+		type: "item",
+		items: [{
+			item: "botania:laputashard"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000bf",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 3
+	}]
+}

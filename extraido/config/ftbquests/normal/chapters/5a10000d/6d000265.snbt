@@ -1,0 +1,19 @@
+{
+	title: "Projeto 614 • crook_stone",
+	x: -2.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza exnihilocreatio:crook_stone (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000265",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000265",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

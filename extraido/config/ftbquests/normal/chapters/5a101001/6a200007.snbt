@@ -1,0 +1,19 @@
+{
+	title: "Fractionating Still",
+	x: -2.0d,
+	y: 1.0d,
+	description: "Refina fluidos e combustíveis.",
+	tasks: [{
+		uid: "6a200007",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200007",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

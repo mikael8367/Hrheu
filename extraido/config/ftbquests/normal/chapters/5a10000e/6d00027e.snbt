@@ -1,0 +1,18 @@
+{
+	title: "Oficina 003 • reactorglass",
+	x: -2.0d,
+	y: 1.0d,
+	description: "Fabrique ou obtenha bigreactors:reactorglass (variante 0). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d00027e",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorglass"
+		}]
+	}],
+	rewards: [{
+		uid: "7e00027e",
+		type: "xp",
+		xp: 12
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Crook de pedra",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Faça o crook na bancada de pedra. Ao concluir, recebe duas mudas de carvalho, quatro blocos de terra e um silkworm para iniciar os ciclos de madeira, terra e barbante.",
+	dependencies: [
+		"f5b2678d"
+	],
+	tasks: [{
+		uid: "f7ee3ec5",
+		type: "item",
+		items: [{
+			item: "stoneblockutilities:crook_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e100000",
+		type: "item",
+		item: "minecraft:sapling",
+		count: 2
+	},
+	{
+		uid: "6e100001",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 4
+	},
+	{
+		uid: "6e100002",
+		type: "item",
+		item: "exnihilocreatio:item_material 1 2"
+	}]
+}

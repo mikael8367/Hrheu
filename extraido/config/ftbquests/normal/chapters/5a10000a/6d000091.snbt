@@ -1,0 +1,19 @@
+{
+	title: "Projeto 146 • item_doll (2)",
+	x: -5.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_doll (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000091",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000091",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

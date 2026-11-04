@@ -1,0 +1,20 @@
+{
+	title: "Projeto 079 • item.pe_rm_armor_1",
+	x: 3.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza projecte:item.pe_rm_armor_1 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00004e",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_armor_1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00004e",
+		type: "item",
+		item: "minecraft:coal",
+		count: 2
+	}]
+}

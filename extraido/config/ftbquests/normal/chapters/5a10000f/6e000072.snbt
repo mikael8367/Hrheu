@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: End Essence",
+	x: -36.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000072",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:end_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000072",
+		type: "xp",
+		xp: 8
+	}]
+}

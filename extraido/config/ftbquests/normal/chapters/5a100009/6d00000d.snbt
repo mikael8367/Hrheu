@@ -1,0 +1,19 @@
+{
+	title: "Projeto 014 • item.pe_rm_hammer",
+	x: -2.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza projecte:item.pe_rm_hammer (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00000d",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_hammer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00000d",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

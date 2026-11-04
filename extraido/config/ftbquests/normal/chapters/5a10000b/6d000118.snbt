@@ -1,0 +1,20 @@
+{
+	title: "Projeto 281 • pavement0slab",
+	x: -5.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:pavement0slab (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000118",
+		type: "item",
+		items: [{
+			item: "botania:pavement0slab"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000118",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

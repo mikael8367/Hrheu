@@ -1,0 +1,19 @@
+{
+	title: "Projeto 022 • lapislazulihelmet",
+	x: -4.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza mekanismtools:lapislazulihelmet (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000015",
+		type: "item",
+		items: [{
+			item: "mekanismtools:lapislazulihelmet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000015",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

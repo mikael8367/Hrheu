@@ -1,0 +1,24 @@
+{
+	title: "Projeto 491 • glowpanel (14)",
+	x: 0.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza mekanism:glowpanel (variante 14). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001ea",
+		type: "item",
+		items: [{
+			item: "mekanism:glowpanel 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001ea",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

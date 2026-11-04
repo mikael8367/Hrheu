@@ -1,0 +1,19 @@
+{
+	title: "Projeto 370 • osmiumaxe",
+	x: 4.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza mekanismtools:osmiumaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000171",
+		type: "item",
+		items: [{
+			item: "mekanismtools:osmiumaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000171",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Projeto 197 • item.pe_dm_armor_3",
+	x: -4.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza projecte:item.pe_dm_armor_3 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000c4",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_armor_3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000c4",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 3
+	}]
+}

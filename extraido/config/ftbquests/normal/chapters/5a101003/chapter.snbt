@@ -1,0 +1,7 @@
+{
+	title: "Thermal III • Automação",
+	icon: "thermalexpansion:machine",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

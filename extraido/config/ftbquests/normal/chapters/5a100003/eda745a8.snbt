@@ -1,0 +1,22 @@
+{
+	title: "Enrichment Chamber",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Construa a máquina que enriquece minérios e materiais.",
+	dependencies: [
+		"cb029a2b"
+	],
+	tasks: [{
+		uid: "77d9ad68",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff9313d0",
+		type: "xp",
+		xp: 10
+	}]
+}

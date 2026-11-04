@@ -1,0 +1,20 @@
+{
+	title: "Projeto 436 • quartzstairsblaze",
+	x: -5.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:quartzstairsblaze (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001b3",
+		type: "item",
+		items: [{
+			item: "botania:quartzstairsblaze"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001b3",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

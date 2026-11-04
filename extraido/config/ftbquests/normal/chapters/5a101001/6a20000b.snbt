@@ -1,0 +1,20 @@
+{
+	title: "Sequential Fabricator",
+	x: 2.0d,
+	y: 1.0d,
+	description: "Automatiza receitas de crafting.",
+	tasks: [{
+		uid: "6a20000b",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b20000b",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 6
+	}]
+}

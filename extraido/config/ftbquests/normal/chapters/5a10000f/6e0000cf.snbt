@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Nether Quartz Essence",
+	x: -43.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000cf",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nether_quartz_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000cf",
+		type: "xp",
+		xp: 8
+	}]
+}

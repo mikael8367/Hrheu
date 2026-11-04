@@ -1,0 +1,19 @@
+{
+	title: "Projeto 096 • sparkchanger",
+	x: 0.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza botania:sparkchanger (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00005f",
+		type: "item",
+		items: [{
+			item: "botania:sparkchanger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00005f",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

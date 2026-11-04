@@ -1,0 +1,20 @@
+{
+	title: "Projeto 389 • steelboots",
+	x: -2.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza mekanismtools:steelboots (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000184",
+		type: "item",
+		items: [{
+			item: "mekanismtools:steelboots"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000184",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

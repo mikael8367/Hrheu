@@ -1,0 +1,24 @@
+{
+	title: "Projeto 095 • livingwood (1)",
+	x: -1.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza botania:livingwood (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00005e",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00005e",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

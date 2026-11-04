@@ -1,0 +1,24 @@
+{
+	title: "Projeto 132 • redstringinterceptor",
+	x: 1.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:redstringinterceptor (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000083",
+		type: "item",
+		items: [{
+			item: "botania:redstringinterceptor"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000083",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

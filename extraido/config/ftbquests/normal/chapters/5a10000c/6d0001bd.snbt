@@ -1,0 +1,20 @@
+{
+	title: "Projeto 446 • shinyflower (8)",
+	x: -5.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza botania:shinyflower (variante 8). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001bd",
+		type: "item",
+		items: [{
+			item: "botania:shinyflower 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001bd",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

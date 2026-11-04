@@ -1,0 +1,22 @@
+{
+	title: "Energy Tablet",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Fabrique uma Energy Tablet para transportar energia.",
+	dependencies: [
+		"a03eb1ef"
+	],
+	tasks: [{
+		uid: "0852efef",
+		type: "item",
+		items: [{
+			item: "mekanism:energytablet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a03cc76",
+		type: "xp",
+		xp: 10
+	}]
+}

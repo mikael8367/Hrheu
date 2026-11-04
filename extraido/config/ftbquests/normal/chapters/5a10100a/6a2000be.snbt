@@ -1,0 +1,20 @@
+{
+	title: "Elementiumshovel",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Fabrique ou obtenha este item de Botania.",
+	tasks: [{
+		uid: "6a2000be",
+		type: "item",
+		items: [{
+			item: "botania:elementiumshovel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b2000be",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 6
+	}]
+}

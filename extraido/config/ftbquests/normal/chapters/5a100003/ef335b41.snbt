@@ -1,0 +1,23 @@
+{
+	title: "Cabo universal",
+	x: 0.0d,
+	y: 6.0d,
+	description: "Reúna quatro cabos universais do Mekanism.",
+	dependencies: [
+		"edb94130"
+	],
+	tasks: [{
+		uid: "5fe73332",
+		type: "item",
+		items: [{
+			item: "mekanism:transmitter"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd070d39",
+		type: "xp",
+		xp: 10
+	}]
+}

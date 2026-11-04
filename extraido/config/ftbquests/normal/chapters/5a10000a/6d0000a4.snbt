@@ -1,0 +1,24 @@
+{
+	title: "Projeto 165 • redstringdispenser",
+	x: 4.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:redstringdispenser (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000a4",
+		type: "item",
+		items: [{
+			item: "botania:redstringdispenser"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000a4",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 3
+	}]
+}

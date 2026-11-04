@@ -1,0 +1,19 @@
+{
+	title: "Projeto 116 • condenser_mk1",
+	x: 0.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza projecte:condenser_mk1 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000073",
+		type: "item",
+		items: [{
+			item: "projecte:condenser_mk1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000073",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 153 • glowpanel (7)",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza mekanism:glowpanel (variante 7). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000098",
+		type: "item",
+		items: [{
+			item: "mekanism:glowpanel 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000098",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

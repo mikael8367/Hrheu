@@ -1,0 +1,19 @@
+{
+	title: "Projeto 486 • fuel_block (1)",
+	x: -5.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza projecte:fuel_block (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001e5",
+		type: "item",
+		items: [{
+			item: "projecte:fuel_block 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001e5",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

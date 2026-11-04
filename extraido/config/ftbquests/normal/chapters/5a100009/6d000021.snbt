@@ -1,0 +1,19 @@
+{
+	title: "Projeto 034 • turbineblade",
+	x: -2.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza mekanismgenerators:turbineblade (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000021",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:turbineblade"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000021",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

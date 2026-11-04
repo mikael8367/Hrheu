@@ -1,0 +1,20 @@
+{
+	title: "Projeto 148 • block_waterwheel",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza exnihilocreatio:block_waterwheel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000093",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_waterwheel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000093",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

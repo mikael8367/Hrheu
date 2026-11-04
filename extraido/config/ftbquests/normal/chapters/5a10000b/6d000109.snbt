@@ -1,0 +1,20 @@
+{
+	title: "Projeto 266 • pavement4stairs",
+	x: 0.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:pavement4stairs (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000109",
+		type: "item",
+		items: [{
+			item: "botania:pavement4stairs"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000109",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

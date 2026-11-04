@@ -1,0 +1,20 @@
+{
+	title: "Cacophonium",
+	x: -2.0d,
+	y: 0.0d,
+	description: "Fabrique ou obtenha este item de Botania.",
+	tasks: [{
+		uid: "6a200079",
+		type: "item",
+		items: [{
+			item: "botania:cacophonium"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200079",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 8
+	}]
+}

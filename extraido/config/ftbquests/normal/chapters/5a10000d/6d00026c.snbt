@@ -1,0 +1,24 @@
+{
+	title: "Projeto 621 • flighttiara (6)",
+	x: -5.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza botania:flighttiara (variante 6). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00026c",
+		type: "item",
+		items: [{
+			item: "botania:flighttiara 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00026c",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 6
+	}]
+}

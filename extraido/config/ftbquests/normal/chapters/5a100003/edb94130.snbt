@@ -1,0 +1,22 @@
+{
+	title: "Armadura de bronze",
+	x: -3.0d,
+	y: 6.0d,
+	description: "Crie um capacete de bronze Mekanism Tools.",
+	dependencies: [
+		"d5d4e249"
+	],
+	tasks: [{
+		uid: "bd53b417",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzehelmet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff8d1748",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 242 • glowstoneshovel",
+	x: 1.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza mekanismtools:glowstoneshovel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000f1",
+		type: "item",
+		items: [{
+			item: "mekanismtools:glowstoneshovel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000f1",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

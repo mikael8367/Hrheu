@@ -1,0 +1,20 @@
+{
+	title: "Projeto 024 • uncompressed_coal",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza excompressum:uncompressed_coal (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000017",
+		type: "item",
+		items: [{
+			item: "excompressum:uncompressed_coal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000017",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

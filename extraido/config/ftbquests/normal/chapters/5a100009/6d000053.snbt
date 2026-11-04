@@ -1,0 +1,20 @@
+{
+	title: "Projeto 084 • gasupgrade",
+	x: -2.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza mekanism:gasupgrade (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000053",
+		type: "item",
+		items: [{
+			item: "mekanism:gasupgrade"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000053",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

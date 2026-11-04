@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Quartz Enriched Iron Seeds",
+	x: -21.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000e5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:quartz_enriched_iron_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000e5",
+		type: "xp",
+		xp: 8
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Steel Seeds",
+	x: 27.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000115",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:steel_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000115",
+		type: "xp",
+		xp: 8
+	}]
+}

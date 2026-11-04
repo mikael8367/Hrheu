@@ -1,0 +1,20 @@
+{
+	title: "Projeto 619 • manabomb",
+	x: 3.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza botania:manabomb (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00026a",
+		type: "item",
+		items: [{
+			item: "botania:manabomb"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00026a",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

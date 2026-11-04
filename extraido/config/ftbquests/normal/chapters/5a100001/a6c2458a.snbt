@@ -1,0 +1,22 @@
+{
+	title: "Fornalha",
+	x: 0.0d,
+	y: 6.0d,
+	description: "Faça uma fornalha depois de ter cobblestone suficiente; receita vanilla.",
+	dependencies: [
+		"b46be2a4"
+	],
+	tasks: [{
+		uid: "8c715f13",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4f613f2",
+		type: "xp",
+		xp: 10
+	}]
+}

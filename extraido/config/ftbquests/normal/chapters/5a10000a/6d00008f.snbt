@@ -1,0 +1,20 @@
+{
+	title: "Projeto 144 • pavement5slab",
+	x: 3.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:pavement5slab (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00008f",
+		type: "item",
+		items: [{
+			item: "botania:pavement5slab"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00008f",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 2
+	}]
+}

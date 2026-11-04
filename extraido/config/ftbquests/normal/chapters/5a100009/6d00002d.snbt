@@ -1,0 +1,20 @@
+{
+	title: "Projeto 046 • manatablet",
+	x: 0.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza botania:manatablet (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00002d",
+		type: "item",
+		items: [{
+			item: "botania:manatablet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00002d",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Infinite Relay",
+	x: -3.0d,
+	y: 6.0d,
+	description: "Faça um relay de nível infinito para ampliar a rede EMC.",
+	dependencies: [
+		"d9dc79fb"
+	],
+	tasks: [{
+		uid: "cf5e1139",
+		type: "item",
+		items: [{
+			item: "projecteinfinite:infinite_relay"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da5d99c8",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Aquarium Essence",
+	x: -21.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00001d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:aquarium_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000001d",
+		type: "xp",
+		xp: 8
+	}]
+}

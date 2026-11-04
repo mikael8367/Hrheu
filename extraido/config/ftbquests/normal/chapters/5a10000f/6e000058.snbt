@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Dawnstone Essence",
+	x: 38.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000058",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dawnstone_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000058",
+		type: "xp",
+		xp: 8
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "02 • Primeira energia e oficina",
+	icon: "actuallyadditions:block_coal_generator",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

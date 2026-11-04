@@ -1,0 +1,19 @@
+{
+	title: "Projeto 525 • material (101)",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza thermalfoundation:material (variante 101). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00020c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 101"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00020c",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

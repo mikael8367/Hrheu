@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: End Steel Essence",
+	x: -34.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000074",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:end_steel_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000074",
+		type: "xp",
+		xp: 8
+	}]
+}

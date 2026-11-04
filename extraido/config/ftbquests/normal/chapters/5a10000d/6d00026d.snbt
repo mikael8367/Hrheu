@@ -1,0 +1,19 @@
+{
+	title: "Projeto 622 • managlasspane",
+	x: -4.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza botania:managlasspane (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00026d",
+		type: "item",
+		items: [{
+			item: "botania:managlasspane"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00026d",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Cold Iron Seeds",
+	x: 15.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000041",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:cold_iron_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000041",
+		type: "xp",
+		xp: 8
+	}]
+}

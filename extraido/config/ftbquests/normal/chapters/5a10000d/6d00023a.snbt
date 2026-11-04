@@ -1,0 +1,20 @@
+{
+	title: "Projeto 571 • balloon (5)",
+	x: -5.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza mekanism:balloon (variante 5). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00023a",
+		type: "item",
+		items: [{
+			item: "mekanism:balloon 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00023a",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

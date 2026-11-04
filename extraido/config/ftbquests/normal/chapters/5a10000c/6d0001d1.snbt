@@ -1,0 +1,24 @@
+{
+	title: "Projeto 466 • filterupgrade",
+	x: -5.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanism:filterupgrade (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001d1",
+		type: "item",
+		items: [{
+			item: "mekanism:filterupgrade"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001d1",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

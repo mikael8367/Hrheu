@@ -1,0 +1,22 @@
+{
+	title: "Porta de acesso",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Faça um Access Port para inserir combustível e retirar resíduos.",
+	dependencies: [
+		"b000cd9b"
+	],
+	tasks: [{
+		uid: "4810d7f1",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactoraccessport"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56d51206",
+		type: "xp",
+		xp: 10
+	}]
+}

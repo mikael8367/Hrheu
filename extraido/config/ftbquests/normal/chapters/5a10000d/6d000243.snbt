@@ -1,0 +1,20 @@
+{
+	title: "Projeto 580 • matter_block",
+	x: 4.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza projecte:matter_block (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000243",
+		type: "item",
+		items: [{
+			item: "projecte:matter_block"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000243",
+		type: "item",
+		item: "minecraft:coal",
+		count: 7
+	}]
+}

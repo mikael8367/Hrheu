@@ -1,0 +1,20 @@
+{
+	title: "Projeto 137 • flighttiara (7)",
+	x: -4.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:flighttiara (variante 7). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000088",
+		type: "item",
+		items: [{
+			item: "botania:flighttiara 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000088",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 2
+	}]
+}

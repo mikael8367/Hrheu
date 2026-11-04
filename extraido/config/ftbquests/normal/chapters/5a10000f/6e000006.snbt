@@ -1,0 +1,18 @@
+{
+	title: "Semente de carvão",
+	x: 12.0d,
+	y: 0.0d,
+	description: "Cultive carvão para apoiar fornos e geradores.",
+	tasks: [{
+		uid: "7f000006",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:coal_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000006",
+		type: "item",
+		item: "minecraft:coal"
+	}]
+}

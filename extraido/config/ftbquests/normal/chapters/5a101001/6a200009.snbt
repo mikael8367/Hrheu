@@ -1,0 +1,20 @@
+{
+	title: "Energetic Infuser",
+	x: 0.0d,
+	y: 1.0d,
+	description: "Carrega itens com RF.",
+	tasks: [{
+		uid: "6a200009",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200009",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 8
+	}]
+}

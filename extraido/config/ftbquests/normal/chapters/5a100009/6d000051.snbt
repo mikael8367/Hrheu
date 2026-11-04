@@ -1,0 +1,20 @@
+{
+	title: "Projeto 082 • rainbowrod",
+	x: -4.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza botania:rainbowrod (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000051",
+		type: "item",
+		items: [{
+			item: "botania:rainbowrod"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000051",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 2
+	}]
+}

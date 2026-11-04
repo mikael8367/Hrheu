@@ -1,0 +1,20 @@
+{
+	title: "Projeto 543 • petalblock (12)",
+	x: -3.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza botania:petalblock (variante 12). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00021e",
+		type: "item",
+		items: [{
+			item: "botania:petalblock 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00021e",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

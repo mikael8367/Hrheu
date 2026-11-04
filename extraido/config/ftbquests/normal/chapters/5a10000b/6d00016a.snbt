@@ -1,0 +1,19 @@
+{
+	title: "Projeto 363 • knockbackbelt",
+	x: -3.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza botania:knockbackbelt (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00016a",
+		type: "item",
+		items: [{
+			item: "botania:knockbackbelt"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00016a",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

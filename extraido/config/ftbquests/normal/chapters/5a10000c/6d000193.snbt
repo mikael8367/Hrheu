@@ -1,0 +1,20 @@
+{
+	title: "Projeto 404 • plasticfence (1)",
+	x: 3.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000193",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000193",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 4
+	}]
+}

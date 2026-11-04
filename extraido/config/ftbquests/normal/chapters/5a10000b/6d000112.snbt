@@ -1,0 +1,19 @@
+{
+	title: "Projeto 275 • obsidiansword",
+	x: -1.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza mekanismtools:obsidiansword (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000112",
+		type: "item",
+		items: [{
+			item: "mekanismtools:obsidiansword"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000112",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Compact Machine pequena",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Crie uma Compact Machine pequena e organize sua oficina.",
+	dependencies: [
+		"e69962f3"
+	],
+	tasks: [{
+		uid: "c52cb220",
+		type: "item",
+		items: [{
+			item: "compactmachines3:machine 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b5783c5",
+		type: "xp",
+		xp: 10
+	}]
+}

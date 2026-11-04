@@ -1,0 +1,20 @@
+{
+	title: "Projeto 413 • rm_furnace",
+	x: 2.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza projecte:rm_furnace (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00019c",
+		type: "item",
+		items: [{
+			item: "projecte:rm_furnace"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00019c",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

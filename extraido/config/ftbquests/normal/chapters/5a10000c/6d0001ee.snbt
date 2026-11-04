@@ -1,0 +1,20 @@
+{
+	title: "Projeto 495 • material (102)",
+	x: 4.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza thermalfoundation:material (variante 102). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001ee",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 102"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001ee",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

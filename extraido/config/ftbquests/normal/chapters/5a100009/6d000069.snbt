@@ -1,0 +1,19 @@
+{
+	title: "Projeto 106 • livingwood0stairs",
+	x: 0.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:livingwood0stairs (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000069",
+		type: "item",
+		items: [{
+			item: "botania:livingwood0stairs"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000069",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

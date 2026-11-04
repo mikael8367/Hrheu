@@ -1,0 +1,24 @@
+{
+	title: "Projeto 362 • laputashard (18)",
+	x: -4.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza botania:laputashard (variante 18). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000169",
+		type: "item",
+		items: [{
+			item: "botania:laputashard 1 18"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000169",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

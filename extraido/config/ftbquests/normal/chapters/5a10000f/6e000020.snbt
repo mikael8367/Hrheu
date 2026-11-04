@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Ardite Seeds",
+	x: -18.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000020",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ardite_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000020",
+		type: "xp",
+		xp: 8
+	}]
+}

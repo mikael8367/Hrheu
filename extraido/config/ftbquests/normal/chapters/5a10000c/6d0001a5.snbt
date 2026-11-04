@@ -1,0 +1,20 @@
+{
+	title: "Projeto 422 • lapislazulipickaxe",
+	x: 1.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza mekanismtools:lapislazulipickaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001a5",
+		type: "item",
+		items: [{
+			item: "mekanismtools:lapislazulipickaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001a5",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

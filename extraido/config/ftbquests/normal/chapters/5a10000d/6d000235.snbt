@@ -1,0 +1,20 @@
+{
+	title: "Projeto 566 • walkietalkie",
+	x: 0.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza mekanism:walkietalkie (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000235",
+		type: "item",
+		items: [{
+			item: "mekanism:walkietalkie"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000235",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

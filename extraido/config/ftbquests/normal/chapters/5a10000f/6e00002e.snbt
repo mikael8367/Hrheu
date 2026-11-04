@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Blue Topaz Seeds",
+	x: -4.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00002e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:blue_topaz_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000002e",
+		type: "xp",
+		xp: 8
+	}]
+}

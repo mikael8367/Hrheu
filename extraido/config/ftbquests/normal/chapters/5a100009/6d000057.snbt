@@ -1,0 +1,20 @@
+{
+	title: "Projeto 088 • petalblock (9)",
+	x: 2.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza botania:petalblock (variante 9). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000057",
+		type: "item",
+		items: [{
+			item: "botania:petalblock 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000057",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 304 • miniisland (14)",
+	x: -2.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:miniisland (variante 14). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00012f",
+		type: "item",
+		items: [{
+			item: "botania:miniisland 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00012f",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

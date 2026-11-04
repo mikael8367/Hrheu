@@ -1,0 +1,24 @@
+{
+	title: "Projeto 090 • plasticfence (11)",
+	x: 4.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 11). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000059",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000059",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

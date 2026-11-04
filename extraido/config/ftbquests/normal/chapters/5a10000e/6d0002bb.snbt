@@ -1,0 +1,18 @@
+{
+	title: "Oficina 064 • grasshorn (2)",
+	x: -1.0d,
+	y: 7.0d,
+	description: "Fabrique ou obtenha botania:grasshorn (variante 2). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d0002bb",
+		type: "item",
+		items: [{
+			item: "botania:grasshorn 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "7e0002bb",
+		type: "xp",
+		xp: 10
+	}]
+}

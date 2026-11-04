@@ -1,0 +1,20 @@
+{
+	title: "Projeto 174 • steelleggings",
+	x: 3.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza mekanismtools:steelleggings (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000ad",
+		type: "item",
+		items: [{
+			item: "mekanismtools:steelleggings"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000ad",
+		type: "item",
+		item: "minecraft:coal",
+		count: 3
+	}]
+}

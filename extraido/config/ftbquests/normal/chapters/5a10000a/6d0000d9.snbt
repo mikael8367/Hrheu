@@ -1,0 +1,19 @@
+{
+	title: "Projeto 218 • relay_mk2",
+	x: -3.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza projecte:relay_mk2 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000d9",
+		type: "item",
+		items: [{
+			item: "projecte:relay_mk2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000d9",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

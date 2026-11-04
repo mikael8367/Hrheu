@@ -1,0 +1,24 @@
+{
+	title: "Projeto 344 • bait (8)",
+	x: -2.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza excompressum:bait (variante 8). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000157",
+		type: "item",
+		items: [{
+			item: "excompressum:bait 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000157",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

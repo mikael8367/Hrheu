@@ -1,0 +1,20 @@
+{
+	title: "Projeto 323 • blockyellorium",
+	x: -3.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza bigreactors:blockyellorium (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000142",
+		type: "item",
+		items: [{
+			item: "bigreactors:blockyellorium"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000142",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

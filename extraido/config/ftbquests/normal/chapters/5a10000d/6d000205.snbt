@@ -1,0 +1,19 @@
+{
+	title: "Projeto 518 • quartztypelavender (1)",
+	x: 2.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:quartztypelavender (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000205",
+		type: "item",
+		items: [{
+			item: "botania:quartztypelavender 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000205",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

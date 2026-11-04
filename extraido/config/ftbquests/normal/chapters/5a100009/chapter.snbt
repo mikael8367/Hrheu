@@ -1,0 +1,7 @@
+{
+	title: "10 • Projetos e coleções 1",
+	icon: "minecraft:chest",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

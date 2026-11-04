@@ -1,0 +1,19 @@
+{
+	title: "Projeto 011 • foresteye",
+	x: -5.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:foresteye (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00000a",
+		type: "item",
+		items: [{
+			item: "botania:foresteye"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00000a",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Transmutation Table",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Crie a mesa de transmutação para aprender e converter itens.",
+	dependencies: [
+		"36a13ae0"
+	],
+	tasks: [{
+		uid: "78193577",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff67caa5",
+		type: "xp",
+		xp: 10
+	}]
+}

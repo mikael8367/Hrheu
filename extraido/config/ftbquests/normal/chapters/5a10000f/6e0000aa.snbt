@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Knightmetal Essence",
+	x: 20.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000aa",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:knightmetal_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000aa",
+		type: "xp",
+		xp: 8
+	}]
+}

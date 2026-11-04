@@ -1,0 +1,19 @@
+{
+	title: "Projeto 030 • obsidianchestplate",
+	x: 4.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza mekanismtools:obsidianchestplate (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00001d",
+		type: "item",
+		items: [{
+			item: "mekanismtools:obsidianchestplate"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00001d",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

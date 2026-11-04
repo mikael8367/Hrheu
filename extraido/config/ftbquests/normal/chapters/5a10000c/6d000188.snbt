@@ -1,0 +1,20 @@
+{
+	title: "Projeto 393 • hammer_diamond",
+	x: 2.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza exnihilocreatio:hammer_diamond (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000188",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_diamond"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000188",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 123 • mushroom (6)",
+	x: -3.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza botania:mushroom (variante 6). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00007a",
+		type: "item",
+		items: [{
+			item: "botania:mushroom 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00007a",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

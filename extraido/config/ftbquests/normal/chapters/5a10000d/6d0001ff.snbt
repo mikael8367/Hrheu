@@ -1,0 +1,20 @@
+{
+	title: "Projeto 512 • wrench",
+	x: -4.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza bigreactors:wrench (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001ff",
+		type: "item",
+		items: [{
+			item: "bigreactors:wrench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001ff",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

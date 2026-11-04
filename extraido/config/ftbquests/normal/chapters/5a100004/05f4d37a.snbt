@@ -1,0 +1,22 @@
+{
+	title: "Heat Generator",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Construa um Heat Generator do Mekanism Generators.",
+	dependencies: [
+		"ef335b41"
+	],
+	tasks: [{
+		uid: "d09b93af",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17c08502",
+		type: "xp",
+		xp: 10
+	}]
+}

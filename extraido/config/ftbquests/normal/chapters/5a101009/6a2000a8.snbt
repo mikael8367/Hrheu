@@ -1,0 +1,20 @@
+{
+	title: "Dye",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Fabrique ou obtenha este item de Botania.",
+	tasks: [{
+		uid: "6a2000a8",
+		type: "item",
+		items: [{
+			item: "botania:dye 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b2000a8",
+		type: "item",
+		item: "minecraft:coal",
+		count: 8
+	}]
+}

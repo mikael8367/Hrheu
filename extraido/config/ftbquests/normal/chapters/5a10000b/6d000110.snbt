@@ -1,0 +1,20 @@
+{
+	title: "Projeto 273 • ingotsteel",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza bigreactors:ingotsteel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000110",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotsteel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000110",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 3
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Projeto 107 • auto_compressor_rationing",
+	x: 1.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza excompressum:auto_compressor_rationing (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00006a",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_compressor_rationing"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00006a",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

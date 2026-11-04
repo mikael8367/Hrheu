@@ -1,0 +1,20 @@
+{
+	title: "Projeto 476 • petalblock (13)",
+	x: -5.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:petalblock (variante 13). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001db",
+		type: "item",
+		items: [{
+			item: "botania:petalblock 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001db",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

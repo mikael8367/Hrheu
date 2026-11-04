@@ -1,0 +1,20 @@
+{
+	title: "Dreamwood0Slab",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Fabrique ou obtenha este item de Botania.",
+	tasks: [{
+		uid: "6a2000a2",
+		type: "item",
+		items: [{
+			item: "botania:dreamwood0slab"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b2000a2",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 8
+	}]
+}

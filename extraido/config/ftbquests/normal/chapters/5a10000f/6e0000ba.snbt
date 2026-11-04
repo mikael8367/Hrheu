@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Malachite Essence",
+	x: 36.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000ba",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:malachite_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000ba",
+		type: "xp",
+		xp: 8
+	}]
+}

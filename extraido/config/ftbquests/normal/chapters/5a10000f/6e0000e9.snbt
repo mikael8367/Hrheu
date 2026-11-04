@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Rabbit Seeds",
+	x: -17.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000e9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:rabbit_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000e9",
+		type: "xp",
+		xp: 8
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Tin Essence",
+	x: -49.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00012d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tin_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000012d",
+		type: "xp",
+		xp: 8
+	}]
+}

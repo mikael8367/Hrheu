@@ -1,0 +1,19 @@
+{
+	title: "Projeto 213 • shinyflower (1)",
+	x: 2.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza botania:shinyflower (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000d4",
+		type: "item",
+		items: [{
+			item: "botania:shinyflower 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000d4",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 514 • miniisland (2)",
+	x: -2.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:miniisland (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000201",
+		type: "item",
+		items: [{
+			item: "botania:miniisland 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000201",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

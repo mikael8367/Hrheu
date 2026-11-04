@@ -1,0 +1,24 @@
+{
+	title: "Projeto 010 • glowpanel (15)",
+	x: 4.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza mekanism:glowpanel (variante 15). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000009",
+		type: "item",
+		items: [{
+			item: "mekanism:glowpanel 1 15"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000009",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

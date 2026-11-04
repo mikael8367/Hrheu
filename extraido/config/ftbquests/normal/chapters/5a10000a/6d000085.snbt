@@ -1,0 +1,20 @@
+{
+	title: "Projeto 134 • flighttiara (5)",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:flighttiara (variante 5). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000085",
+		type: "item",
+		items: [{
+			item: "botania:flighttiara 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000085",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

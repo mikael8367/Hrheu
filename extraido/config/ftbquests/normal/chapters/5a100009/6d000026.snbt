@@ -1,0 +1,24 @@
+{
+	title: "Projeto 039 • item_mesh (3)",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_mesh (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000026",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000026",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

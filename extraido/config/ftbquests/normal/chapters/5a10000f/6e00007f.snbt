@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Energetic Alloy Seeds",
+	x: -23.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00007f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:energetic_alloy_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000007f",
+		type: "xp",
+		xp: 8
+	}]
+}

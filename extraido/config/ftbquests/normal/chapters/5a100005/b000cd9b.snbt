@@ -1,0 +1,19 @@
+{
+	title: "Controlador",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Crie o Reactor Controller para comandar o multibloco.",
+	tasks: [{
+		uid: "b00c4d2b",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a2349be3",
+		type: "xp",
+		xp: 10
+	}]
+}

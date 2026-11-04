@@ -1,0 +1,19 @@
+{
+	title: "Projeto 533 • bronzesword",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza mekanismtools:bronzesword (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000214",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzesword"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000214",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Projeto 316 • fuel_block (2)",
+	x: 0.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza projecte:fuel_block (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00013b",
+		type: "item",
+		items: [{
+			item: "projecte:fuel_block 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00013b",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

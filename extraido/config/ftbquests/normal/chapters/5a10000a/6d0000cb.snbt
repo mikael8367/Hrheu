@@ -1,0 +1,20 @@
+{
+	title: "Projeto 204 • turbinefluidport",
+	x: 3.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza bigreactors:turbinefluidport (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000cb",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinefluidport"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000cb",
+		type: "item",
+		item: "minecraft:coal",
+		count: 3
+	}]
+}

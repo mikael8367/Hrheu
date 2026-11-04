@@ -1,0 +1,24 @@
+{
+	title: "Projeto 274 • mushroom (11)",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:mushroom (variante 11). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000111",
+		type: "item",
+		items: [{
+			item: "botania:mushroom 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000111",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 3
+	}]
+}

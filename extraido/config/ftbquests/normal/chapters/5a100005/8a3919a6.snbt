@@ -1,0 +1,23 @@
+{
+	title: "Reator básico",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Tenha mais carcaças para completar a estrutura do reator.",
+	dependencies: [
+		"44e1447e"
+	],
+	tasks: [{
+		uid: "35595948",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasing"
+		}],
+		count: 16L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "980d4fde",
+		type: "xp",
+		xp: 10
+	}]
+}

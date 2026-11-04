@@ -1,0 +1,20 @@
+{
+	title: "Projeto 596 • icependant",
+	x: 0.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza botania:icependant (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000253",
+		type: "item",
+		items: [{
+			item: "botania:icependant"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000253",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

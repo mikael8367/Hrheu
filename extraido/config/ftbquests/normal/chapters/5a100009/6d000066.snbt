@@ -1,0 +1,20 @@
+{
+	title: "Projeto 103 • reactorcontrolrod",
+	x: -3.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza bigreactors:reactorcontrolrod (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000066",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontrolrod"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000066",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

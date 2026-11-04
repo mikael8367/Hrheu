@@ -1,0 +1,20 @@
+{
+	title: "Projeto 455 • shinyflower (15)",
+	x: 4.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza botania:shinyflower (variante 15). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001c6",
+		type: "item",
+		items: [{
+			item: "botania:shinyflower 1 15"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001c6",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

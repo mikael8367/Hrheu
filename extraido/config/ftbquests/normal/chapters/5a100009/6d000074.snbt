@@ -1,0 +1,20 @@
+{
+	title: "Projeto 117 • obsidianboots",
+	x: 1.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza mekanismtools:obsidianboots (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000074",
+		type: "item",
+		items: [{
+			item: "mekanismtools:obsidianboots"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000074",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

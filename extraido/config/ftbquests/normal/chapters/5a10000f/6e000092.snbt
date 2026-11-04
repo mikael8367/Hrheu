@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Gold Seeds",
+	x: -4.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000092",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:gold_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000092",
+		type: "xp",
+		xp: 8
+	}]
+}

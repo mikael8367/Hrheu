@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Dye Seeds",
+	x: -47.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000067",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dye_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000067",
+		type: "xp",
+		xp: 8
+	}]
+}

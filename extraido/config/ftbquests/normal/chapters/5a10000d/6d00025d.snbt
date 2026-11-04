@@ -1,0 +1,20 @@
+{
+	title: "Projeto 606 • glowpanel (3)",
+	x: 0.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza mekanism:glowpanel (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00025d",
+		type: "item",
+		items: [{
+			item: "mekanism:glowpanel 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00025d",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 5
+	}]
+}

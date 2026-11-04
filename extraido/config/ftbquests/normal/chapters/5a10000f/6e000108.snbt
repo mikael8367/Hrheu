@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Slime Essence",
+	x: 14.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000108",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:slime_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000108",
+		type: "xp",
+		xp: 8
+	}]
+}

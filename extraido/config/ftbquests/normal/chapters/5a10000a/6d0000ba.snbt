@@ -1,0 +1,19 @@
+{
+	title: "Projeto 187 • lapislazulisword",
+	x: -4.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza mekanismtools:lapislazulisword (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000ba",
+		type: "item",
+		items: [{
+			item: "mekanismtools:lapislazulisword"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000ba",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

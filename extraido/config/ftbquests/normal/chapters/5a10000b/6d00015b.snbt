@@ -1,0 +1,20 @@
+{
+	title: "Projeto 348 • bronzehoe",
+	x: 2.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanismtools:bronzehoe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00015b",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzehoe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00015b",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 026 • slingshot",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:slingshot (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000019",
+		type: "item",
+		items: [{
+			item: "botania:slingshot"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000019",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

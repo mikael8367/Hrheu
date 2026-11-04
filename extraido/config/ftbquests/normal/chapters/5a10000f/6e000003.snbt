@@ -1,0 +1,22 @@
+{
+	title: "Primeiras sementes Inferium",
+	x: 6.0d,
+	y: 0.0d,
+	description: "Fabrique as sementes Inferium de tier 1 e plante-as em farmland.",
+	tasks: [{
+		uid: "7f000003",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tier1_inferium_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000003",
+		type: "item",
+		item: {
+			id: "minecraft:bone_meal",
+			Count: 1b,
+			Damage: 0s
+		}
+	}]
+}

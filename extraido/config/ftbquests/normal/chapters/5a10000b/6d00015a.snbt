@@ -1,0 +1,20 @@
+{
+	title: "Projeto 347 • balloon (9)",
+	x: 1.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanism:balloon (variante 9). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00015a",
+		type: "item",
+		items: [{
+			item: "mekanism:balloon 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00015a",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Projeto 550 • iron_chest (6)",
+	x: 4.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza ironchest:iron_chest (variante 6). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000225",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000225",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

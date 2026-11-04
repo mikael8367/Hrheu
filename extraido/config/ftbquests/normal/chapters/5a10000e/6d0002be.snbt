@@ -1,0 +1,18 @@
+{
+	title: "Oficina 067 • grassseeds (5)",
+	x: 2.0d,
+	y: 7.0d,
+	description: "Fabrique ou obtenha botania:grassseeds (variante 5). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d0002be",
+		type: "item",
+		items: [{
+			item: "botania:grassseeds 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "7e0002be",
+		type: "xp",
+		xp: 13
+	}]
+}

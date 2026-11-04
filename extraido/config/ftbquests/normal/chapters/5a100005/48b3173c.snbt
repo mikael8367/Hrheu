@@ -1,0 +1,23 @@
+{
+	title: "Carcaça de turbina",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Faça Turbine Housing para começar uma turbina.",
+	dependencies: [
+		"8a3919a6"
+	],
+	tasks: [{
+		uid: "3f67ef8b",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinehousing"
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a874144",
+		type: "xp",
+		xp: 10
+	}]
+}

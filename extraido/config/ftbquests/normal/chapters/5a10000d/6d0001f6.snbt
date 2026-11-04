@@ -1,0 +1,20 @@
+{
+	title: "Projeto 503 • terraplate",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:terraplate (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001f6",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001f6",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
+	}]
+}

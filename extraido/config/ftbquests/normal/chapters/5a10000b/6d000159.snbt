@@ -1,0 +1,20 @@
+{
+	title: "Projeto 346 • steelpickaxe",
+	x: 0.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanismtools:steelpickaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000159",
+		type: "item",
+		items: [{
+			item: "mekanismtools:steelpickaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000159",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

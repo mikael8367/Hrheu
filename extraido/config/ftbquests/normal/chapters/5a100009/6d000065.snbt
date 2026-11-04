@@ -1,0 +1,19 @@
+{
+	title: "Projeto 102 • item.pe_divining_rod_2",
+	x: -4.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza projecte:item.pe_divining_rod_2 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000065",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_divining_rod_2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000065",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 282 • wooden_crucible (2)",
+	x: -4.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza excompressum:wooden_crucible (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000119",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000119",
+		type: "item",
+		item: "minecraft:coal",
+		count: 3
+	}]
+}

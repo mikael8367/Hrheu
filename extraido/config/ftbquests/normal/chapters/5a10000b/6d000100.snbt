@@ -1,0 +1,20 @@
+{
+	title: "Projeto 257 • plasticfence (3)",
+	x: 1.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000100",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000100",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 3
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 561 • pavement (2)",
+	x: -5.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:pavement (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000230",
+		type: "item",
+		items: [{
+			item: "botania:pavement 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000230",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

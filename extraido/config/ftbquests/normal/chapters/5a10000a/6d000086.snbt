@@ -1,0 +1,20 @@
+{
+	title: "Projeto 135 • freerunners",
+	x: 4.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza mekanism:freerunners (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000086",
+		type: "item",
+		items: [{
+			item: "mekanism:freerunners"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000086",
+		type: "item",
+		item: "minecraft:coal",
+		count: 2
+	}]
+}

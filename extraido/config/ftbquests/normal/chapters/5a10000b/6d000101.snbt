@@ -1,0 +1,19 @@
+{
+	title: "Projeto 258 • pavement (3)",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:pavement (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000101",
+		type: "item",
+		items: [{
+			item: "botania:pavement 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000101",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

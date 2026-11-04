@@ -1,0 +1,24 @@
+{
+	title: "Projeto 517 • crook_gold",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza exnihilocreatio:crook_gold (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000204",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_gold"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000204",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

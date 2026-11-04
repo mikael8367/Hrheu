@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Sulfur Essence",
+	x: 31.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000119",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sulfur_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000119",
+		type: "xp",
+		xp: 8
+	}]
+}

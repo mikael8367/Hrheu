@@ -1,0 +1,7 @@
+{
+	title: "Thermal I • Processamento",
+	icon: "thermalexpansion:machine",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

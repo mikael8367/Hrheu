@@ -1,0 +1,20 @@
+{
+	title: "Projeto 209 • dm_pedestal",
+	x: -2.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza projecte:dm_pedestal (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000d0",
+		type: "item",
+		items: [{
+			item: "projecte:dm_pedestal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000d0",
+		type: "item",
+		item: "minecraft:coal",
+		count: 3
+	}]
+}

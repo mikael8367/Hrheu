@@ -1,0 +1,20 @@
+{
+	title: "Projeto 222 • obsidianshovel",
+	x: 1.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanismtools:obsidianshovel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000dd",
+		type: "item",
+		items: [{
+			item: "mekanismtools:obsidianshovel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000dd",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 4
+	}]
+}

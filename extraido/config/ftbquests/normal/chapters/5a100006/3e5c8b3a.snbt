@@ -1,0 +1,22 @@
+{
+	title: "Matéria escura",
+	x: -3.0d,
+	y: 6.0d,
+	description: "Obtenha Dark Matter para avançar na alquimia.",
+	dependencies: [
+		"01c93cba"
+	],
+	tasks: [{
+		uid: "96039480",
+		type: "item",
+		items: [{
+			item: "projecte:dark_matter 1 0"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c68dd42",
+		type: "xp",
+		xp: 10
+	}]
+}

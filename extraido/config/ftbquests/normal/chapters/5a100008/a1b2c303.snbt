@@ -1,0 +1,19 @@
+{
+	title: "Lexica Botania",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Crie o livro de referência para estudar magia natural e mana.",
+	tasks: [{
+		uid: "a1b2c303",
+		type: "item",
+		items: [{
+			item: "botania:lexicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b386957b",
+		type: "xp",
+		xp: 10
+	}]
+}

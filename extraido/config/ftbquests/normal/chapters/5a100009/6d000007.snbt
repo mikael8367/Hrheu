@@ -1,0 +1,20 @@
+{
+	title: "Projeto 008 • soulbound_talisman",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza equivalentintegrations:soulbound_talisman (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000007",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:soulbound_talisman"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000007",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

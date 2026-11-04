@@ -1,0 +1,20 @@
+{
+	title: "Projeto 006 • livingrock0wall",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:livingrock0wall (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000005",
+		type: "item",
+		items: [{
+			item: "botania:livingrock0wall"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000005",
+		type: "item",
+		item: "minecraft:coal",
+		count: 2
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Cascalho peneirado",
+	x: 0.0d,
+	y: 3.0d,
+	description: "Depois de ter tora e barbante, faça a mesh e a peneira. Quebre mais stone com a mão vazia para novas pedrinhas, faça cobblestone, use um martelo de madeira para virar gravel e peneire-o. Precisa juntar 8 gravel.",
+	dependencies: [
+		"58c0768d"
+	],
+	tasks: [{
+		uid: "1dc0616a",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 8L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64c3390e",
+		type: "xp",
+		xp: 10
+	}]
+}

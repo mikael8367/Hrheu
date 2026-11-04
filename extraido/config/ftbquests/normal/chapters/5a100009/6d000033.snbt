@@ -1,0 +1,20 @@
+{
+	title: "Projeto 052 • glowstoneboots",
+	x: -4.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza mekanismtools:glowstoneboots (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000033",
+		type: "item",
+		items: [{
+			item: "mekanismtools:glowstoneboots"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000033",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 163 • bronzechestplate",
+	x: 2.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza mekanismtools:bronzechestplate (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000a2",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzechestplate"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000a2",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

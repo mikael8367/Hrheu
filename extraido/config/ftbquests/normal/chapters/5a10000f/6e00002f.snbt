@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Boron Essence",
+	x: -3.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00002f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:boron_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000002f",
+		type: "xp",
+		xp: 8
+	}]
+}

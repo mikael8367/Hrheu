@@ -1,0 +1,20 @@
+{
+	title: "Projeto 402 • manavoid",
+	x: 1.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:manavoid (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000191",
+		type: "item",
+		items: [{
+			item: "botania:manavoid"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000191",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

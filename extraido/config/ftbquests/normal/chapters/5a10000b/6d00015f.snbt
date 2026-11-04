@@ -1,0 +1,19 @@
+{
+	title: "Projeto 352 • heavy_sieve (3)",
+	x: -4.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza excompressum:heavy_sieve (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00015f",
+		type: "item",
+		items: [{
+			item: "excompressum:heavy_sieve 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00015f",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

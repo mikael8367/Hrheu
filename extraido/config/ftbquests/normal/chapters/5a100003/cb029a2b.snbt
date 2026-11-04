@@ -1,0 +1,22 @@
+{
+	title: "Liga enriquecida",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Faça Enriched Alloy, componente de várias máquinas Mekanism.",
+	dependencies: [
+		"c0f9eb61"
+	],
+	tasks: [{
+		uid: "e75ded79",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d936cc53",
+		type: "xp",
+		xp: 10
+	}]
+}

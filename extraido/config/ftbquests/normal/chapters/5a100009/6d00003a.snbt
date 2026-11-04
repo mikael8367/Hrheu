@@ -1,0 +1,20 @@
+{
+	title: "Projeto 059 • pylon (2)",
+	x: 3.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:pylon (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00003a",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00003a",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

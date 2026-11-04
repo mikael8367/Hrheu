@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Pig Seeds",
+	x: -28.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000de",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:pig_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000de",
+		type: "xp",
+		xp: 8
+	}]
+}

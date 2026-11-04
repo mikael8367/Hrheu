@@ -1,0 +1,22 @@
+{
+	title: "Iron Chest",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Faça um Iron Chest para aumentar o armazenamento.",
+	dependencies: [
+		"7963d5bd"
+	],
+	tasks: [{
+		uid: "79f10869",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "337937a0",
+		type: "xp",
+		xp: 10
+	}]
+}

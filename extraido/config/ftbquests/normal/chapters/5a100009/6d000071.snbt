@@ -1,0 +1,20 @@
+{
+	title: "Projeto 114 • mushroom (14)",
+	x: -2.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza botania:mushroom (variante 14). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000071",
+		type: "item",
+		items: [{
+			item: "botania:mushroom 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000071",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

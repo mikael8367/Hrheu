@@ -1,0 +1,20 @@
+{
+	title: "Projeto 293 • block_barrel1",
+	x: -3.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza exnihilocreatio:block_barrel1 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000124",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000124",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

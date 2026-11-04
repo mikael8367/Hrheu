@@ -1,0 +1,24 @@
+{
+	title: "Projeto 125 • glowstonehelmet",
+	x: -1.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza mekanismtools:glowstonehelmet (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00007c",
+		type: "item",
+		items: [{
+			item: "mekanismtools:glowstonehelmet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00007c",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

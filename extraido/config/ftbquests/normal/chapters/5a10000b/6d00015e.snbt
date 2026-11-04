@@ -1,0 +1,24 @@
+{
+	title: "Projeto 351 • petal (15)",
+	x: -5.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza botania:petal (variante 15). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00015e",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 15"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00015e",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

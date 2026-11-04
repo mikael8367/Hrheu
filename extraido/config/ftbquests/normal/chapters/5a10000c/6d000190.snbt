@@ -1,0 +1,20 @@
+{
+	title: "Projeto 401 • plasticfence (13)",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 13). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000190",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 13"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000190",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 579 • transmutation_chamber",
+	x: 3.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza equivalentintegrations:transmutation_chamber (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000242",
+		type: "item",
+		items: [{
+			item: "equivalentintegrations:transmutation_chamber"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000242",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

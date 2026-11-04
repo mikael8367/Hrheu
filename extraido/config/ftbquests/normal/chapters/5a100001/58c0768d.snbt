@@ -1,0 +1,23 @@
+{
+	title: "Peneira",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Com mudas e folhagem obtidas pelo crook, faça compostagem/barrel até conseguir terra e obtenha os materiais para a peneira.",
+	dependencies: [
+		"6a2000c9",
+		"59caeea8"
+	],
+	tasks: [{
+		uid: "39f05c5b",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4af420f5",
+		type: "xp",
+		xp: 10
+	}]
+}

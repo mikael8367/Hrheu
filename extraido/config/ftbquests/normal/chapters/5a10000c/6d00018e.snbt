@@ -1,0 +1,24 @@
+{
+	title: "Projeto 399 • glowstonesword",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza mekanismtools:glowstonesword (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00018e",
+		type: "item",
+		items: [{
+			item: "mekanismtools:glowstonesword"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00018e",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

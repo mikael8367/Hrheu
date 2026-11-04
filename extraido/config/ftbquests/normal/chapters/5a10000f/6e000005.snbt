@@ -1,0 +1,18 @@
+{
+	title: "Semente de pedra",
+	x: 10.0d,
+	y: 0.0d,
+	description: "Desbloqueie uma cultura útil para obter pedra sem minerar.",
+	tasks: [{
+		uid: "7f000005",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:stone_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000005",
+		type: "item",
+		item: "minecraft:cobblestone"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 136 • manasteelhelm",
+	x: -5.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:manasteelhelm (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000087",
+		type: "item",
+		items: [{
+			item: "botania:manasteelhelm"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000087",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

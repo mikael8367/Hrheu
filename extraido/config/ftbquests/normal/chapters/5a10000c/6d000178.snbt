@@ -1,0 +1,20 @@
+{
+	title: "Projeto 377 • item.pe_dm_hammer",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza projecte:item.pe_dm_hammer (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000178",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_hammer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000178",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

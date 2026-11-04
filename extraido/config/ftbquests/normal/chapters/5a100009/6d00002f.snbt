@@ -1,0 +1,20 @@
+{
+	title: "Projeto 048 • balloon (4)",
+	x: 2.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza mekanism:balloon (variante 4). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00002f",
+		type: "item",
+		items: [{
+			item: "mekanism:balloon 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00002f",
+		type: "item",
+		item: "minecraft:coal",
+		count: 2
+	}]
+}

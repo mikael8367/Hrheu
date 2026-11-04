@@ -1,0 +1,19 @@
+{
+	title: "Projeto 600 • miniisland (8)",
+	x: 4.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza botania:miniisland (variante 8). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000257",
+		type: "item",
+		items: [{
+			item: "botania:miniisland 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000257",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

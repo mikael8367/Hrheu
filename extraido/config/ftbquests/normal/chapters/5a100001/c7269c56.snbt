@@ -1,0 +1,22 @@
+{
+	title: "Baú seguro",
+	x: 3.0d,
+	y: 6.0d,
+	description: "Com a tora da primeira árvore, faça tábuas e monte um baú. Não precisa esperar a fornalha.",
+	dependencies: [
+		"6a2000c9"
+	],
+	tasks: [{
+		uid: "0e0f60c3",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d512ca2e",
+		type: "xp",
+		xp: 10
+	}]
+}

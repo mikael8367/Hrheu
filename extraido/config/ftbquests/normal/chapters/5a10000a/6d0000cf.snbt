@@ -1,0 +1,20 @@
+{
+	title: "Projeto 208 • shinyflower (11)",
+	x: -3.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza botania:shinyflower (variante 11). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000cf",
+		type: "item",
+		items: [{
+			item: "botania:shinyflower 1 11"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000cf",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

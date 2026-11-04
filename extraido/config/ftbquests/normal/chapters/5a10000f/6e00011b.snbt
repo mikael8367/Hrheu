@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Sunstone Essence",
+	x: 33.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00011b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sunstone_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000011b",
+		type: "xp",
+		xp: 8
+	}]
+}

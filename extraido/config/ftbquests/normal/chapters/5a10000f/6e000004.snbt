@@ -1,0 +1,18 @@
+{
+	title: "Colheita de Inferium",
+	x: 8.0d,
+	y: 0.0d,
+	description: "Colha quatro Inferium Essence para avançar as sementes e produzir recursos.",
+	tasks: [{
+		uid: "7f000004",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:inferium_essence 4 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000004",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

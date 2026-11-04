@@ -1,0 +1,20 @@
+{
+	title: "Projeto 597 • item_doll (7)",
+	x: 1.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_doll (variante 7). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000254",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000254",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

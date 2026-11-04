@@ -1,0 +1,20 @@
+{
+	title: "Projeto 073 • material (160)",
+	x: -3.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza redstonearsenal:material (variante 160). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000048",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material 1 160"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000048",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

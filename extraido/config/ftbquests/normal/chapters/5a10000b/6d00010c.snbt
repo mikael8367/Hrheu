@@ -1,0 +1,19 @@
+{
+	title: "Projeto 269 • item.pe_rm_hoe",
+	x: 3.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza projecte:item.pe_rm_hoe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00010c",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_hoe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00010c",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

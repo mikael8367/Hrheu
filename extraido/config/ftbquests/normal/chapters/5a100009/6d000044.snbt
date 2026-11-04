@@ -1,0 +1,19 @@
+{
+	title: "Projeto 069 • quartzslabblazehalf",
+	x: 3.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:quartzslabblazehalf (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000044",
+		type: "item",
+		items: [{
+			item: "botania:quartzslabblazehalf"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000044",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

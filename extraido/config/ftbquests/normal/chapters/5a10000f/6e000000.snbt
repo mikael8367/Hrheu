@@ -1,0 +1,18 @@
+{
+	title: "Fragmentos da Prosperidade",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Obtenha fragmentos de Prosperidade no mundo de pedra; eles são a base da progressão da agricultura mística.",
+	tasks: [{
+		uid: "7f000000",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:prosperity_shard 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000000",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 200 • craftingformula",
+	x: -1.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza mekanism:craftingformula (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000c7",
+		type: "item",
+		items: [{
+			item: "mekanism:craftingformula"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000c7",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

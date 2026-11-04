@@ -1,0 +1,20 @@
+{
+	title: "Projeto 035 • petalblock (14)",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Obtenha ou produza botania:petalblock (variante 14). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000022",
+		type: "item",
+		items: [{
+			item: "botania:petalblock 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000022",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

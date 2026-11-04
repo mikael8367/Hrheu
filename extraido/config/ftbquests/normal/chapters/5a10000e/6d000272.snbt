@@ -1,0 +1,20 @@
+{
+	title: "Projeto 627 • plasticfence (14)",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 14). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000272",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 14"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000272",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

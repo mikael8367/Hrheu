@@ -1,0 +1,19 @@
+{
+	title: "Projeto 551 • petal (9)",
+	x: -5.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:petal (variante 9). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000226",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000226",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

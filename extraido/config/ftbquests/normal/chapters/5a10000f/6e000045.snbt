@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Conductive Iron Seeds",
+	x: 19.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000045",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:conductive_iron_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000045",
+		type: "xp",
+		xp: 8
+	}]
+}

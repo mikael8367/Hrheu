@@ -1,0 +1,20 @@
+{
+	title: "Dreamwood",
+	x: 2.0d,
+	y: 1.0d,
+	description: "Fabrique ou obtenha este item de Botania.",
+	tasks: [{
+		uid: "6a2000a1",
+		type: "item",
+		items: [{
+			item: "botania:dreamwood 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b2000a1",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 6
+	}]
+}

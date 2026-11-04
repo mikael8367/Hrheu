@@ -1,0 +1,19 @@
+{
+	title: "Projeto 240 • item.pe_dm_shovel",
+	x: -1.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza projecte:item.pe_dm_shovel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000ef",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_dm_shovel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000ef",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

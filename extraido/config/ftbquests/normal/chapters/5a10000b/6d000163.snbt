@@ -1,0 +1,20 @@
+{
+	title: "Projeto 356 • plasticfence (12)",
+	x: 0.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza mekanism:plasticfence (variante 12). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000163",
+		type: "item",
+		items: [{
+			item: "mekanism:plasticfence 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000163",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 4
+	}]
+}

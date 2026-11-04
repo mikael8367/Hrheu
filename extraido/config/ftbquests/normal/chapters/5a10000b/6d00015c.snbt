@@ -1,0 +1,20 @@
+{
+	title: "Projeto 349 • glowpanel (12)",
+	x: 3.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza mekanism:glowpanel (variante 12). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00015c",
+		type: "item",
+		items: [{
+			item: "mekanism:glowpanel 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00015c",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 4
+	}]
+}

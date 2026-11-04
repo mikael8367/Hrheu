@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Sheep Seeds",
+	x: 1.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000fb",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sheep_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000fb",
+		type: "xp",
+		xp: 8
+	}]
+}

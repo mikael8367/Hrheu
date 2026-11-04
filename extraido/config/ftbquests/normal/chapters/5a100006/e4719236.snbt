@@ -1,0 +1,22 @@
+{
+	title: "Energy Condenser",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Construa um condensador para converter EMC em um item-alvo.",
+	dependencies: [
+		"9443eee7"
+	],
+	tasks: [{
+		uid: "86c357e7",
+		type: "item",
+		items: [{
+			item: "projecte:condenser 1 0"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f645c44e",
+		type: "xp",
+		xp: 10
+	}]
+}

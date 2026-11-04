@@ -1,0 +1,66 @@
+{
+	title: "Projeto 210 • builders_bag_tier_five",
+	x: -1.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza buildersbag:builders_bag_tier_five (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					palette: [],
+					inventory: {
+						Size: 36,
+						Items: []
+					},
+					uuid: "",
+					modules: [{
+						expanded: 0b,
+						name: "bbprojecte:projecte",
+						enabled: 0b,
+						Inventory: {
+							Size: 1,
+							Items: []
+						}
+					},
+					{
+						expanded: 0b,
+						name: "buildersbag:chisel",
+						enabled: 0b,
+						Inventory: {
+							Size: 1,
+							Items: []
+						}
+					},
+					{
+						expanded: 0b,
+						name: "buildersbag:crafting",
+						enabled: 0b
+					},
+					{
+						expanded: 0b,
+						name: "buildersbag:random",
+						enabled: 0b
+					},
+					{
+						expanded: 0b,
+						name: "buildersbag:supplier",
+						enabled: 0b
+					}],
+					selected: {
+						Size: 1,
+						Items: []
+					}
+				}
+			},
+			id: "buildersbag:builders_bag_tier_five"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000d1",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

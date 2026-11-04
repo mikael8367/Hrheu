@@ -1,0 +1,20 @@
+{
+	title: "Projeto 219 • collector_mk2",
+	x: -2.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza projecte:collector_mk2 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000da",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000da",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

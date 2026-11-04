@@ -1,0 +1,20 @@
+{
+	title: "Projeto 196 • petal (10)",
+	x: -5.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza botania:petal (variante 10). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000c3",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000c3",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 3
+	}]
+}

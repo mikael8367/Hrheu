@@ -1,0 +1,20 @@
+{
+	title: "Projeto 496 • item.pe_ring_iron_band",
+	x: -5.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza projecte:item.pe_ring_iron_band (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001ef",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_ring_iron_band"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001ef",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
+	}]
+}

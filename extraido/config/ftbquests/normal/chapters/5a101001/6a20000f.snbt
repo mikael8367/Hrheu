@@ -1,0 +1,19 @@
+{
+	title: "Igneous Extruder",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Produz pedra, cobble e obsidiana.",
+	tasks: [{
+		uid: "6a20000f",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 15"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b20000f",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

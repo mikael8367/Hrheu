@@ -1,0 +1,22 @@
+{
+	title: "Energy Cube",
+	x: -3.0d,
+	y: 3.0d,
+	description: "Construa um Energy Cube para armazenar energia.",
+	dependencies: [
+		"e7913774"
+	],
+	tasks: [{
+		uid: "7705d260",
+		type: "item",
+		items: [{
+			item: "mekanism:energycube"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b20ae797",
+		type: "xp",
+		xp: 10
+	}]
+}

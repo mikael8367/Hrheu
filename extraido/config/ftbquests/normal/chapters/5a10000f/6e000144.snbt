@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Water Seeds",
+	x: -26.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000144",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:water_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000144",
+		type: "xp",
+		xp: 8
+	}]
+}

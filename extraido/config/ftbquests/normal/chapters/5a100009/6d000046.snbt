@@ -1,0 +1,20 @@
+{
+	title: "Projeto 071 • laputashard (6)",
+	x: -5.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza botania:laputashard (variante 6). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000046",
+		type: "item",
+		items: [{
+			item: "botania:laputashard 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000046",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

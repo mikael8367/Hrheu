@@ -1,0 +1,20 @@
+{
+	title: "Projeto 325 • item.pe_rm_shovel",
+	x: -1.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza projecte:item.pe_rm_shovel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000144",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_shovel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000144",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

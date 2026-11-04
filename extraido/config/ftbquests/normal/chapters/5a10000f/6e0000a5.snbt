@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Iron Essence",
+	x: 15.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000a5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:iron_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000a5",
+		type: "xp",
+		xp: 8
+	}]
+}

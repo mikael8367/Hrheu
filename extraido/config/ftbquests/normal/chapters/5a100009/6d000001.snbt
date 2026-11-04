@@ -1,0 +1,20 @@
+{
+	title: "Projeto 002 • hammer_stone",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza exnihilocreatio:hammer_stone (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000001",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_stone"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000001",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

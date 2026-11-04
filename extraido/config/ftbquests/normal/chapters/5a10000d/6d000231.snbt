@@ -1,0 +1,20 @@
+{
+	title: "Projeto 562 • shinyflower (9)",
+	x: -4.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:shinyflower (variante 9). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000231",
+		type: "item",
+		items: [{
+			item: "botania:shinyflower 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000231",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 6
+	}]
+}

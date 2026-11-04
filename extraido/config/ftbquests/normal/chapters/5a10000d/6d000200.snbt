@@ -1,0 +1,20 @@
+{
+	title: "Projeto 513 • wooden_crucible (4)",
+	x: -3.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza excompressum:wooden_crucible (variante 4). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000200",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000200",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

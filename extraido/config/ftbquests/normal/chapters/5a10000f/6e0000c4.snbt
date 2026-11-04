@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Meteoric Iron Essence",
+	x: 46.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000c4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:meteoric_iron_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000c4",
+		type: "xp",
+		xp: 8
+	}]
+}

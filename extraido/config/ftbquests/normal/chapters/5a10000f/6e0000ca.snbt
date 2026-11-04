@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Mystical Flower Essence",
+	x: -48.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000ca",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:mystical_flower_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000ca",
+		type: "xp",
+		xp: 8
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 528 • skydirtrod",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:skydirtrod (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00020f",
+		type: "item",
+		items: [{
+			item: "botania:skydirtrod"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00020f",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

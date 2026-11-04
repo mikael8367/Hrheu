@@ -1,0 +1,24 @@
+{
+	title: "Projeto 113 • crook_diorite",
+	x: -3.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza exnihilocreatio:crook_diorite (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000070",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_diorite"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000070",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Nature Seeds",
+	x: -45.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f0000cd",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nature_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "700000cd",
+		type: "xp",
+		xp: 8
+	}]
+}

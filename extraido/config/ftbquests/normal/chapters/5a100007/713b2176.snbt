@@ -1,0 +1,23 @@
+{
+	title: "Refined Obsidian",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Produza Refined Obsidian para equipamentos de tier superior.",
+	dependencies: [
+		"4e9367eb"
+	],
+	tasks: [{
+		uid: "6d79e086",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 6"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "630f770e",
+		type: "xp",
+		xp: 10
+	}]
+}

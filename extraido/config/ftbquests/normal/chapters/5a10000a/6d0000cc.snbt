@@ -1,0 +1,19 @@
+{
+	title: "Projeto 205 • item_doll (4)",
+	x: 4.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_doll (variante 4). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000cc",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000cc",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

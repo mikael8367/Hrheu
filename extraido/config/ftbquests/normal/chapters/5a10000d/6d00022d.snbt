@@ -1,0 +1,19 @@
+{
+	title: "Projeto 558 • manasteellegs",
+	x: 2.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:manasteellegs (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00022d",
+		type: "item",
+		items: [{
+			item: "botania:manasteellegs"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00022d",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

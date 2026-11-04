@@ -1,0 +1,23 @@
+{
+	title: "Ferro inicial",
+	x: -3.0d,
+	y: 6.0d,
+	description: "Peneire cascalho para obter fragmentos de minério; complete o processamento até formar ferro.",
+	dependencies: [
+		"76f76f76"
+	],
+	tasks: [{
+		uid: "c88aed2c",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a65fb4dc",
+		type: "xp",
+		xp: 10
+	}]
+}

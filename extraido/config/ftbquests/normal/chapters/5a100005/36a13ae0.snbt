@@ -1,0 +1,22 @@
+{
+	title: "Controlador da turbina",
+	x: 3.0d,
+	y: 3.0d,
+	description: "Construa o controlador da turbina.",
+	dependencies: [
+		"48b3173c"
+	],
+	tasks: [{
+		uid: "0b34ac9c",
+		type: "item",
+		items: [{
+			item: "bigreactors:turbinecontroller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "24956c98",
+		type: "xp",
+		xp: 10
+	}]
+}

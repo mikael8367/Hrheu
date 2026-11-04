@@ -1,0 +1,19 @@
+{
+	title: "Projeto 280 • item.pe_gem_armor_1",
+	x: 4.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza projecte:item.pe_gem_armor_1 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000117",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000117",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

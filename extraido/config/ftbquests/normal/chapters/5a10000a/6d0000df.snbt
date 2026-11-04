@@ -1,0 +1,20 @@
+{
+	title: "Projeto 224 • monocle",
+	x: 3.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza botania:monocle (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000df",
+		type: "item",
+		items: [{
+			item: "botania:monocle"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000df",
+		type: "item",
+		item: "minecraft:coal",
+		count: 5
+	}]
+}

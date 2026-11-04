@@ -1,0 +1,20 @@
+{
+	title: "Projeto 569 • quartzslablavenderhalf",
+	x: 3.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:quartzslablavenderhalf (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000238",
+		type: "item",
+		items: [{
+			item: "botania:quartzslablavenderhalf"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000238",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Projeto 499 • bronzeshovel",
+	x: -2.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza mekanismtools:bronzeshovel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001f2",
+		type: "item",
+		items: [{
+			item: "mekanismtools:bronzeshovel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001f2",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

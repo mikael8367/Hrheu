@@ -1,0 +1,20 @@
+{
+	title: "Projeto 078 • steelpaxel",
+	x: 2.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza mekanismtools:steelpaxel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00004d",
+		type: "item",
+		items: [{
+			item: "mekanismtools:steelpaxel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00004d",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

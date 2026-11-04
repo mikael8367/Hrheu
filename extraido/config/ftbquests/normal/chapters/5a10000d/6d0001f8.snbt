@@ -1,0 +1,20 @@
+{
+	title: "Projeto 505 • quartzslabelfhalf",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza botania:quartzslabelfhalf (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001f8",
+		type: "item",
+		items: [{
+			item: "botania:quartzslabelfhalf"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001f8",
+		type: "item",
+		item: "minecraft:coal",
+		count: 7
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 099 • item.pe_rm_armor_3",
+	x: 3.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza projecte:item.pe_rm_armor_3 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000062",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_armor_3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000062",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 3
+	}]
+}

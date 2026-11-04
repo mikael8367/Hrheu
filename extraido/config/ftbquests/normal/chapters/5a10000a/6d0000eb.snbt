@@ -1,0 +1,20 @@
+{
+	title: "Projeto 236 • pool (2)",
+	x: -5.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza botania:pool (variante 2). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000eb",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000eb",
+		type: "item",
+		item: "minecraft:coal",
+		count: 3
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Oficina 024 • cosmetic (4)",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Fabrique ou obtenha botania:cosmetic (variante 4). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d000293",
+		type: "item",
+		items: [{
+			item: "botania:cosmetic 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "7e000293",
+		type: "xp",
+		xp: 12
+	}]
+}

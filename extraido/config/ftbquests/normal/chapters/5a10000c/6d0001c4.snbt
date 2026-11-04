@@ -1,0 +1,20 @@
+{
+	title: "Projeto 453 • interdiction_torch",
+	x: 2.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza projecte:interdiction_torch (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001c4",
+		type: "item",
+		items: [{
+			item: "projecte:interdiction_torch"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001c4",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

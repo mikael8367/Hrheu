@@ -1,0 +1,22 @@
+{
+	title: "Gaveta básica",
+	x: -3.0d,
+	y: 6.0d,
+	description: "Instale uma gaveta para guardar grandes pilhas de um recurso.",
+	dependencies: [
+		"214d61d8"
+	],
+	tasks: [{
+		uid: "f2d90970",
+		type: "item",
+		items: [{
+			item: "storagedrawers:basicdrawers"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01ff020c",
+		type: "xp",
+		xp: 10
+	}]
+}

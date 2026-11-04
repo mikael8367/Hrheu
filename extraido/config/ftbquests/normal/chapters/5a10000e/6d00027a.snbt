@@ -1,0 +1,20 @@
+{
+	title: "Projeto 635 • dm_furnace",
+	x: 4.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza projecte:dm_furnace (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00027a",
+		type: "item",
+		items: [{
+			item: "projecte:dm_furnace"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00027a",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

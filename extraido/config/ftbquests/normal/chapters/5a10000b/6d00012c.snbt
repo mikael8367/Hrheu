@@ -1,0 +1,20 @@
+{
+	title: "Projeto 301 • swapring",
+	x: -5.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:swapring (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00012c",
+		type: "item",
+		items: [{
+			item: "botania:swapring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00012c",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

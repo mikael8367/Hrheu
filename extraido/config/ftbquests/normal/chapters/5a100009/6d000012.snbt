@@ -1,0 +1,19 @@
+{
+	title: "Projeto 019 • crook_prismarine",
+	x: 3.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza exnihilocreatio:crook_prismarine (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000012",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_prismarine"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000012",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

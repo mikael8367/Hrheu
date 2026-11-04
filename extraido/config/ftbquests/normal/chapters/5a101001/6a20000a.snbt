@@ -1,0 +1,20 @@
+{
+	title: "Centrifugal Separator",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Separa componentes de recursos.",
+	tasks: [{
+		uid: "6a20000a",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:machine 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b20000a",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

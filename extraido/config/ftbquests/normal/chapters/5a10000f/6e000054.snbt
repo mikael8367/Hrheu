@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Dark Gem Essence",
+	x: 34.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000054",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dark_gem_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000054",
+		type: "xp",
+		xp: 8
+	}]
+}

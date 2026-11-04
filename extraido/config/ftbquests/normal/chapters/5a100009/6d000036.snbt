@@ -1,0 +1,24 @@
+{
+	title: "Projeto 055 • shimmerrock",
+	x: -1.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza botania:shimmerrock (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000036",
+		type: "item",
+		items: [{
+			item: "botania:shimmerrock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000036",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 2
+	}]
+}

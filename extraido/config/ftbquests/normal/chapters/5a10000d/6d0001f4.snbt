@@ -1,0 +1,20 @@
+{
+	title: "Projeto 501 • ingotyellorium",
+	x: -5.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza bigreactors:ingotyellorium (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001f4",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotyellorium"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001f4",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

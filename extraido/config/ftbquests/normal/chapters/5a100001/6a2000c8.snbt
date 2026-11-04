@@ -1,0 +1,26 @@
+{
+	title: "Muda de carvalho",
+	x: 0.0d,
+	y: 8.0d,
+	description: "Recebeu uma muda de carvalho na recompensa do crook. Plante-a na terra e agache repetidamente perto dela para acelerar o crescimento.",
+	dependencies: [
+		"f7ee3ec5"
+	],
+	tasks: [{
+		uid: "6d100000",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e100010",
+		type: "item",
+		item: {
+			id: "minecraft:bone_meal",
+			Count: 1b,
+			Damage: 0s
+		}
+	}]
+}

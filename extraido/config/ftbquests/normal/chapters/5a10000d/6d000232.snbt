@@ -1,0 +1,24 @@
+{
+	title: "Projeto 563 • item.pe_gem_armor_2",
+	x: -3.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza projecte:item.pe_gem_armor_2 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000232",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000232",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 5
+	}]
+}

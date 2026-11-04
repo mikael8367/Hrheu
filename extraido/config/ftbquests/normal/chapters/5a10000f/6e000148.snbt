@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Wood Seeds",
+	x: -22.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000148",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:wood_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000148",
+		type: "xp",
+		xp: 8
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 378 • osmiumshovel",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza mekanismtools:osmiumshovel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000179",
+		type: "item",
+		items: [{
+			item: "mekanismtools:osmiumshovel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000179",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

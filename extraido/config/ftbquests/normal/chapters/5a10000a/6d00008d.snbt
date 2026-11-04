@@ -1,0 +1,20 @@
+{
+	title: "Projeto 142 • pool (3)",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Obtenha ou produza botania:pool (variante 3). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00008d",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00008d",
+		type: "item",
+		item: "minecraft:coal",
+		count: 2
+	}]
+}

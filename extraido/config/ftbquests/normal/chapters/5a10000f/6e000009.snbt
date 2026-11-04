@@ -1,0 +1,22 @@
+{
+	title: "Fertilizante místico",
+	x: 18.0d,
+	y: 0.0d,
+	description: "Fabrique fertilizante místico para acelerar o crescimento.",
+	tasks: [{
+		uid: "7f000009",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:mystical_fertilizer 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000009",
+		type: "item",
+		item: {
+			id: "minecraft:bone_meal",
+			Count: 1b,
+			Damage: 0s
+		}
+	}]
+}

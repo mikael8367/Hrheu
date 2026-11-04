@@ -1,0 +1,24 @@
+{
+	title: "Projeto 369 • miniisland (5)",
+	x: 3.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza botania:miniisland (variante 5). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000170",
+		type: "item",
+		items: [{
+			item: "botania:miniisland 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000170",
+		type: "item",
+		item: {
+			id: "minecraft:lapis_lazuli",
+			Count: 1b,
+			Damage: 0s
+		},
+		count: 4
+	}]
+}

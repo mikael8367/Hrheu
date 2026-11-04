@@ -1,0 +1,52 @@
+{
+	title: "Projeto 045 • builders_bag_tier_four",
+	x: -1.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza buildersbag:builders_bag_tier_four (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00002c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					palette: [],
+					inventory: {
+						Size: 27,
+						Items: []
+					},
+					uuid: "",
+					modules: [{
+						expanded: 0b,
+						name: "buildersbag:chisel",
+						enabled: 0b,
+						Inventory: {
+							Size: 1,
+							Items: []
+						}
+					},
+					{
+						expanded: 0b,
+						name: "buildersbag:crafting",
+						enabled: 0b
+					},
+					{
+						expanded: 0b,
+						name: "buildersbag:random",
+						enabled: 0b
+					}],
+					selected: {
+						Size: 1,
+						Items: []
+					}
+				}
+			},
+			id: "buildersbag:builders_bag_tier_four"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00002c",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

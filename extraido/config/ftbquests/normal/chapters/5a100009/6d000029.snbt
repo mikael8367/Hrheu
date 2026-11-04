@@ -1,0 +1,19 @@
+{
+	title: "Projeto 042 • reactorcasingcores",
+	x: -4.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza bigreactors:reactorcasingcores (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000029",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasingcores"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000029",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Mana Pool",
+	x: 0.0d,
+	y: 0.0d,
+	description: "Monte uma Mana Pool para armazenar a mana gerada.",
+	tasks: [{
+		uid: "a1b2c306",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b386957e",
+		type: "xp",
+		xp: 10
+	}]
+}

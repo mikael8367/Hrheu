@@ -1,0 +1,20 @@
+{
+	title: "Projeto 199 • laputashard (19)",
+	x: -2.0d,
+	y: 7.0d,
+	description: "Obtenha ou produza botania:laputashard (variante 19). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000c6",
+		type: "item",
+		items: [{
+			item: "botania:laputashard 1 19"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000c6",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Projeto 487 • builders_bag_tier_one",
+	x: -4.0d,
+	y: 11.0d,
+	description: "Obtenha ou produza buildersbag:builders_bag_tier_one (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					palette: [],
+					inventory: {
+						Size: 9,
+						Items: []
+					},
+					uuid: "",
+					modules: [{
+						expanded: 0b,
+						name: "buildersbag:random",
+						enabled: 0b
+					}],
+					selected: {
+						Size: 1,
+						Items: []
+					}
+				}
+			},
+			id: "buildersbag:builders_bag_tier_one"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001e6",
+		type: "item",
+		item: "minecraft:coal",
+		count: 7
+	}]
+}

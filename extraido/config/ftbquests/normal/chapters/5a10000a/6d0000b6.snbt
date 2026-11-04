@@ -1,0 +1,20 @@
+{
+	title: "Projeto 183 • osmiumchestplate",
+	x: 2.0d,
+	y: 5.0d,
+	description: "Obtenha ou produza mekanismtools:osmiumchestplate (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000b6",
+		type: "item",
+		items: [{
+			item: "mekanismtools:osmiumchestplate"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000b6",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

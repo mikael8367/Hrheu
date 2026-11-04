@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Star Steel Essence",
+	x: 22.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000110",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:star_steel_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000110",
+		type: "xp",
+		xp: 8
+	}]
+}

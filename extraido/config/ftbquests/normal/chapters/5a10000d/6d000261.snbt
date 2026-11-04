@@ -1,0 +1,20 @@
+{
+	title: "Projeto 610 • teleportationcore",
+	x: 4.0d,
+	y: 10.0d,
+	description: "Obtenha ou produza mekanism:teleportationcore (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000261",
+		type: "item",
+		items: [{
+			item: "mekanism:teleportationcore"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000261",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

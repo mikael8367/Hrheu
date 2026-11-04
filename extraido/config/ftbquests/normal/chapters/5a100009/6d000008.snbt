@@ -1,0 +1,48 @@
+{
+	title: "Projeto 009 • builders_bag_tier_three",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza buildersbag:builders_bag_tier_three (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000008",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					palette: [],
+					inventory: {
+						Size: 18,
+						Items: []
+					},
+					uuid: "",
+					modules: [{
+						expanded: 0b,
+						name: "buildersbag:chisel",
+						enabled: 0b,
+						Inventory: {
+							Size: 1,
+							Items: []
+						}
+					},
+					{
+						expanded: 0b,
+						name: "buildersbag:random",
+						enabled: 0b
+					}],
+					selected: {
+						Size: 1,
+						Items: []
+					}
+				}
+			},
+			id: "buildersbag:builders_bag_tier_three"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000008",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 2
+	}]
+}

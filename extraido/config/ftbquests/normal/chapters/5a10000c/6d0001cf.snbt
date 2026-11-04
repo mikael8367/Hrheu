@@ -1,0 +1,20 @@
+{
+	title: "Projeto 464 • item.pe_hyperkinetic_lens",
+	x: 3.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza projecte:item.pe_hyperkinetic_lens (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001cf",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_hyperkinetic_lens"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001cf",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 5
+	}]
+}

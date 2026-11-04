@@ -1,0 +1,19 @@
+{
+	title: "Projeto 459 • item.pe_rm_shears",
+	x: -2.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza projecte:item.pe_rm_shears (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001ca",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_rm_shears"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001ca",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

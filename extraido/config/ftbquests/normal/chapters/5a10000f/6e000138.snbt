@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Uranium 238 Seeds",
+	x: -38.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000138",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:uranium_238_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000138",
+		type: "xp",
+		xp: 8
+	}]
+}

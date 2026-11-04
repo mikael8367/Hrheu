@@ -1,0 +1,20 @@
+{
+	title: "Projeto 190 • manasteelaxe",
+	x: -1.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:manasteelaxe (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0000bd",
+		type: "item",
+		items: [{
+			item: "botania:manasteelaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0000bd",
+		type: "item",
+		item: "minecraft:coal",
+		count: 3
+	}]
+}

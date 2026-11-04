@@ -1,0 +1,20 @@
+{
+	title: "Projeto 475 • block_end_cake",
+	x: 4.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza exnihilocreatio:block_end_cake (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001da",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_end_cake"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001da",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Glowstone Seeds",
+	x: -6.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000090",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:glowstone_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000090",
+		type: "xp",
+		xp: 8
+	}]
+}

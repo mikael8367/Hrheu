@@ -1,0 +1,20 @@
+{
+	title: "Projeto 420 • ingotgraphite",
+	x: -1.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza bigreactors:ingotgraphite (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d0001a3",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotgraphite"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e0001a3",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

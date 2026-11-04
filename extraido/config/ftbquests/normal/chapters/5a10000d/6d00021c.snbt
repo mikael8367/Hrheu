@@ -1,0 +1,20 @@
+{
+	title: "Projeto 541 • mushroom",
+	x: -5.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza botania:mushroom (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00021c",
+		type: "item",
+		items: [{
+			item: "botania:mushroom"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00021c",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

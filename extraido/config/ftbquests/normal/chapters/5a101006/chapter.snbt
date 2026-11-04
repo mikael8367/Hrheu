@@ -1,0 +1,7 @@
+{
+	title: "Botania III • Runas",
+	icon: "botania:lexicon",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

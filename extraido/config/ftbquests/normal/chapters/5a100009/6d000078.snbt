@@ -1,0 +1,20 @@
+{
+	title: "Projeto 121 • dictionary",
+	x: -5.0d,
+	y: 12.0d,
+	description: "Obtenha ou produza mekanism:dictionary (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000078",
+		type: "item",
+		items: [{
+			item: "mekanism:dictionary"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000078",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

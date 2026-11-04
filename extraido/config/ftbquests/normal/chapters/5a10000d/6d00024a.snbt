@@ -1,0 +1,19 @@
+{
+	title: "Projeto 587 • ironpaxel",
+	x: 1.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza mekanismtools:ironpaxel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00024a",
+		type: "item",
+		items: [{
+			item: "mekanismtools:ironpaxel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00024a",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

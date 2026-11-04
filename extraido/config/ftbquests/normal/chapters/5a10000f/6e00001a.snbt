@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Apatite Seeds",
+	x: -24.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00001a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:apatite_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000001a",
+		type: "xp",
+		xp: 8
+	}]
+}

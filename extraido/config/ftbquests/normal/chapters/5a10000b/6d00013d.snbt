@@ -1,0 +1,20 @@
+{
+	title: "Projeto 318 • pavement (4)",
+	x: 2.0d,
+	y: 6.0d,
+	description: "Obtenha ou produza botania:pavement (variante 4). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00013d",
+		type: "item",
+		items: [{
+			item: "botania:pavement 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00013d",
+		type: "item",
+		item: "minecraft:coal",
+		count: 6
+	}]
+}

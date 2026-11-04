@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Dilithium Essence",
+	x: 44.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00005e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dilithium_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000005e",
+		type: "xp",
+		xp: 8
+	}]
+}

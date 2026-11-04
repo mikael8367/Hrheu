@@ -1,0 +1,18 @@
+{
+	title: "Oficina 011 • biomestonea0wall (2)",
+	x: -4.0d,
+	y: 2.0d,
+	description: "Fabrique ou obtenha botania:biomestonea0wall (variante 2). Alvo conferido nas receitas dos mods instalados. Recompensa: experiência.",
+	tasks: [{
+		uid: "7d000286",
+		type: "item",
+		items: [{
+			item: "botania:biomestonea0wall 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "7e000286",
+		type: "xp",
+		xp: 20
+	}]
+}

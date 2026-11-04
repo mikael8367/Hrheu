@@ -1,0 +1,20 @@
+{
+	title: "Projeto 098 • fuel_block",
+	x: 2.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza projecte:fuel_block (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000061",
+		type: "item",
+		items: [{
+			item: "projecte:fuel_block"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000061",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

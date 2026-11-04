@@ -1,0 +1,19 @@
+{
+	title: "Projeto 001 • block_barrel0",
+	x: -5.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza exnihilocreatio:block_barrel0 (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000000",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel0"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000000",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

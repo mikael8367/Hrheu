@@ -1,0 +1,19 @@
+{
+	title: "Projeto 028 • obediencestick",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Obtenha ou produza botania:obediencestick (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00001b",
+		type: "item",
+		items: [{
+			item: "botania:obediencestick"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00001b",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

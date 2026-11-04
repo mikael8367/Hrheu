@@ -1,0 +1,20 @@
+{
+	title: "Projeto 292 • hammer_wood",
+	x: -4.0d,
+	y: 4.0d,
+	description: "Obtenha ou produza exnihilocreatio:hammer_wood (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000123",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_wood"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000123",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 3
+	}]
+}

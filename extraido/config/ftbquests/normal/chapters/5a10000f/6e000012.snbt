@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Aluminum Brass Seeds",
+	x: -32.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f000012",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:aluminum_brass_seeds 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "70000012",
+		type: "xp",
+		xp: 8
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 127 • item_doll (1)",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza exnihilocreatio:item_doll (variante 1). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00007e",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_doll 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00007e",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 2
+	}]
+}

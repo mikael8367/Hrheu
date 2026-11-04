@@ -1,0 +1,18 @@
+{
+	title: "Cultivo: Ingot Storage Base Essence",
+	x: 7.0d,
+	y: 2.0d,
+	description: "Obtenha este recurso de Mystical Agriculture e receba experiência.",
+	tasks: [{
+		uid: "7f00009d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ingot_storage_base_essence 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "7000009d",
+		type: "xp",
+		xp: 8
+	}]
+}

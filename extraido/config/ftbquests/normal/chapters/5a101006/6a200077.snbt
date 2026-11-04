@@ -1,0 +1,20 @@
+{
+	title: "Bloodpendant",
+	x: 2.0d,
+	y: 4.0d,
+	description: "Fabrique ou obtenha este item de Botania.",
+	tasks: [{
+		uid: "6a200077",
+		type: "item",
+		items: [{
+			item: "botania:bloodpendant"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b200077",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 3
+	}]
+}

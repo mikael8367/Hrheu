@@ -1,0 +1,19 @@
+{
+	title: "Projeto 337 • blocksteel",
+	x: 1.0d,
+	y: 8.0d,
+	description: "Obtenha ou produza bigreactors:blocksteel (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000150",
+		type: "item",
+		items: [{
+			item: "bigreactors:blocksteel"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000150",
+		type: "item",
+		item: "minecraft:emerald"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Projeto 384 • item.pe_time_watch",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Obtenha ou produza projecte:item.pe_time_watch (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d00017f",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_time_watch"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e00017f",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

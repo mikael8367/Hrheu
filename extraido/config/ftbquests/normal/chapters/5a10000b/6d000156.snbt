@@ -1,0 +1,25 @@
+{
+	title: "Projeto 343 • item.pe_mercurial_eye",
+	x: -3.0d,
+	y: 9.0d,
+	description: "Obtenha ou produza projecte:item.pe_mercurial_eye (variante 0). Objetivo exclusivo do livro. Recompensa ao concluir.",
+	tasks: [{
+		uid: "7d000156",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Items: []
+				}
+			},
+			id: "projecte:item.pe_mercurial_eye"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e000156",
+		type: "item",
+		item: "minecraft:gold_nugget",
+		count: 4
+	}]
+}
