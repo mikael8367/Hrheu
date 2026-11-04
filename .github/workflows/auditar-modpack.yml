@@ -1,0 +1,122 @@
+name: Auditar modpack Minecraft
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'Mikael-StoneBloc-*.zip'
+      - '.github/workflows/auditar-modpack.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Analisar ZIP sem executar arquivos
+        shell: bash
+        run: |
+          python - <<'PY'
+          import collections, hashlib, json, pathlib, re, zipfile
+
+          root = pathlib.Path(".")
+          archives = sorted(root.glob("Mikael-StoneBloc-*.zip"))
+          if not archives:
+              raise SystemExit("ERRO: nenhum arquivo Mikael-StoneBloc-*.zip encontrado na raiz.")
+          archive = archives[0]
+          report = []
+          report += ["# Auditoria do modpack", "", f"Arquivo: {archive.name}", f"Tamanho: {archive.stat().st_size:,} bytes", ""]
+          try:
+              z = zipfile.ZipFile(archive)
+              bad = z.testzip()
+              if bad:
+                  report.append(f"ERRO CRC: primeiro arquivo corrompido: {bad}")
+              else:
+                  report.append("Integridade ZIP/CRC: OK")
+              infos = z.infolist()
+              names = [i.filename for i in infos]
+              report.append(f"Quantidade de arquivos: {len(infos)}")
+              unsafe = [n for n in names if n.startswith("/") or ".." in pathlib.PurePosixPath(n).parts]
+              report.append(f"Caminhos suspeitos (path traversal): {len(unsafe)}")
+              for n in unsafe[:20]: report.append(f"- {n}")
+              total = sum(i.file_size for i in infos)
+              report.append(f"Tamanho descompactado declarado: {total:,} bytes")
+              report.append("")
+              duplicates = [n for n,c in collections.Counter(names).items() if c > 1]
+              report.append("## Arquivos duplicados")
+              report.extend([f"- {n}" for n in duplicates[:100]] or ["Nenhum nome duplicado."])
+
+              manifest_name = next((n for n in names if pathlib.PurePosixPath(n).name == "manifest.json"), None)
+              manifest = None
+              report += ["", "## Manifesto CurseForge"]
+              if manifest_name:
+                  try:
+                      manifest = json.loads(z.read(manifest_name).decode("utf-8-sig"))
+                      report.append(f"Manifest encontrado em: {manifest_name}")
+                      report.append(f"Nome: {manifest.get('name','não informado')}")
+                      report.append(f"Versão: {manifest.get('version','não informada')}")
+                      report.append(f"Minecraft: {manifest.get('minecraft',{}).get('version','não informado')}")
+                      report.append(f"Modloader: {manifest.get('minecraft',{}).get('modLoaders',[])}")
+                      files = manifest.get("files", [])
+                      report.append(f"Referências de mods: {len(files)}")
+                      pids = [str(x.get("projectID")) for x in files if x.get("projectID") is not None]
+                      fids = [str(x.get("fileID")) for x in files if x.get("fileID") is not None]
+                      report.append(f"Project IDs repetidos: {sorted(k for k,v in collections.Counter(pids).items() if v > 1) or 'nenhum'}")
+                      report.append(f"File IDs repetidos: {sorted(k for k,v in collections.Counter(fids).items() if v > 1) or 'nenhum'}")
+                      missing = [str(i) for i,x in enumerate(files,1) if not x.get("projectID") or not x.get("fileID")]
+                      report.append(f"Entradas sem projectID/fileID: {missing or 'nenhuma'}")
+                      for x in files:
+                          report.append(f"- projectID={x.get('projectID')} fileID={x.get('fileID')} required={x.get('required',True)}")
+                  except Exception as e:
+                      report.append(f"ERRO ao ler manifest.json: {type(e).__name__}: {e}")
+              else:
+                  report.append("ERRO: manifest.json não está na raiz nem em subpastas do ZIP.")
+
+              jars = [n for n in names if n.lower().endswith(".jar")]
+              report += ["", "## Mods/JARs incluídos diretamente", f"Quantidade: {len(jars)}"]
+              report.extend([f"- {n}" for n in jars] or ["Nenhum JAR embutido; o launcher provavelmente baixa os mods pelas referências do manifesto."])
+
+              configs = [n for n in names if "/config/" in ("/"+n.lower()) or n.lower().startswith("config/")]
+              report += ["", "## Configurações", f"Quantidade: {len(configs)}"]
+              report.extend([f"- {n}" for n in configs[:250]] or ["Nenhuma pasta config reconhecida."])
+
+              logs = [n for n in names if n.lower().endswith((".log", ".txt")) and ("log" in n.lower() or "crash" in n.lower())]
+              report += ["", "## Logs e erros encontrados"]
+              if not logs:
+                  report.append("Nenhum log/crash report encontrado dentro do ZIP.")
+              for name in logs[:10]:
+                  report.append(f"### {name}")
+                  try:
+                      data = z.read(name).decode("utf-8", "replace").splitlines()
+                      hits = [line for line in data if re.search(r'(?i)\b(error|exception|fatal|caused by|crash|warn)\b', line)]
+                      report.append(f"Linhas totais: {len(data)}; linhas relevantes: {len(hits)}")
+                      for line in hits[:80]:
+                          line = re.sub(r'(?i)(token|password|passwd|secret|authorization)(\s*[:=]\s*)\S+', r'\1\2[REDACTED]', line)
+                          report.append("- " + line[:500])
+                  except Exception as e:
+                      report.append(f"Não foi possível ler: {type(e).__name__}: {e}")
+              report += ["", "## Limitações", "Esta é uma auditoria estática. Ela não inicia Minecraft nem confirma compatibilidade em execução. JARs não são executados."]
+              z.close()
+          except zipfile.BadZipFile:
+              report.append("ERRO: arquivo não é um ZIP válido ou está corrompido.")
+
+          pathlib.Path("AUDITORIA-MODPACK.md").write_text("\n".join(report) + "\n", encoding="utf-8")
+          print("\n".join(report[:100]))
+          PY
+
+      - name: Publicar relatório
+        uses: actions/upload-artifact@v4
+        with:
+          name: auditoria-modpack
+          path: AUDITORIA-MODPACK.md
+          if-no-files-found: error
+          retention-days: 14
